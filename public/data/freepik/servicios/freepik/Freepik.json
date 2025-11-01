@@ -1,0 +1,90 @@
+{
+  "Freepik": {
+    "categories": {
+      "Freepik": {
+        "types": {
+          "2920 - ID 2920- Freepik - 7 dias - $3.10 por 1": {
+            "pricePerUnit": 0.0031,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "7 días",
+            "description": "⚠️ No descarga videos \n✅Tiempo de uso de 7 días.\n✅Se entrega como llave.\n✅ El uso se proporciona a través del panel que te daremos.\n✅ Límite: 20 descargas por día\n✅ No hay reembolsos después de la entrega.\n✅ Ingrese su dirección de correo al realizar su pedido.\n✅ Tiempo de entrega: 0-24 horas",
+            "features": {
+              "0": "✅Tiempo de uso de 7 días.",
+              "1": "✅Se entrega como llave.",
+              "2": "✅ El uso se proporciona a través del panel que te daremos.",
+              "3": "✅ Límite: 20 descargas por día",
+              "4": "✅ No hay reembolsos después de la entrega.",
+              "5": "✅ Ingrese su dirección de correo al realizar su pedido.",
+              "6": "✅ Tiempo de entrega: 0-24 horas"
+            }
+          },
+          "2924 - ID: 2924 Freepik- 30 dias - $6.20 por 1": {
+            "pricePerUnit": 0.0062,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "30 días",
+            "description": "⚠️ No descarga videos \n✅Tiempo de uso de 30 días.\n✅Se entrega como llave.\n✅ El uso se proporciona a través del panel que te daremos.\n✅ Límite: 20 descargas por día\n✅ No hay reembolsos después de la entrega.\n✅ Ingrese su dirección de correo al realizar su pedido.\n✅ Tiempo de entrega: 0-24 horas",
+            "features": {
+              "0": "✅Tiempo de uso de 30 días.",
+              "1": "✅Se entrega como llave.",
+              "2": "✅ El uso se proporciona a través del panel que te daremos.",
+              "3": "✅ Límite: 20 descargas por día",
+              "4": "✅ No hay reembolsos después de la entrega.",
+              "5": "✅ Ingrese su dirección de correo al realizar su pedido.",
+              "6": "✅ Tiempo de entrega: 0-24 horas"
+            }
+          },
+          "2923 - ID 2923 Freepik- 90 dias - $20 por 1": {
+            "pricePerUnit": 0.02,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "90 días",
+            "description": "⚠️ No descarga videos \n✅Tiempo de uso de 90 días.\n✅Se entrega como llave.\n✅ El uso se proporciona a través del panel que te daremos.\n✅ Límite: 20 descargas por día\n✅ No hay reembolsos después de la entrega.\n✅ Ingrese su dirección de correo al realizar su pedido.\n✅ Tiempo de entrega: 0-24 horas",
+            "features": {
+              "0": "✅Tiempo de uso de 90 días.",
+              "1": "✅Se entrega como llave.",
+              "2": "✅ El uso se proporciona a través del panel que te daremos.",
+              "3": "✅ Límite: 20 descargas por día",
+              "4": "✅ No hay reembolsos después de la entrega.",
+              "5": "✅ Ingrese su dirección de correo al realizar su pedido.",
+              "6": "✅ Tiempo de entrega: 0-24 horas"
+            }
+          },
+          "2922 - ID 2922 Freepik- 180 dias - $22 por 1": {
+            "pricePerUnit": 0.022,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "180 días",
+            "description": "⚠️ No descarga videos \n✅Tiempo de uso de 180 días.\n✅Se entrega como llave.\n✅ El uso se proporciona a través del panel que te daremos.\n✅ Límite: 20 descargas por día\n✅ No hay reembolsos después de la entrega.\n✅ Ingrese su dirección de correo al realizar su pedido.\n✅ Tiempo de entrega: 0-24 horas",
+            "features": {
+              "0": "✅Tiempo de uso de 180 días.",
+              "1": "✅Se entrega como llave.",
+              "2": "✅ El uso se proporciona a través del panel que te daremos.",
+              "3": "✅ Límite: 20 descargas por día",
+              "4": "✅ No hay reembolsos después de la entrega.",
+              "5": "✅ Ingrese su dirección de correo al realizar su pedido.",
+              "6": "✅ Tiempo de entrega: 0-24 horas"
+            }
+          },
+          "2921 - ID 2921 Freepik- 360 dias - $34 por 1": {
+            "pricePerUnit": 0.034,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "360 días",
+            "description": "⚠️ No descarga videos \n✅Tiempo de uso de 360 días.\n✅Se entrega como llave.\n✅ El uso se proporciona a través del panel que te daremos.\n✅ Límite: 20 descargas por día\n✅ No hay reembolsos después de la entrega.\n✅ Ingrese su dirección de correo al realizar su pedido.\n✅ Tiempo de entrega: 0-24 horas",
+            "features": {
+              "0": "✅Tiempo de uso de 360 días.",
+              "1": "✅Se entrega como llave.",
+              "2": "✅ El uso se proporciona a través del panel que te daremos.",
+              "3": "✅ Límite: 20 descargas por día",
+              "4": "✅ No hay reembolsos después de la entrega.",
+              "5": "✅ Ingrese su dirección de correo al realizar su pedido.",
+              "6": "✅ Tiempo de entrega: 0-24 horas"
+            }
+          }
+        }
+      }
+    }
+  }
+}

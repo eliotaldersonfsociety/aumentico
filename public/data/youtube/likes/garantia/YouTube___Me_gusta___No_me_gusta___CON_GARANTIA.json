@@ -1,0 +1,66 @@
+{
+  "YouTube - Me gusta - No me gusta - CON GARANTIA": {
+    "categories": {
+      "YouTube - Me gusta - No me gusta - CON GARANTIA": {
+        "types": {
+          "3273 - ID 3273 - Youtube - Me gusta en video - Max 50K - R60 - $0.90 por 1000": {
+            "pricePerUnit": 0.000896,
+            "minQuantity": 10,
+            "maxQuantity": 50000,
+            "deliveryTime": "60 Días",
+            "description": "Inicio: De 30 minutos a 12 Hora\nPublico: Mundial\nCaídas: 5 al 10%\nRecarga: 60 Días (Si cae más del 10%)\n☝️ Recuerde que estos datos son solo estimaciones (Pueden variar)\n—--------------------------------------\nEnlace: Enlace de video de YouTube\nEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "1645 - ID 1645 - Youtube - No Me gusta en video  - Max 100K - R7 - $0.91 por 1000": {
+            "pricePerUnit": 0.000912,
+            "minQuantity": 100,
+            "maxQuantity": 100000,
+            "deliveryTime": "7 Días",
+            "description": "Inicio: De 2 a 12 Hora\nPublico: Mundial\nCaídas: 2 al 5%\nRecarga: 7 Días (Si cae más del 10%)\n☝️ Recuerde que estos datos son solo estimaciones (Pueden variar)\n—--------------------------------------\nEnlace: Enlace de video de YouTube\nEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "3272 - ID 3272 - Youtube - Me gusta en video  - Max 100K - R30 - $1.27 por 1000": {
+            "pricePerUnit": 0.001268,
+            "minQuantity": 100,
+            "maxQuantity": 100000,
+            "deliveryTime": "30 Días",
+            "description": "Inicio: De 1 a 12 Hora\nPublico: Mundial\nCaídas: Algunos pedidos pueden tener caídas\nRecarga: 30 Días (Si cae más del 10%)\n☝️ Recuerde que estos datos son solo estimaciones (Pueden variar)\n—--------------------------------------\nEnlace: Enlace de video de YouTube\nEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "4063 - ID 4063 - YouTube - Me gusta en video - Max 100K - R30 - $1.05 por 1000": {
+            "pricePerUnit": 0.0010500000000000002,
+            "minQuantity": 10,
+            "maxQuantity": 100000,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 1 a 12 Horas\nPublico: Mundial\nCaídas: 5 al 10%\nRecarga: 30 Días (Si cae más del 10%)\n☝️ Recuerde que estos datos son solo estimaciones (Pueden variar)\n—--------------------------------------\nEnlace: Enlace de video de YouTube\nEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "2148 - ID 2148 - Youtube - Me gusta en video - R30 - Max 100K - $1.85 por 1000": {
+            "pricePerUnit": 0.001848,
+            "minQuantity": 10,
+            "maxQuantity": 100000,
+            "deliveryTime": "30 Días",
+            "description": "Inicio: De 15 min. a 8 HoraPublico: MundialRecarga: 30 Días (Si cae más del 10%)☝️ Recuerde que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "2142 - ID 2142 - Youtube - Me gusta en video - R30 - Max 25K - $2.37 por 1000": {
+            "pricePerUnit": 0.00237,
+            "minQuantity": 10,
+            "maxQuantity": 50000,
+            "deliveryTime": "30 Días",
+            "description": "Inicio: De 15 min. a 8 HoraPublico: MundialCaidas: 5% al 10%Recarga: 30 Días (Si cae más del 10%)☝️ Recuerde que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "4064 - ID 4064 - YouTube - Me gusta en video - Max 50M - R30 - $5.28 por 1000": {
+            "pricePerUnit": 0.00528,
+            "minQuantity": 100,
+            "maxQuantity": 150000000,
+            "deliveryTime": "12 HoraS",
+            "description": "Inicio: De 1 a 12 HoraSPublico: MundialCaídas: 5 al 10%Recarga: 30 Días (Si cae más del 10%)☝️ Recuerde que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

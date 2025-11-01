@@ -1,0 +1,30 @@
+{
+  "Stock Service": {
+    "categories": {
+      "Stock Service": {
+        "types": {
+          "3907 - ID 2907 - IStockPhoto - 30 Dias - $7.14 por 1": {
+            "pricePerUnit": 0.00714,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "30 días",
+            "description": "✅ Cuenta personal de  IStockPhoto ✅Tiempo de uso de 30 días.✅ Límite: 10 imágenes✅Se recomienda consumir dentro de los 14 días.✅ No hay reembolsos después de la entrega.✅ Ingrese su dirección de correo al realizar su pedido.✅ Tiempo de entrega: 1 - 24 horas",
+            "features": {
+              "0": "✅ Cuenta personal de  IStockPhoto ✅Tiempo de uso de 30 días.✅ Límite: 10 imágenes✅Se recomienda consumir dentro de los 14 días.✅ No hay reembolsos después de la entrega.✅ Ingrese su dirección de correo al realizar su pedido.✅ Tiempo de entrega: 1 - 24 horas"
+            }
+          },
+          "3906 - ID 3906 - SketchUp Pro - 30 Dias - $7.56 por 1": {
+            "pricePerUnit": 0.00756,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "30 días",
+            "description": "✅ Cuenta personal de SketchUp Pro✅Tiempo de uso de 30 días.✅ No hay reembolsos después de la entrega.✅ Ingrese su dirección de correo al realizar su pedido.✅ Tiempo de entrega: 1 - 24 horas",
+            "features": {
+              "0": "✅ Cuenta personal de SketchUp Pro✅Tiempo de uso de 30 días.✅ No hay reembolsos después de la entrega.✅ Ingrese su dirección de correo al realizar su pedido.✅ Tiempo de entrega: 1 - 24 horas"
+            }
+          }
+        }
+      }
+    }
+  }
+}

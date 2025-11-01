@@ -1,0 +1,66 @@
+{
+  "Twitter - Brasil": {
+    "categories": {
+      "Twitter - Brasil": {
+        "types": {
+          "3004 - ID 3004- Twitter - BRASIL  (100 Retweet 200 Me Gusta 25 Comentarios) Perfiles Activos HQ - $9.36 por 1": {
+            "pricePerUnit": 0.00936,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "4146 - ID 4146 - Twitter - BRASIL (100 Retweet, 200 Me gusta, 25 Comentarios) Perfiles Ativos - $8.82 por 1": {
+            "pricePerUnit": 0.00882,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "No especificado",
+            "description": "nicio: De 0 a 24 HCalidad: Alta calidadPublico: Brasil —--------------------------------------Enlace: Enlace de tweet de Twitter Ejemplo: https://twitter.com/abc/status/123",
+            "features": {}
+          },
+          "331 - ID 331 - Twitter - Comentarios Personalizados  Brasil - Máx. 100 - $119.60 por 1000": {
+            "pricePerUnit": 0.1196,
+            "minQuantity": 10,
+            "maxQuantity": 250,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "3001 - ID 3001 - Twitter - Comentarios personalizados Brasil - Máx. 100 - $150.80 por 1000": {
+            "pricePerUnit": 0.15080000000000002,
+            "minQuantity": 10,
+            "maxQuantity": 250,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "636 - xxxxxxxxxxxxxxxxxxxx - $2000 por 1000": {
+            "pricePerUnit": 2,
+            "minQuantity": 1000,
+            "maxQuantity": 1000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: De 0 a 1HCalidad: Alta calidadPublico: Brasil —--------------------------------------Enlace: Enlace de tweet de Twitter Ejemplo: https://twitter.com/abc/status/123",
+            "features": {}
+          },
+          "1898 - xxxxxxxxxxxxxxxxxxxx - $2000 por 1000": {
+            "pricePerUnit": 2,
+            "minQuantity": 1000,
+            "maxQuantity": 1000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "3003 - xxxxxxxxxxxxxxxxxxxx - $2000 por 1000": {
+            "pricePerUnit": 2,
+            "minQuantity": 1000,
+            "maxQuantity": 1000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

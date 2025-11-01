@@ -6,15 +6,12 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { useTranslation } from "react-i18next";
 
 export function FAQ() {
-  const { t } = useTranslation();
-
   return (
     <div className="max-w-7xl mx-auto glass-card px-6 py-4 sm:px-8 sm:py-6 md:px-10 md:py-8 rounded-3xl shadow-xl">
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-6 sm:mb-8 text-center">
-        {t("faq.title")}
+        Preguntas Frecuentes
       </h2>
 
       <Accordion
@@ -27,10 +24,10 @@ export function FAQ() {
           className="bg-white/10 rounded-2xl p-1 sm:p-2"
         >
           <AccordionTrigger className="text-white text-base sm:text-lg font-medium">
-            {t("faq.question1")}
+            ¿De qué trata este servicio de aumento de seguidores?
           </AccordionTrigger>
           <AccordionContent className="text-white/90 text-sm sm:text-base leading-relaxed">
-            {t("faq.answer1")}
+            Somos una plataforma SMM especializada en aumentar tu visibilidad en redes sociales como Instagram, TikTok, YouTube, Facebook, X (Twitter) y más. Ofrecemos servicios de aumento de seguidores, likes, comentarios y reproducciones reales o personalizados, dependiendo de tus necesidades.
           </AccordionContent>
         </AccordionItem>
 
@@ -39,10 +36,10 @@ export function FAQ() {
           className="bg-white/10 rounded-2xl p-1 sm:p-2"
         >
           <AccordionTrigger className="text-white text-base sm:text-lg font-medium">
-            {t("faq.question2")}
+            ¿Qué información necesito proporcionar?
           </AccordionTrigger>
           <AccordionContent className="text-white/90 text-sm sm:text-base leading-relaxed">
-            {t("faq.answer2")}
+            Solo pedimos el enlace del perfil o la foto/publicación donde deseas aumentar tus seguidores o interacciones. Nunca pedimos contraseñas ni acceso a tu cuenta.
           </AccordionContent>
         </AccordionItem>
 
@@ -51,10 +48,10 @@ export function FAQ() {
           className="bg-white/10 rounded-2xl p-1 sm:p-2"
         >
           <AccordionTrigger className="text-white text-base sm:text-lg font-medium">
-            {t("faq.question3")}
+            ¿Son reales los seguidores o interacciones?
           </AccordionTrigger>
           <AccordionContent className="text-white/90 text-sm sm:text-base leading-relaxed">
-            {t("faq.answer3")}
+            Ofrecemos distintos tipos de servicios: algunos son seguidores reales y activos, otros son seguidores de alta calidad automatizados. Puedes elegir el tipo según tus objetivos y presupuesto.
           </AccordionContent>
         </AccordionItem>
 
@@ -63,10 +60,10 @@ export function FAQ() {
           className="bg-white/10 rounded-2xl p-1 sm:p-2"
         >
           <AccordionTrigger className="text-white text-base sm:text-lg font-medium">
-            {t("faq.question4")}
+            ¿Mis datos estarán seguros?
           </AccordionTrigger>
           <AccordionContent className="text-white/90 text-sm sm:text-base leading-relaxed">
-            {t("faq.answer4")}
+            Absolutamente. Toda la información que compartes con nosotros se mantiene 100% confidencial. Nadie sabrá que estás utilizando nuestros servicios. Además, usamos sistemas seguros para proteger tus datos y pedidos.
           </AccordionContent>
         </AccordionItem>
 
@@ -75,10 +72,10 @@ export function FAQ() {
           className="bg-white/10 rounded-2xl p-1 sm:p-2"
         >
           <AccordionTrigger className="text-white text-base sm:text-lg font-medium">
-            {t("faq.question5")}
+            ¿Qué pasa si quiero comentarios personalizados?
           </AccordionTrigger>
           <AccordionContent className="text-white/90 text-sm sm:text-base leading-relaxed">
-            {t("faq.answer5")}
+            Puedes escribir tus propios comentarios uno a uno. Nuestro equipo se encargará de publicarlos de forma natural para que parezcan completamente orgánicos. Ideal para aumentar el engagement en tus publicaciones.
           </AccordionContent>
         </AccordionItem>
 
@@ -87,10 +84,10 @@ export function FAQ() {
           className="bg-white/10 rounded-2xl p-1 sm:p-2"
         >
           <AccordionTrigger className="text-white text-base sm:text-lg font-medium">
-            {t("faq.question6")}
+            ¿Cuánto tarda el servicio en completarse?
           </AccordionTrigger>
           <AccordionContent className="text-white/90 text-sm sm:text-base leading-relaxed">
-            {t("faq.answer6")}
+            El tiempo depende del tipo de servicio y la cantidad solicitada. En la mayoría de los casos, los aumentos comienzan entre 15 minutos y 2 horas después del pedido, y se completan progresivamente para mantener la naturalidad.
           </AccordionContent>
         </AccordionItem>
 
@@ -99,10 +96,10 @@ export function FAQ() {
           className="bg-white/10 rounded-2xl p-1 sm:p-2"
         >
           <AccordionTrigger className="text-white text-base sm:text-lg font-medium">
-            {t("faq.question7")}
+            ¿Puedo hacer pedidos para varias cuentas?
           </AccordionTrigger>
           <AccordionContent className="text-white/90 text-sm sm:text-base leading-relaxed">
-            {t("faq.answer7")}
+            Sí, puedes realizar múltiples pedidos para distintas cuentas o publicaciones. Solo asegúrate de colocar correctamente los enlaces de cada pedido.
           </AccordionContent>
         </AccordionItem>
       </Accordion>

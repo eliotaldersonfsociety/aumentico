@@ -1,0 +1,42 @@
+{
+  "SoundCloud - Comentarios": {
+    "categories": {
+      "SoundCloud - Comentarios": {
+        "types": {
+          "2189 - ID 2189 - SoundCloud - Comentario aleatorio - Max 1M - $25.20 por 1000": {
+            "pricePerUnit": 0.0252,
+            "minQuantity": 20,
+            "maxQuantity": 1000000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: 1 h a 12 h Velocidad: 50 a 200K+ por día Publico: MundialCaídas: NoRecarga: Sin recarga👆 No olvide que estos datos son solo estimaciones (pueden variar)-------------------------------------------------Enlace: enlace de la pista completaEnlace de ejemplo: https://soundcloud.com/xyz/abc-def-ghi",
+            "features": {}
+          },
+          "2190 - ID 2190 - SoundCloud - Comentario aleatorio - Max 3K - $33.60 por 1000": {
+            "pricePerUnit": 0.033600000000000005,
+            "minQuantity": 10,
+            "maxQuantity": 3000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: 1 h a 12 h Velocidad: 50 a 150K+ por día Publico: MundialCaídas: NoRecarga: Sin recarga👆 No olvide que estos datos son solo estimaciones (pueden variar)-------------------------------------------------Enlace: enlace de la pista completaEnlace de ejemplo: https://soundcloud.com/xyz/abc-def-ghi",
+            "features": {}
+          },
+          "2188 - ID 2188 - SoundCloud - Comentario Personalizado - Max 100K - $24 por 1000": {
+            "pricePerUnit": 0.024,
+            "minQuantity": 5,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: 1 h a 12 h \nVelocidad: 50 a 200K+ por día \nPublico: Mundial\nCaídas: No\nRecarga: Sin recarga\n👆 No olvide que estos datos son solo estimaciones (pueden variar)\n-------------------------------------------------\nEnlace: enlace de la pista completa\nEnlace de ejemplo: https://soundcloud.com/xyz/abc-def-ghi",
+            "features": {}
+          },
+          "5131 - ID 5131 - SoundCloud - Comentarios Aleatorios - Max 10K - $18.75 por 1000": {
+            "pricePerUnit": 0.01875,
+            "minQuantity": 50,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: 1 h a 12 h \nVelocidad: 50 a 200K+ por día \nPublico: Mundial\nCaídas: No\nRecarga: Sin recarga\n👆 No olvide que estos datos son solo estimaciones (pueden variar)\n-------------------------------------------------\nEnlace: enlace de la pista completa\nEnlace de ejemplo: https://soundcloud.com/xyz/abc-def-ghi",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "Instagram - Miembros de canal": {
+    "categories": {
+      "Instagram - Miembros de canal": {
+        "types": {
+          "3198 - ID 3061 - Instagram - Miembros de Canal - Max 1M - $1.87 por 1000": {
+            "pricePerUnit": 0.0018700000000000001,
+            "minQuantity": 10,
+            "maxQuantity": 1000000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "3063 - ID 3063 - Instagram - Miembros de Canal - Max 1K - $21.45 por 1000": {
+            "pricePerUnit": 0.02145,
+            "minQuantity": 50,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

@@ -2,10 +2,8 @@
 
 import SmallLogo from "@/public/logo/smalllogo"
 import { Instagram, Facebook, Twitter, Youtube, Music } from "lucide-react"
-import { useTranslation } from "react-i18next"
 
 export function Footer() {
-  const { t } = useTranslation();
   return (
     <footer className="border-t border-border bg-muted/30">
       <div className="container mx-auto px-4 py-12">
@@ -16,7 +14,7 @@ export function Footer() {
               <SmallLogo />
             </div>
             <p className="text-sm text-muted-foreground mb-4">
-              {t("footer.description")}
+              Plataforma líder en marketing digital y aumento de presencia en redes sociales.
             </p>
 
             {/* Redes sociales */}
@@ -70,26 +68,26 @@ export function Footer() {
 
           {/* Servicios */}
           <div>
-            <h4 className="mb-4 font-semibold">{t("footer.services")}</h4>
+            <h4 className="mb-4 font-semibold">Servicios</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <a href="#pricing" className="hover:text-foreground transition-colors">
-                  {t("footer.instagram")}
+                  Instagram
                 </a>
               </li>
               <li>
                 <a href="#pricing" className="hover:text-foreground transition-colors">
-                  {t("footer.tiktok")}
+                  TikTok
                 </a>
               </li>
               <li>
                 <a href="#pricing" className="hover:text-foreground transition-colors">
-                  {t("footer.youtube")}
+                  YouTube
                 </a>
               </li>
               <li>
                 <a href="#pricing" className="hover:text-foreground transition-colors">
-                  {t("footer.facebook")}
+                  Facebook
                 </a>
               </li>
             </ul>
@@ -97,26 +95,26 @@ export function Footer() {
 
           {/* Empresa */}
           <div>
-            <h4 className="mb-4 font-semibold">{t("footer.about")}</h4>
+            <h4 className="mb-4 font-semibold">Acerca de</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <a href="/nosotros" className="hover:text-foreground transition-colors">
-                  {t("footer.aboutUs")}
+                  Sobre Nosotros
                 </a>
               </li>
               <li>
                 <a href="/blog" className="hover:text-foreground transition-colors">
-                  {t("footer.blog")}
+                  Blog
                 </a>
               </li>
               <li>
                 <a href="/contacto" className="hover:text-foreground transition-colors">
-                  {t("footer.contact")}
+                  Contacto
                 </a>
               </li>
               <li>
                 <a href="/afiliados" className="hover:text-foreground transition-colors">
-                  {t("footer.affiliates")}
+                  Afiliados
                 </a>
               </li>
             </ul>
@@ -124,21 +122,21 @@ export function Footer() {
 
           {/* Legal */}
           <div>
-            <h4 className="mb-4 font-semibold">{t("footer.legal")}</h4>
+            <h4 className="mb-4 font-semibold">Legal</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <a href="/terms" className="hover:text-foreground transition-colors">
-                  {t("footer.terms")}
+                  Términos de Servicio
                 </a>
               </li>
               <li>
                 <a href="/privacy" className="hover:text-foreground transition-colors">
-                  {t("footer.privacy")}
+                  Política de Privacidad
                 </a>
               </li>
               <li>
                 <a href="/reembolso" className="hover:text-foreground transition-colors">
-                  {t("footer.refund")}
+                  Política de Reembolso
                 </a>
               </li>
             </ul>
@@ -147,7 +145,7 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="mt-12 border-t border-border pt-8 text-center text-xs text-muted-foreground">
-          <p>{t("footer.copyright")}</p>
+          <p>© 2025 Aumento de Seguidores. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

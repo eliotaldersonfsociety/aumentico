@@ -1,0 +1,82 @@
+{
+  "Instagram - Extractor de datos (Enlaces públicos)": {
+    "categories": {
+      "Instagram - Extractor de datos (Enlaces públicos)": {
+        "types": {
+          "697 - ID 697 - Instagram - Extractor de seguidores de usuarios - $3.28 por 1000": {
+            "pricePerUnit": 0.003278,
+            "minQuantity": 5000,
+            "maxQuantity": 1000000,
+            "deliveryTime": "24 horas",
+            "description": "Este servicio EXTRAE los nombre de usuarios de las cuentas que están siguiendo a una cuenta en especifico, puedes usarlo para extraer los seguidores de tu competencia, para mejorar tu estrategia de marketing.La lista llegará a tu correo electrónico en un tiempo de 0 a 24 horas (En ocasiones puede tardar más si se sobrecarga el servicio)LEA CON ATENCIÓNEN ENLACE (LINK): Poner tu correo electrónicoCANTIDAD: La cantidad que necesitas (Mínimo 500)NOMBRE DE USUARIO: Poner el nombre de usuario sin el @ de la cuenta a la cual quieres extraer los datos.📌 IMPORTANTE: La extracción mínima es de 500, si realiza un pedido de un perfil que contiene menos de 500 seguidores, extraeremos el total del perfil, pero se cobrará como 500, ya que es el mínimo que cobramos por este servicio. 📌 La cuenta debe ser pública.📌 No hay reembolso ni cancelación si pones el nombre de usuario incorrecto o de una cuenta privada (El sistema es automático)",
+            "features": {}
+          },
+          "700 - ID 700 - Instagram - Extractor comentaristas de publicación - $3.28 por 1000": {
+            "pricePerUnit": 0.003278,
+            "minQuantity": 500,
+            "maxQuantity": 1000000,
+            "deliveryTime": "24 horas",
+            "description": "Este servicio EXTRAE los nombres de los usuarios que han comentado una publicación en especifico, puedes usarlo para extraer los usuarios más activos de tu competencia, para mejorar tu estrategia de marketing.La lista llegará a tu correo electrónico en un tiempo de 0 a 24 horas (En ocasiones puede tardar más si se sobrecarga el servicio)LEA CON ATENCIÓNEN ENLACE (LINK): Poner tu correo electrónicoEN CANTIDAD: La cantidad que necesitas (Mínimo 10.000)NOMBRE DE USUARIO: Poner el enlace de publicación que desea extraer sus comentaristas.📌 IMPORTANTE: La extracción mínima es de 500, si realiza un pedido de una publicación que contiene menos de 500 comentarios, extraeremos el total de cuentas que han comentado, pero se cobrará como 500, ya que es el mínimo que cobramos por este servicio. 📌 La cuenta debe ser pública.📌 No hay reembolso ni cancelación si pones el correo o link incorrecto o de una cuenta privada (El sistema es automático)",
+            "features": {}
+          },
+          "698 - ID 698 - Instagram - Extractor de seguidos por el usuario usuario - $3.28 por 1000": {
+            "pricePerUnit": 0.003278,
+            "minQuantity": 500,
+            "maxQuantity": 100000,
+            "deliveryTime": "24 horas",
+            "description": "Este servicio EXTRAE los nombre de usuarios que una cuenta está siguiendo (siguiendo)Puedes usarlo para extraer los seguidos de tu competencia, para mejorar tu estrategia de marketing.La lista llegará a tu correo electrónico en un tiempo de 0 a 24 horas (En ocasiones puede tardar más si se sobrecarga el servicio) LEA CON ATENCIÓN EN ENLACE (LINK): Poner tu correo electrónicoCANTIDAD: La cantidad que necesitas (Mínimo 500)NOMBRE DE USUARIO: Poner el nombre de usuario sin el @ de la cuenta a la cual quieres extraer los datos. 📌 IMPORTANTE: La extracción mínima es de 500, si realiza un pedido de un perfil que contiene menos de 500 seguidores, extraeremos el total del perfil, pero se cobrará como 500, ya que es el mínimo que cobramos por este servicio. 📌 La cuenta debe ser pública.📌 No hay reembolso ni cancelación si pones el nombre de usuario incorrecto o de una cuenta privada (El sistema es automático)",
+            "features": {}
+          },
+          "699 - ID 699 - Instagram - Extractor me gusta de publicación - $3.28 por 1000": {
+            "pricePerUnit": 0.003278,
+            "minQuantity": 500,
+            "maxQuantity": 1000000,
+            "deliveryTime": "24 horas",
+            "description": "Este servicio EXTRAE los nombres de los usuarios que han dado me gusta a una publicación en especifico, puedes usarlo para extraer los usuarios más activos de tu competencia, para mejorar tu estrategia de marketing.La lista llegará a tu correo electrónico en un tiempo de 0 a 24 horas (En ocasiones puede tardar más si se sobrecarga el servicio)LEA CON ATENCIÓNEN ENLACE (LINK): Poner tu correo electrónicoEN CANTIDAD: La cantidad que necesitas (Mínimo 500)NOMBRE DE USUARIO: Poner el enlace de publicación que desea extraer los nombre de las cuentas📌 IMPORTANTE: La extracción mínima es de 500, si realiza un pedido de una publicación que contiene menos de 500 comentarios, extraeremos el total de cuentas que han comentado, pero se cobrará como 500, ya que es el mínimo que cobramos por este servicio. 📌 La cuenta debe ser pública.📌 No hay reembolso ni cancelación si pones el correo o link incorrecto o de una cuenta privada (El sistema es automático)",
+            "features": {}
+          },
+          "2186 - ID 2186 - Instagram - Extractor de nombres de usuarios por Ubicación - $1.34 por 1000": {
+            "pricePerUnit": 0.00134,
+            "minQuantity": 1000,
+            "maxQuantity": 100000,
+            "deliveryTime": "24 horas",
+            "description": "Este servicio EXTRAE todos los nombres de usuario de perfiles que hayan publicado una foto/video en los últimos días usando su ubicación preferida. Puedes usarlo para llegar a un publico geo localizadoLa lista llegará a tu correo electrónico en un tiempo de 0 a 24 horas (En ocasiones puede tardar más si se sobrecarga el servicio)LEA CON ATENCIÓNEN ENLACE (LINK): Poner tu correo electrónicoCANTIDAD: La cantidad que necesitas (Mínimo 1000)HASHTAG: Link de la ubicación TOMADA DESDE INSTAGRAM. Ejemplo: https://www.instagram.com/explore/locations/213888966/bogota-colombia📌 IMPORTANTE: La extracción mínima es de 1000, si realiza un pedido de un perfil que contiene menos de 500 seguidores, extraeremos el total del perfil, pero se cobrará como 1000, ya que es el mínimo que cobramos por este servicio.📌 No hay reembolso ni cancelación si pones el nombre de usuario incorrecto o de una cuenta privada (El sistema es automático)",
+            "features": {}
+          },
+          "4176 - ID 4176 - Instagram - Extactor de datos - Nombre de usuario de Hashtag - Max 10M - $0.16 por 1000": {
+            "pricePerUnit": 0.00016,
+            "minQuantity": 1000,
+            "maxQuantity": 10000000,
+            "deliveryTime": "24 horas",
+            "description": "Este servicio EXTRAE los nombre de usuarios que están siguiendo a un Hashtag en especifico, puedes usarlo para recopilar información de usuarios que estén interesados en algún tema en especificoLa lista llegará a tu correo electrónico en un tiempo de 0 a 24 horas (En ocasiones puede tardar más si se sobrecarga el servicio)LEA CON ATENCIÓNEN ENLACE (LINK): Poner tu correo electrónicoCANTIDAD: La cantidad que necesitas (Mínimo 1000)NOMBRE DE USUARIO: Nombre del hashtag (#messi) que desea recopilar los nombres de usuario📌 IMPORTANTE: La extracción mínima es de 1000, si realiza un pedido de un perfil que contiene menos de 1000 seguidores, extraeremos el total del perfil, pero se cobrará como 1000, ya que es el mínimo que cobramos por este servicio. 📌 No hay reembolso ni cancelación si pones el nombre de usuario incorrecto o de una cuenta privada (El sistema es automático)",
+            "features": {}
+          },
+          "4177 - ID 4177 - Instagram - Extractor de Nombres de usuarios por Ubicación - Max 10M - $0.16 por 1000": {
+            "pricePerUnit": 0.00016,
+            "minQuantity": 10,
+            "maxQuantity": 10000000,
+            "deliveryTime": "24 horas",
+            "description": "Este servicio EXTRAE todos los nombres de usuario de perfiles que hayan publicado una foto/video en los últimos días usando su ubicación preferida. Puedes usarlo para llegar a un publico geo localizadoLa lista llegará a tu correo electrónico en un tiempo de 0 a 24 horas (En ocasiones puede tardar más si se sobrecarga el servicio)LEA CON ATENCIÓNEN ENLACE (LINK): Poner tu correo electrónicoCANTIDAD: La cantidad que necesitas (Mínimo 1000)HASHTAG: Link de la ubicación TOMADA DESDE INSTAGRAM. Ejemplo: https://www.instagram.com/explore/locations/213888966/bogota-colombia📌 IMPORTANTE: La extracción mínima es de 1000, si realiza un pedido de un perfil que contiene menos de 500 seguidores, extraeremos el total del perfil, pero se cobrará como 1000, ya que es el mínimo que cobramos por este servicio.📌 No hay reembolso ni cancelación si pones el nombre de usuario incorrecto o de una cuenta privada (El sistema es automático)",
+            "features": {}
+          },
+          "4178 - ID 4178 - Instagram - Extractor de Comentaristas de publicación - Max 10M - $0.16 por 1000": {
+            "pricePerUnit": 0.00016,
+            "minQuantity": 1000,
+            "maxQuantity": 10000000,
+            "deliveryTime": "24 horas",
+            "description": "Este servicio EXTRAE los nombres de los usuarios que han comentado una publicación en especifico, puedes usarlo para extraer los usuarios más activos de tu competencia, para mejorar tu estrategia de marketing.La lista llegará a tu correo electrónico en un tiempo de 0 a 24 horas (En ocasiones puede tardar más si se sobrecarga el servicio)LEA CON ATENCIÓNEN ENLACE (LINK): Poner tu correo electrónicoEN CANTIDAD: La cantidad que necesitas (Mínimo 1000NOMBRE DE USUARIO: Poner el enlace de publicación que desea extraer sus comentaristas.📌 IMPORTANTE: La extracción mínima es de 1000, si realiza un pedido de una publicación que contiene menos de 1000 comentarios, extraeremos el total de cuentas que han comentado, pero se cobrará como 1000, ya que es el mínimo que cobramos por este servicio. 📌 La cuenta debe ser pública.📌 No hay reembolso ni cancelación si pones el correo o link incorrecto o de una cuenta privada (El sistema es automático)",
+            "features": {}
+          },
+          "4179 - ID 4179 - Instagram - Extractor de Nombre de usuario por me gusta en publicación - Max 10M - $0.16 por 1000": {
+            "pricePerUnit": 0.00016,
+            "minQuantity": 1000,
+            "maxQuantity": 10000000,
+            "deliveryTime": "24 horas",
+            "description": "Este servicio EXTRAE los nombres de los usuarios que han dado me gusta a una publicación en especifico, puedes usarlo para extraer los usuarios más activos de tu competencia, para mejorar tu estrategia de marketing.La lista llegará a tu correo electrónico en un tiempo de 0 a 24 horas (En ocasiones puede tardar más si se sobrecarga el servicio)LEA CON ATENCIÓNEN ENLACE (LINK): Poner tu correo electrónicoEN CANTIDAD: La cantidad que necesitas (Mínimo1000)NOMBRE DE USUARIO: Poner el enlace de publicación que desea extraer los nombre de las cuentas📌 IMPORTANTE: La extracción mínima es de 1000, si realiza un pedido de una publicación que contiene menos de 1000 comentarios, extraeremos el total de cuentas que han comentado, pero se cobrará como 1000, ya que es el mínimo que cobramos por este servicio. 📌 La cuenta debe ser pública.📌 No hay reembolso ni cancelación si pones el correo o link incorrecto o de una cuenta privada (El sistema es automático)",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "Spotify - Podcast": {
+    "categories": {
+      "Spotify - Podcast": {
+        "types": {
+          "359 - ID 359 - Spotify - Reproducciones de podcast - Max 10M- - $1.05 por 1000": {
+            "pricePerUnit": 0.0010500000000000002,
+            "minQuantity": 1000,
+            "maxQuantity": 100000000,
+            "deliveryTime": "122 horas",
+            "description": "Hora de inicio estimada: 0 a 122 horasRecarga: Garantía de por vidaDuración: 60-90 segundos de reproducciónReproducciones de podcasts: USA/CA/EU/AU/NZ/UK.Calidad: HQ / RealVelocidad: 500 a 3000 por día—--------------------------------------Solo enlace de podcast de SpotifyEjemplo: https://open.spotify.com/episode/2mvGcPlch6FN2hCarg5ZKl",
+            "features": {}
+          },
+          "358 - ID 358 - Spotify - Reproducciones de podcast -USA- R30 - $9 por 1000": {
+            "pricePerUnit": 0.009,
+            "minQuantity": 20000,
+            "maxQuantity": 1000000,
+            "deliveryTime": "1-72 horas",
+            "description": "Hora de inicio estimada: 1-72 horasRecarga: Garantía de por vidaDuración: 60-90 segundos de reproducciónReproducciones de podcasts: USA/CA/EU/AU/NZ/UK.Calidad: HQ / RealVelocidad: 50 - 150 / Día—--------------------------------------Solo enlace de podcast de SpotifyEjemplo: https://open.spotify.com/episode/2mvGcPlch6FN2hCarg5ZKl",
+            "features": {}
+          },
+          "3313 - ID 3313- Spotify - Reproducciones de podcasts - USA -  Max 1000 - $1.20 por 1000": {
+            "pricePerUnit": 0.0012,
+            "minQuantity": 1000,
+            "maxQuantity": 10000000,
+            "deliveryTime": "122 horas",
+            "description": "Hora de inicio estimada: 0 a 122 horas\nRecarga: Garantía de por vida\nDuración: 60-90 segundos de reproducción\nReproducciones de podcasts: USA/CA/EU/AU/NZ/UK.\nCalidad: HQ / Real\nVelocidad: 500 a 3000 por día\n—--------------------------------------\nSolo enlace de podcast de Spotify\nEjemplo: https://open.spotify.com/episode/2mvGcPlch6FN2hCarg5ZKl",
+            "features": {}
+          },
+          "3309 - ID 3309- Spotify - Reproducciones de podcast - BRASIL - Max. 10M - $1.20 por 1000": {
+            "pricePerUnit": 0.0012,
+            "minQuantity": 1000,
+            "maxQuantity": 10000000,
+            "deliveryTime": "122 horas",
+            "description": "Hora de inicio estimada: 0 a 122 horasRecarga: Garantía de por vidaDuración: 60-90 segundos de reproducciónReproducciones de podcasts: USA/CA/EU/AU/NZ/UK.Calidad: HQ / RealVelocidad: 500 a 3000 por día—--------------------------------------Solo enlace de podcast de SpotifyEjemplo: https://open.spotify.com/episode/2mvGcPlch6FN2hCarg5ZKl",
+            "features": {}
+          },
+          "2449 - ID 2449 - Spotify - Reproducciones de podcast - ESPAÑA - Max 10M - $1.20 por 1000": {
+            "pricePerUnit": 0.0012,
+            "minQuantity": 1000,
+            "maxQuantity": 10000000,
+            "deliveryTime": "48 horas",
+            "description": "Hora de inicio estimada: 1 - 48 horasRecarga: Garantía de por vidaDuración: 60-90 segundos de reproducciónReproducciones de podcasts: USA/CA/EU/AU/NZ/UK.Calidad: HQ / Real—--------------------------------------Solo enlace de podcast de SpotifyEjemplo: https://open.spotify.com/episode/2mvGcPlch6FN2hCarg5ZKl",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

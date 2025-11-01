@@ -1,0 +1,18 @@
+{
+  "AutoDesk": {
+    "categories": {
+      "AutoDesk": {
+        "types": {
+          "3453 - ID 3453 - AutoDesk - Todos los productos - 1 año - $51 por 1": {
+            "pricePerUnit": 51,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "0-24 horas",
+            "description": "• Tiempo de entrega: 0-24 horas• Se entrega una cuenta personal (de estudiante) de AutoDesk• 46 productos con licencia, incluido AutoCAD.•Compatible con Windows y Mac.• 1 año de uso.• No hay reembolsos después de la entrega.• Ingrese su dirección de correo al realizar su pedido.•Una vez hecho el pedido, escribanos por WhatsApp o cree un ticket, y le enviaremos el Código de acceso.•Recuerde que los tiempos de entrega pueden variar.",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

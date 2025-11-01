@@ -1,0 +1,86 @@
+{
+  "TikTok - Descargas - No me interesa": {
+    "categories": {
+      "TikTok - Descargas - No me interesa": {
+        "types": {
+          "4736 - ID 4736 - TikTok - Descarga de videos - Max 10M - R30 - $0.04 por 1000": {
+            "pricePerUnit": 0.000044,
+            "minQuantity": 10,
+            "maxQuantity": 10000000,
+            "deliveryTime": "30 días",
+            "description": "✅ Enlace: Enlace de publicación\n✅ Inicio: 1 Minuto a 1 Hora\n✅ Velocidad: 10 k por Dia\n✅ Calidad: Servicio apariencia real\n✅ Recarga: Recarga de 30 días (Si cae más del 10%)",
+            "features": {
+              "0": "✅ Enlace: Enlace de publicación",
+              "1": "✅ Inicio: 1 Minuto a 1 Hora",
+              "2": "✅ Velocidad: 10 k por Dia",
+              "3": "✅ Calidad: Servicio apariencia real",
+              "4": "✅ Recarga: Recarga de 30 días (Si cae más del 10%)"
+            }
+          },
+          "4737 - ID 4737 - TikTok - Descarga de videos - Max 10M - R30 - $0.04 por 1000": {
+            "pricePerUnit": 0.000044,
+            "minQuantity": 10,
+            "maxQuantity": 10000000,
+            "deliveryTime": "30 días",
+            "description": "✅ Enlace: Enlace de publicación\n✅ Inicio: 1 Minuto a 1 Hora\n✅ Velocidad: 10 k por Dia\n✅ Calidad: Servicio apariencia real\n✅ Recarga: Recarga de 30 días (Si cae más del 10%)",
+            "features": {
+              "0": "✅ Enlace: Enlace de publicación",
+              "1": "✅ Inicio: 1 Minuto a 1 Hora",
+              "2": "✅ Velocidad: 10 k por Dia",
+              "3": "✅ Calidad: Servicio apariencia real",
+              "4": "✅ Recarga: Recarga de 30 días (Si cae más del 10%)"
+            }
+          },
+          "776 - ID 776 - TikTok - Descarga de videos  - Max 100k - $5.80 por 1000": {
+            "pricePerUnit": 0.0058,
+            "minQuantity": 100,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "777 - ID 777 - TikTok - Descarga de videos - Max 100k - R30 - $4.33 por 1000": {
+            "pricePerUnit": 0.004328,
+            "minQuantity": 100,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "1829 - ID 1829 - TikTok - Descarga de videos - Max 100k - R30 - $0.16 por 1000": {
+            "pricePerUnit": 0.00016,
+            "minQuantity": 10,
+            "maxQuantity": 1000000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "778 - ID 778 - TikTok - No me interesa - Max 20k - $0.16 por 1000": {
+            "pricePerUnit": 0.00016,
+            "minQuantity": 50,
+            "maxQuantity": 20000,
+            "deliveryTime": "12 Horas",
+            "description": "Hora de inicio: 1 a 12 Horas\nVelocidad: 10K/Día\nCalidad: Mundo\nGarantía: No\nTasa de caída: Hasta un 10%\nFormato de enlace: https://www.TikTok.com/@user/xyz\nNotas\n📌 No podemos cancelar tu pedido una vez que ha sido enviado.\n📌 Verifica el formato del enlace cuidadosamente antes de realizar el pedido.\n📌 Por favor, asegúrate de que tu cuenta sea pública, no privada.\n\nAlerta\n⚠️ No hagas múltiples pedidos para el mismo enlace antes de su finalización.",
+            "features": {}
+          },
+          "4760 - ID 4760 - TikTok - No me interesa - Max 50k - R30 - $0.27 por 1000": {
+            "pricePerUnit": 0.00027,
+            "minQuantity": 10,
+            "maxQuantity": 50000,
+            "deliveryTime": "12 Horas",
+            "description": "Hora de inicio: 1 a 12 Horas\nVelocidad: 1M/Día\nCalidad: Mundial\nGarantía: Sí\nPeríodo de recarga: Recarga de 30 Días\nTasa de caída: Baja, hasta un 10%\nFormato de enlace: https://www.TikTok.com/@user/xyz\nNotas\n📌 No podemos cancelar su pedido una vez que ha sido enviado.\n📌 Verifique cuidadosamente el formato del enlace antes de realizar el pedido.\n📌 Asegúrese de que su cuenta sea pública, no privada.\n\nAlerta\n⚠️ No realice múltiples pedidos para el mismo enlace antes de completar.\n⚠️ La cantidad debe ser en múltiplos de 100, 200, 500, 1000, etc.",
+            "features": {}
+          },
+          "779 - ID 779 - TikTok - No me interesa - Max 50k - R30 - $0.29 por 1000": {
+            "pricePerUnit": 0.00028799999999999995,
+            "minQuantity": 10,
+            "maxQuantity": 50000,
+            "deliveryTime": "12 Horas",
+            "description": "Hora de inicio: 1 a 12 Horas\nVelocidad: 10K/Día\nCalidad: Mundial\nGarantía: Sí\nPeríodo de recarga: Recarga cada 30 días\nTasa de caída: Hasta un 10%\nFormato de enlace: https://www.TikTok.com/@user/xyz\nNotas\n📌 No podemos cancelar tu pedido una vez que ha sido enviado.\n📌 Verifica el formato del enlace cuidadosamente antes de realizar el pedido.\n📌 Por favor, asegúrate de que tu cuenta sea pública, no privada.\n\nAlerta\n⚠️ No hagas múltiples pedidos para el mismo enlace antes de su finalización.",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

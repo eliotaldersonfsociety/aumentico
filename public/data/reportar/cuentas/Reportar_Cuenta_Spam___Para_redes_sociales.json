@@ -1,0 +1,42 @@
+{
+  "Reportar Cuenta Spam - Para redes sociales": {
+    "categories": {
+      "Reportar Cuenta Spam - Para redes sociales": {
+        "types": {
+          "274 - ID 274 - Reportar Cuenta Spam - Para el canal de YouTube - Sin garantía - $3.12 por 1000": {
+            "pricePerUnit": 0.00312,
+            "minQuantity": 1000,
+            "maxQuantity": 1000000,
+            "deliveryTime": "No especificado",
+            "description": "No garantizamos que la cuenta se bloquee, solo haremos todo lo posible generando los reportesUsted es responsable de los pedidos, No aceptamos ninguna responsabilidad.",
+            "features": {}
+          },
+          "275 - ID 275 - Reportar Cuenta Spam - Para cuenta de Facebook - Sin garantía - $3.12 por 1000": {
+            "pricePerUnit": 0.00312,
+            "minQuantity": 1000,
+            "maxQuantity": 1000000,
+            "deliveryTime": "No especificado",
+            "description": "No garantizamos que la cuenta se bloquee, solo haremos todo lo posible generando los reportesUsted es responsable de los pedidos, No aceptamos ninguna responsabilidad.",
+            "features": {}
+          },
+          "276 - ID 276 - Reportar Cuenta Spam - Para cuenta de Instagram - Sin garantía - $3.12 por 1000": {
+            "pricePerUnit": 0.00312,
+            "minQuantity": 1000,
+            "maxQuantity": 1000000,
+            "deliveryTime": "No especificado",
+            "description": "No garantizamos que la cuenta se bloquee, solo haremos todo lo posible generando los reportesUsted es responsable de los pedidos, No aceptamos ninguna responsabilidad.",
+            "features": {}
+          },
+          "5305 - ID 5305 - Denunciar Cuenta de Tiktok - Sin garantía - $3.60 por 1000": {
+            "pricePerUnit": 0.0036,
+            "minQuantity": 500,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "No garantizamos que la cuenta se bloquee, esa decisión la toma la red social, solo haremos todo lo posible generando los reportes\n\nUsted es responsable de los pedidos, No aceptamos ninguna responsabilidad.",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

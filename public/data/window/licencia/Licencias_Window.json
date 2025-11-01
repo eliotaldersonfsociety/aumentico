@@ -1,0 +1,54 @@
+{
+  "Licencias Window": {
+    "categories": {
+      "Licencias Window": {
+        "types": {
+          "3451 - ID 3451 - WINDOWS 11 PRO  - clave de licencia digital - $5.80 por 1000": {
+            "pricePerUnit": 0.0058,
+            "minQuantity": 1000,
+            "maxQuantity": 1000,
+            "deliveryTime": "0-24 horas",
+            "description": "En cantidad, poner 1000 para ordenar 1 licencia\n✅ Tiempo de entrega: 0-24 horas\n✅ Entregado como licencia.\n✅ Proporcione su dirección de correo electrónico en el campo del pedido.",
+            "features": {
+              "0": "✅ Tiempo de entrega: 0-24 horas",
+              "1": "✅ Entregado como licencia.",
+              "2": "✅ Proporcione su dirección de correo electrónico en el campo del pedido."
+            }
+          },
+          "3449 - ID 3449 - Window 10 PRO - Clave de licencia digital - $5.80 por 1000": {
+            "pricePerUnit": 0.0058,
+            "minQuantity": 1000,
+            "maxQuantity": 1000,
+            "deliveryTime": "0-24 horas",
+            "description": "En cantidad, poner 1000 para ordenar 1 licencia\n✅ Tiempo de entrega: 0-24 horas\n✅ Entregado como licencia.\n✅ Proporcione su dirección de correo electrónico en el campo del pedido.",
+            "features": {
+              "0": "✅ Tiempo de entrega: 0-24 horas",
+              "1": "✅ Entregado como licencia.",
+              "2": "✅ Proporcione su dirección de correo electrónico en el campo del pedido."
+            }
+          },
+          "3450 - ID 3450 - WINDOWS 10 HOME - clave de licencia digital - $10.80 por 1000": {
+            "pricePerUnit": 0.0108,
+            "minQuantity": 1000,
+            "maxQuantity": 1000,
+            "deliveryTime": "0-24 horas",
+            "description": "✅ Tiempo de entrega: 0-24 horas✅ Entregado como licencia.✅ Proporcione su dirección de correo electrónico en el campo del pedido.✅ NO Puede usarlo después de formatear.",
+            "features": {
+              "0": "✅ Tiempo de entrega: 0-24 horas✅ Entregado como licencia.✅ Proporcione su dirección de correo electrónico en el campo del pedido.✅ NO Puede usarlo después de formatear."
+            }
+          },
+          "3452 - ID 3452 - WINDOWS 11 HOME  - clave de licencia digital - $10.80 por 1000": {
+            "pricePerUnit": 0.0108,
+            "minQuantity": 1000,
+            "maxQuantity": 1000,
+            "deliveryTime": "0-24 horas",
+            "description": "✅ Tiempo de entrega: 0-24 horas✅ Entregado como licencia.✅ Proporcione su dirección de correo electrónico en el campo del pedido.✅ NO Puede usarlo después de formatear.",
+            "features": {
+              "0": "✅ Tiempo de entrega: 0-24 horas✅ Entregado como licencia.✅ Proporcione su dirección de correo electrónico en el campo del pedido.✅ NO Puede usarlo después de formatear."
+            }
+          }
+        }
+      }
+    }
+  }
+}

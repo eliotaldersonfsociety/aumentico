@@ -1,0 +1,26 @@
+{
+  "Instagram - Me gusta -  latinos/Hispanos": {
+    "categories": {
+      "Instagram - Me gusta -  latinos/Hispanos": {
+        "types": {
+          "4574 - ID 4574 - Instagram - Me gusta - Mezcla Latina, brasil - Max 20K - $2.40 por 1000": {
+            "pricePerUnit": 0.0024,
+            "minQuantity": 100,
+            "maxQuantity": 20000,
+            "deliveryTime": "12 horas",
+            "description": "Hora de inicio: 15 minutos a 12 horas\nVelocidad: 10K por día\nRecarga: Sin garantia\nCaída: muy baja\n\nUsuarios América Latina y Brasil",
+            "features": {}
+          },
+          "3022 - ID 3022 - Instagram - Me gusta - Buena calidad - America Latina, USA, Brasil - R30 - $1.45 por 1000": {
+            "pricePerUnit": 0.001452,
+            "minQuantity": 20,
+            "maxQuantity": 100000,
+            "deliveryTime": "30 días",
+            "description": "Público de América Latina, Brasil y USA \n\nInicio: De 5 minutos a 1 Hora\nVelocidad: 5K a 10K por dia\nCalidad: Buena calidad, algunas pueden ir sin publicaciones\nRecarga: 30 días (si cae más del 10%)\nCancelar: Sin botón de cancelar\n—---------------------------------- ----\nEnlace: Enlace de publicación\nEjemplo de enlace de publicación: https://www.instagram.com/p/xyz",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

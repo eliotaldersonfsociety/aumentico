@@ -1,0 +1,74 @@
+{
+  "YouTube - Comentarios aleatorios - En vivo": {
+    "categories": {
+      "YouTube - Comentarios aleatorios - En vivo": {
+        "types": {
+          "3673 - ID 3673 - YouTube - comentarios aleatorios - En español 🔥 - En vivo - Max. 500K - $9.27 por 1000": {
+            "pricePerUnit": 0.009269999999999999,
+            "minQuantity": 10,
+            "maxQuantity": 500000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "3668 - ID 3668 - YouTube - comentarios aleatorios - En vivo - Max. 500K - $9.27 por 1000": {
+            "pricePerUnit": 0.009269999999999999,
+            "minQuantity": 10,
+            "maxQuantity": 500000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "3672 - ID 3672 - YouTube - comentarios aleatorios - Brasil - En vivo - Max. 500K - $9.27 por 1000": {
+            "pricePerUnit": 0.009269999999999999,
+            "minQuantity": 10,
+            "maxQuantity": 500000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "3670 - ID 3670 - YouTube - comentarios aleatorios - USA - En vivo - Max. 500K - $9.27 por 1000": {
+            "pricePerUnit": 0.009269999999999999,
+            "minQuantity": 10,
+            "maxQuantity": 500000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "3669 - ID 3669 - YouTube - comentarios aleatorios - Reino Unido - En vivo - Max. 500K - $9.27 por 1000": {
+            "pricePerUnit": 0.009269999999999999,
+            "minQuantity": 10,
+            "maxQuantity": 500000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "3671 - ID 3671 - YouTube - comentarios aleatorios - Francia - En vivo - Max. 500K - $9.27 por 1000": {
+            "pricePerUnit": 0.009269999999999999,
+            "minQuantity": 10,
+            "maxQuantity": 500000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2846 - ID 2846 - YouTube - comentarios - En vivo (60 min) - $327.60 por 1000": {
+            "pricePerUnit": 0.3276,
+            "minQuantity": 1,
+            "maxQuantity": 100,
+            "deliveryTime": "No especificado",
+            "description": "Debe permitir los comentarios de cualquier cuenta (No hay garantías si no permites comentar)",
+            "features": {}
+          },
+          "2845 - ID 2845 - YouTube - comentarios - En vivo - (24 horas ) - $851.76 por 1000": {
+            "pricePerUnit": 0.85176,
+            "minQuantity": 1,
+            "maxQuantity": 100,
+            "deliveryTime": "No especificado",
+            "description": "Debe permitir los comentarios de cualquier cuenta (No hay garantías si no permites comentar)",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

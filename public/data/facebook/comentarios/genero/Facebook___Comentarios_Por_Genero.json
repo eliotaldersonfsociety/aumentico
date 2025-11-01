@@ -1,0 +1,58 @@
+{
+  "Facebook - Comentarios Por Genero": {
+    "categories": {
+      "Facebook - Comentarios Por Genero": {
+        "types": {
+          "4438 - ID 4438 - Facebook - Comentarios Aleatorios en INGLES - Mayormente Hombres - 1K - R30 - $61.60 por 1000": {
+            "pricePerUnit": 0.0616,
+            "minQuantity": 10,
+            "maxQuantity": 1000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "4439 - ID 4439 - Facebook - Comentarios Aleatorios en INGLES  - Mayormente Mujeres - 1K - R30 - $61.60 por 1000": {
+            "pricePerUnit": 0.0616,
+            "minQuantity": 10,
+            "maxQuantity": 1000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "4463 - ID 4462 - Facebook  - Comentarios Aleatorios en INGLES - Mayormente Hombres - Max 150 - $168 por 1000": {
+            "pricePerUnit": 0.168,
+            "minQuantity": 5,
+            "maxQuantity": 150,
+            "deliveryTime": "12 Horas",
+            "description": "Descripción del servicio\n\n- Ubicaciones: Global y Masculina\n- Enlace: Enlace de publicación de Facebook\n- Inicio: 1 a 12 Horas\n- Velocidad: 150/Día\n- Alta calidad\n- Comentarios aleatorios\n\nNotas:\n• Cuando el servicio está ocupado, la velocidad de inicio del proceso cambia.\n• No realice el segundo pedido en el mismo enlace antes de que su pedido se complete en el sistema.",
+            "features": {}
+          },
+          "4464 - ID 4464 - Facebook  - Comentarios Aleatorios en INGLES - Mayormente Mujeres - Max 150 - $168 por 1000": {
+            "pricePerUnit": 0.168,
+            "minQuantity": 5,
+            "maxQuantity": 150,
+            "deliveryTime": "12 Horas",
+            "description": "Descripción del servicio\n\n- Ubicaciones: global y femenina\n- Enlace: Enlace de publicación de Facebook\n- Inicio: 1 a 12 Horas\n- Velocidad: 150/Día\n- Alta calidad\n- Comentarios aleatorios\n\nNotas:\n• Cuando el servicio está ocupado, la velocidad de inicio del proceso cambia.\n• No realice el segundo pedido en el mismo enlace antes de que su pedido se complete en el sistema.",
+            "features": {}
+          },
+          "5112 - ID 5112 - Facebook - Comentarios Personalizados - Mayormente Mujeres - Max 10K - $124 por 1000": {
+            "pricePerUnit": 0.124,
+            "minQuantity": 100,
+            "maxQuantity": 10000,
+            "deliveryTime": "24 horas",
+            "description": "Inicio: 0 - 24 horas\nVelocidad: 20 - 50 / Día\nCalidad: Real\nPublico: Mujeres Arabes\nRecarga: No\n\nEnlace: Enlace de publicación de Facebook\nEjemplo de enlace: https://www.facebook.com/xyz/posts/123\n\n✔️ Este servicio solo funciona en publicaciones públicas",
+            "features": {}
+          },
+          "5113 - ID 5113 - Facebook - Comentarios Personalizados - Mayormente hombres - Max 10K - $18 por 1000": {
+            "pricePerUnit": 0.018,
+            "minQuantity": 5,
+            "maxQuantity": 500000,
+            "deliveryTime": "24 horas",
+            "description": "Inicio: 0 - 24 horas\nVelocidad: 20 - 50 / Día\nCalidad: Real\nPublico: Hombres Arabes\nRecarga: No\n\nEnlace: Enlace de publicación de Facebook\nEjemplo de enlace: https://www.facebook.com/xyz/posts/123\n\n✔️ Este servicio solo funciona en publicaciones públicas",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

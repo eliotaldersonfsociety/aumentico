@@ -1,0 +1,58 @@
+{
+  "Pinterest - Seguidores de perfil": {
+    "categories": {
+      "Pinterest - Seguidores de perfil": {
+        "types": {
+          "5003 - ID 5003 - Pinterest - Seguidores de perfil - Max 5K - $15 por 1000": {
+            "pricePerUnit": 0.015,
+            "minQuantity": 20,
+            "maxQuantity": 10000,
+            "deliveryTime": "12  horas",
+            "description": "-Hora de inicio: 6 a 12  horas\n\n-Velocidad: 5k por día\n\n-Calidad: Cuentas Mixtas\n\n-Recarga: NO",
+            "features": {}
+          },
+          "1164 - ID 1164 - Pinterest - Seguidores de perfil - Max 200K - R30 - $9.60 por 1000": {
+            "pricePerUnit": 0.0096,
+            "minQuantity": 20,
+            "maxQuantity": 200000,
+            "deliveryTime": "12 horas",
+            "description": "Inicio: De 30 minutos a 12 horasRecarga: 30 Días (Si baja más del 10%)—--------------------------------------Enlace: Enlace de perfil de Pinterest",
+            "features": {}
+          },
+          "1165 - ID 1165 - Pinterest - Seguidores de perfil - Max 1M - $9.75 por 1000": {
+            "pricePerUnit": 0.00975,
+            "minQuantity": 20,
+            "maxQuantity": 1000000,
+            "deliveryTime": "12 horas",
+            "description": "Inicio: De 30 minutos a 12 horasRecarga: 30 Días (Si baja más del 10%)—--------------------------------------Enlace: Enlace de perfil de Pinterest",
+            "features": {}
+          },
+          "2570 - ID 2570 - Pinterest - Seguidores de perfil - Max 10K - R30 - $39.33 por 1000": {
+            "pricePerUnit": 0.039332,
+            "minQuantity": 100,
+            "maxQuantity": 10000,
+            "deliveryTime": "12 horas",
+            "description": "Inicio: De 30 minutos a 12 horasRecarga: 30 Días (Si baja más del 10%)—--------------------------------------Enlace: Enlace de perfil de Pinterest",
+            "features": {}
+          },
+          "1217 - ID 1217 - Pinterest - Seguidores de perfil - Max 500K - R30 - $42.77 por 1000": {
+            "pricePerUnit": 0.042768,
+            "minQuantity": 50,
+            "maxQuantity": 500000,
+            "deliveryTime": "12 horas",
+            "description": "PEDIR SOLO MÚLTIPLOS DE 10Inicio: De 30 minutos a 12 horasRecarga: 30 Días (Si baja más del 10%)—--------------------------------------Enlace: Enlace de perfil de Pinterest",
+            "features": {}
+          },
+          "1167 - ID 1167 - Pinterest - Seguidores de perfil - Max 500K - R30 - $42.77 por 1000": {
+            "pricePerUnit": 0.042768,
+            "minQuantity": 50,
+            "maxQuantity": 500000,
+            "deliveryTime": "12 horas",
+            "description": "Inicio: De 30 minutos a 12 horasRecarga: 30 Días (Si baja más del 10%)—--------------------------------------Enlace: Enlace de perfil de Pinterest",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "Tidal": {
+    "categories": {
+      "Tidal": {
+        "types": {
+          "2994 - ID 2994 Tidal - seguidores - $40.32 por 1000": {
+            "pricePerUnit": 0.04032,
+            "minQuantity": 100,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2995 - ID 2995 Tidal -Lista de reproducción - $16.20 por 1000": {
+            "pricePerUnit": 0.0162,
+            "minQuantity": 10000,
+            "maxQuantity": 10000000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

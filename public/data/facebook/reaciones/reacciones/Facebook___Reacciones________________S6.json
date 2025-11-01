@@ -1,0 +1,66 @@
+{
+  "Facebook - Reacciones (😂❤️🥰😮😥😡) S6": {
+    "categories": {
+      "Facebook - Reacciones (😂❤️🥰😮😥😡) S6": {
+        "types": {
+          "4441 - ID 4441 - Facebook - Reacciones - Me gusta 👍- Max 1.5M - $7.50 por 1000": {
+            "pricePerUnit": 0.0075,
+            "minQuantity": 50,
+            "maxQuantity": 1500000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "4440 - ID 4440 - Facebook - Reacciones - Me encanta ❤️ - Max 1.5M - $7.50 por 1000": {
+            "pricePerUnit": 0.0075,
+            "minQuantity": 500,
+            "maxQuantity": 1500000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "4442 - ID 4442 - Facebook - Reacciones - Me divierte 😂 - Max 1.5M - $7.50 por 1000": {
+            "pricePerUnit": 0.0075,
+            "minQuantity": 500,
+            "maxQuantity": 1500000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "4445 - ID 4445 - Facebook - Reacciones - Me importa 🤗- Max 1.5M - $7.50 por 1000": {
+            "pricePerUnit": 0.0075,
+            "minQuantity": 500,
+            "maxQuantity": 1500000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "4446 - ID 4446 - Facebook - Reacciones - Me Asombra 😲- Max 1.5M - $7.50 por 1000": {
+            "pricePerUnit": 0.0075,
+            "minQuantity": 500,
+            "maxQuantity": 1500000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "4448 - ID 4448 - Facebook - Reacciones - Me Entristece 😢 - Max 1.5M - $7.50 por 1000": {
+            "pricePerUnit": 0.0075,
+            "minQuantity": 500,
+            "maxQuantity": 1500000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "4450 - ID 4450 - Facebook - Reacciones - Me enoja 😡- Max 1.5M - $7.50 por 1000": {
+            "pricePerUnit": 0.0075,
+            "minQuantity": 500,
+            "maxQuantity": 1500000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

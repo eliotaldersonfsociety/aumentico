@@ -1,0 +1,74 @@
+{
+  "Twitter - Vistas": {
+    "categories": {
+      "Twitter - Vistas": {
+        "types": {
+          "170 - ID 170 - Twitter - Vistas -  Max 1M  - 0-15 Min - $0.05 por 1000": {
+            "pricePerUnit": 0.000054,
+            "minQuantity": 250,
+            "maxQuantity": 100000000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "1831 - ID 1831 - Twitter - Vistas - Max 5M - 0-15 Min - $0.11 por 1000": {
+            "pricePerUnit": 0.000106,
+            "minQuantity": 100,
+            "maxQuantity": 5000000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "1832 - ID 1832 - Twitter - Vistas - Max 10M - 0-15 Min - $0.08 por 1000": {
+            "pricePerUnit": 0.000076,
+            "minQuantity": 250,
+            "maxQuantity": 10000000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "1833 - ID 1833 - Twitter - Vistas - Max 100M - 0-15 Min - $0.07 por 1000": {
+            "pricePerUnit": 0.000066,
+            "minQuantity": 250,
+            "maxQuantity": 100000000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "4458 - ID 4458 - Twitter - Vistas - Max 100M - 0-15 Min - $0.04 por 1000": {
+            "pricePerUnit": 0.000042000000000000004,
+            "minQuantity": 100,
+            "maxQuantity": 100000000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "172 - ID 172 - Twitter - Vistas -  Max 1M - 0-15 Min -  MÚLTIPLOS DE 10 - $1.48 por 1000": {
+            "pricePerUnit": 0.001484,
+            "minQuantity": 100,
+            "maxQuantity": 10000000,
+            "deliveryTime": "No especificado",
+            "description": "PEDIR SOLO MÚLTIPLOS DE 10",
+            "features": {}
+          },
+          "173 - ID 173 - Twitter - Vistas -  Max 500K - 0-15 Min - MULTIPLOS DE 10 - $0.08 por 1000": {
+            "pricePerUnit": 0.00008,
+            "minQuantity": 100,
+            "maxQuantity": 500000,
+            "deliveryTime": "No especificado",
+            "description": "PEDIR SOLO MULTIPLOS DE 10",
+            "features": {}
+          },
+          "3644 - ID 3644 - Twitter - vistas - $0.18 por 1000": {
+            "pricePerUnit": 0.00017999999999999998,
+            "minQuantity": 100,
+            "maxQuantity": 2147483647,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

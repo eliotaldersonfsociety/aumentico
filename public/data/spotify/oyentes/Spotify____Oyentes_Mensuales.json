@@ -1,0 +1,58 @@
+{
+  "Spotify  - Oyentes Mensuales": {
+    "categories": {
+      "Spotify  - Oyentes Mensuales": {
+        "types": {
+          "1953 - ID 1953 - Spotify - Oyentes mensuales - Francia - Max. 1M - $9.10 por 1000": {
+            "pricePerUnit": 0.0091,
+            "minQuantity": 1000,
+            "maxQuantity": 1000000,
+            "deliveryTime": "24 horas",
+            "description": "Incrementa el promedio mensual de oyentes.Inicio: De 1 a 24 horas aproximadamenteVelocidad: 1 a 5k por díaAudiencia: FranciaGarantía: No se ofrece ninguna recarga porque los enlaces de los oyentes de Spotify generalmente se enfrentan a caídas. Este servidor no tiene caídas, pero no ofrecerá recargas.👆 No olvide que estos datos son solo estimaciones (Pueden variar)—---------------------------------- ----Enlace: Insertar enlace de artista de spotifyEjemplo: https://open.spotify.com/artist/xyz",
+            "features": {}
+          },
+          "3225 - ID 3225- Spotify - Oyentes mensuales - USA - Max. 1M - $5.61 por 1000": {
+            "pricePerUnit": 0.005607999999999999,
+            "minQuantity": 500,
+            "maxQuantity": 100000,
+            "deliveryTime": "12 horas",
+            "description": "Incrementa el promedio mensual de oyentes.Inicio: De 1 a 12 horas aproximadamenteVelocidad: 1 a 5k por díaAudiencia: EE. UU./CA/UE/AU/NZ/Reino UnidoGarantía: Sin recarga👆 No olvide que estos datos son solo estimaciones (Pueden variar)—---------------------------------- ----Enlace: Insertar enlace de artista de spotifyEjemplo: https://open.spotify.com/artist/xyz",
+            "features": {}
+          },
+          "3749 - ID 3749 - Spotify . Oyentes Mensuales - $4.88 por 1000": {
+            "pricePerUnit": 0.004876,
+            "minQuantity": 1000,
+            "maxQuantity": 5000000,
+            "deliveryTime": "12 horas",
+            "description": "Incrementa el promedio mensual de oyentes.Inicio: De 1 a 12 horas aproximadamenteVelocidad: 1 a 5k por díaGarantía: Sin recarga👆 No olvide que estos datos son solo estimaciones (Pueden variar)—---------------------------------- ----Enlace: Insertar enlace de artista de spotifyEjemplo: https://open.spotify.com/artist/xyz",
+            "features": {}
+          },
+          "3747 - ID 3747 - Spotify . Oyentes Mensuales - $4.73 por 1000": {
+            "pricePerUnit": 0.004726,
+            "minQuantity": 500,
+            "maxQuantity": 50000,
+            "deliveryTime": "12 horas",
+            "description": "Incrementa el promedio mensual de oyentes.Inicio: De 1 a 12 horas aproximadamenteVelocidad: 1 a 5k por díaGarantía: Sin recarga👆 No olvide que estos datos son solo estimaciones (Pueden variar)—---------------------------------- ----Enlace: Insertar enlace de artista de spotifyEjemplo: https://open.spotify.com/artist/xyz",
+            "features": {}
+          },
+          "3227 - ID 3227- Spotify - Oyentes mensuales - USA - Max. 1M - $4.78 por 1000": {
+            "pricePerUnit": 0.004777999999999999,
+            "minQuantity": 1000,
+            "maxQuantity": 100000,
+            "deliveryTime": "12 horas",
+            "description": "Incrementa el promedio mensual de oyentes.Inicio: De 1 a 12 horas aproximadamenteVelocidad: 1 a 5k por díaAudiencia: EE. UU./CA/UE/AU/NZ/Reino UnidoGarantía: Sin recarga👆 No olvide que estos datos son solo estimaciones (Pueden variar)—---------------------------------- ----Enlace: Insertar enlace de artista de spotifyEjemplo: https://open.spotify.com/artist/xyz",
+            "features": {}
+          },
+          "3746 - ID  3746 - Spotify . Oyentes Mensuales - $5.66 por 1000": {
+            "pricePerUnit": 0.005656,
+            "minQuantity": 1000,
+            "maxQuantity": 5000000,
+            "deliveryTime": "12 horas",
+            "description": "Incrementa el promedio mensual de oyentes.Inicio: De 1 a 12 horas aproximadamenteVelocidad: 1 a 5k por díaGarantía: Sin recarga👆 No olvide que estos datos son solo estimaciones (Pueden variar)—---------------------------------- ----Enlace: Insertar enlace de artista de spotifyEjemplo: https://open.spotify.com/artist/xyz",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

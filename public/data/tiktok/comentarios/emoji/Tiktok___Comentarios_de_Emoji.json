@@ -1,0 +1,50 @@
+{
+  "Tiktok - Comentarios de Emoji": {
+    "categories": {
+      "Tiktok - Comentarios de Emoji": {
+        "types": {
+          "3897 - ID 3897 - TikTok - Comentario Emoji - Max50K - $2.10 por 1000": {
+            "pricePerUnit": 0.0021000000000000003,
+            "minQuantity": 1,
+            "maxQuantity": 50000,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 1 a 12 Horas \nComentarios de Emoji aleatorios\nGarantia: No\n—---------------------------------- ---- \nEnlace: Enlace de Video de TikTok \nEjemplo: https://www.tiktok.com/@jamesdrodriguez/video/7066095990230568198",
+            "features": {}
+          },
+          "4284 - ID 4284 - TikTok - Comentario Emoji - Max 50 K - $16.56 por 1000": {
+            "pricePerUnit": 0.01656,
+            "minQuantity": 10,
+            "maxQuantity": 50000,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 1 a 12 Horas \nComentarios de Emoji aleatorios\n—---------------------------------- ---- \nEnlace: Enlace de Video de TikTok \nEjemplo: https://www.tiktok.com/@jamesdrodriguez/video/7066095990230568198",
+            "features": {}
+          },
+          "615 - ID 615 - TikTok - Comentario Emoji - Max 2K - $17.25 por 1000": {
+            "pricePerUnit": 0.01725,
+            "minQuantity": 10,
+            "maxQuantity": 10000,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 1 a 12 Horas Comentarios de Emoji aleatorios—---------------------------------- ---- Enlace: Enlace de Video de TikTok Ejemplo: https://www.tiktok.com/@jamesdrodriguez/video/7066095990230568198",
+            "features": {}
+          },
+          "2784 - ID 2784 - TikTok - Comentario Emoji - $24.84 por 1000": {
+            "pricePerUnit": 0.02484,
+            "minQuantity": 10,
+            "maxQuantity": 20000,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 1 a 12 Horas \nComentarios de Emoji aleatorios\n—---------------------------------- ---- \nEnlace: Enlace de Video de TikTok \nEjemplo: https://www.tiktok.com/@jamesdrodriguez/video/7066095990230568198",
+            "features": {}
+          },
+          "2783 - ID 2783 - TikTok - Comentario Emoji - $1.20 por 1000": {
+            "pricePerUnit": 0.0012,
+            "minQuantity": 10,
+            "maxQuantity": 100000,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 1 a 12 Horas Comentarios de Emoji aleatorios—---------------------------------- ---- Enlace: Enlace de Video de TikTok Ejemplo: https://www.tiktok.com/@jamesdrodriguez/video/7066095990230568198",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

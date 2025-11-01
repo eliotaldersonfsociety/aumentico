@@ -1,0 +1,18 @@
+{
+  "Facebook - Compartir - Transmicion en vivo": {
+    "categories": {
+      "Facebook - Compartir - Transmicion en vivo": {
+        "types": {
+          "3524 - ID 3524 - Facebook - Compartir - TRANSMISIÓN EN VIVO - $46 por 1000": {
+            "pricePerUnit": 0.046,
+            "minQuantity": 100,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

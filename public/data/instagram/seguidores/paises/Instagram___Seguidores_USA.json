@@ -1,0 +1,34 @@
+{
+  "Instagram - Seguidores USA": {
+    "categories": {
+      "Instagram - Seguidores USA": {
+        "types": {
+          "543 - ID 543 - Instagram - 100% Seguidores de EE. UU. - Max 5k - R30 - $7.06 por 1000": {
+            "pricePerUnit": 0.007056,
+            "minQuantity": 100,
+            "maxQuantity": 1000000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "498 - ID 498 - Instagram - Seguidores USA  - Max. 5k - R30 - $11.60 por 1000": {
+            "pricePerUnit": 0.0116,
+            "minQuantity": 10,
+            "maxQuantity": 5000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "490 - ID 490 - Instagram - Seguidores USA - Max. 4k - R30 - $17.08 por 1000": {
+            "pricePerUnit": 0.017079999999999998,
+            "minQuantity": 10,
+            "maxQuantity": 15000,
+            "deliveryTime": "4 horas",
+            "description": "Inicio: De 0 a 4 horasVelocidad: 1 a 4k DiaPublico: USARecarga: 30 días (Si cae más del 10%)—--------------------------------------Enlace: Enlace de cuenta de InstagramEjemplo: https://www.instagram.com/falcao",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "Vimeo": {
+    "categories": {
+      "Vimeo": {
+        "types": {
+          "1185 - ID 1185 - Vimeo - Vistas de video - Max 10M - $1.56 por 1000": {
+            "pricePerUnit": 0.001556,
+            "minQuantity": 100,
+            "maxQuantity": 10000000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: De 0 a 30 minutosvelocidad: 10k DiaCaídas: Sin caídasRecarga: NoPublico: Mundial—--------------------------------------Enlace:Enlace de Video de VimeoEjemplo: https://vimeo.com/123",
+            "features": {}
+          },
+          "1186 - ID 1186 - Vimeo - Vistas de video - Max 100k - $1.05 por 1000": {
+            "pricePerUnit": 0.0010500000000000002,
+            "minQuantity": 100,
+            "maxQuantity": 100000,
+            "deliveryTime": "2 Horas",
+            "description": "Inicio: De 0 a 2 HorasCaídas: Sin caídasRecarga: NoPublico: Mundial—--------------------------------------Enlace:Enlace de Video de VimeoEjemplo: https://vimeo.com/123",
+            "features": {}
+          },
+          "1187 - ID 1187 - Vimeo - Vistas de video - Max 10M - $1.44 por 1000": {
+            "pricePerUnit": 0.0014399999999999999,
+            "minQuantity": 100,
+            "maxQuantity": 10000000,
+            "deliveryTime": "2 Horas",
+            "description": "Inicio: De 0 a 2 HorasVelocidad: 5k a 25k DiaCaídas: Sin caídasRecarga: NoPublico: Mundial—--------------------------------------Enlace:Enlace de Video de VimeoEjemplo: https://vimeo.com/123",
+            "features": {}
+          },
+          "1188 - ID 1188 - Vimeo - Vistas de video - Max 100K - $1.80 por 1000": {
+            "pricePerUnit": 0.001802,
+            "minQuantity": 100,
+            "maxQuantity": 1000000,
+            "deliveryTime": "2 Horas",
+            "description": "Inicio: De 0 a 2 HorasVelocidad: 5k a 25k DiaCaídas: Sin caídasRecarga: NoPublico: Mundial—--------------------------------------Enlace:Enlace de Video de VimeoEjemplo: https://vimeo.com/123",
+            "features": {}
+          },
+          "1191 - ID 1191 - Vimeo - Seguidores  -  Max 10K - R30 - $17.49 por 1000": {
+            "pricePerUnit": 0.01749,
+            "minQuantity": 50,
+            "maxQuantity": 10000,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 0 a 12 HorasVelocidad: Solo 200 al día aproximadamente Caídas: Sin caídasRecarga: Recarga de 30 Días (Si cae más del 10%)Publico: Mundial—--------------------------------------Enlace:Enlace de perfil de VimeoEjemplo: https://vimeo.com/xyz",
+            "features": {}
+          },
+          "1193 - ID 1191 - Vimeo - Me gusta  -  Max 10K - R30 - $16.91 por 1000": {
+            "pricePerUnit": 0.016908000000000003,
+            "minQuantity": 50,
+            "maxQuantity": 10000,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 0 a 12 HorasVelocidad: Solo 200 al día aproximadamente Caídas: Sin caídasRecarga: Recarga de 30 Días (Si cae más del 10%)Publico: Mundial—--------------------------------------Enlace:Enlace de publicación de VimeoEjemplo: https://vimeo.com/123",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

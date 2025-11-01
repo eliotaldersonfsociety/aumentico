@@ -1,0 +1,34 @@
+{
+  "Facebook - Comentarios PERSONALIZADOS - Transmicion en vivo": {
+    "categories": {
+      "Facebook - Comentarios PERSONALIZADOS - Transmicion en vivo": {
+        "types": {
+          "1489 - ID 1489 - Facebook - Comentarios PERSONALIZADOS - TRANSMISIÓN EN VIVO - $131 por 1000": {
+            "pricePerUnit": 0.131,
+            "minQuantity": 10,
+            "maxQuantity": 100,
+            "deliveryTime": "No especificado",
+            "description": "SOLO ACEPTA MÚLTIPLOS DE 10 (10 comentarios, 20 comentarios - 30 comentarios, etc)Inicio: De 0 a 5 minutosCalidad: Buena calidadPublico: MundialComentarios: Comentarios personalizados📌 Escriba un comentario por línea📌 No se aceptan menciones @📌 No se aceptan malas palabras o malas intenciones❌ Si el sistema detecta alguna falta, detendrá la entrega del servicio si derecho a reembolso.—--------------------------------------Enlace: Enlace de transmisión en vivo de Facebook",
+            "features": {}
+          },
+          "2728 - ID 2728- Facebook - Comentarios PERSONALIZADOS  - TRANSMISIÓN EN VIVO - $168 por 1000": {
+            "pricePerUnit": 0.168,
+            "minQuantity": 10,
+            "maxQuantity": 100,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: De 0 a 5 minutosCalidad: Buena calidadPublico: MundialComentarios: Comentarios personalizados📌 Escriba un comentario por línea📌 No se aceptan menciones @📌 No se aceptan malas palabras o malas intenciones❌ Si el sistema detecta alguna falta, detendrá la entrega del servicio si derecho a reembolso.—--------------------------------------Enlace: Enlace de transmisión en vivo de Facebook",
+            "features": {}
+          },
+          "1491 - ID 1491 - Facebook - Comentarios PERSONALIZADOS - TRANSMISIÓN EN VIVO - $320 por 1000": {
+            "pricePerUnit": 0.32,
+            "minQuantity": 1,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: De 0 a 5 minutosCalidad: Buena calidadPublico: MundialComentarios: Comentarios personalizados📌 Escriba un comentario por línea📌 No se aceptan menciones @📌 No se aceptan malas palabras o malas intenciones❌ Si el sistema detecta alguna falta, detendrá la entrega del servicio si derecho a reembolso.—--------------------------------------Enlace: Enlace de transmisión en vivo de Facebook",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "MixCloud": {
+    "categories": {
+      "MixCloud": {
+        "types": {
+          "5237 - ID 5237 - MixCloud - Me gusta - Max 10K - $9.51 por 1000": {
+            "pricePerUnit": 0.009507999999999999,
+            "minQuantity": 20,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: 1 h a 12 h \nVelocidad: 500 a 1K+ por día \nPublico: Mundial\nRecarga: Sin recarga\n👆 No olvide que estos datos son solo estimaciones (pueden variar)\n-------------------------------------------------\nEnlace: enlace de la pista\nEnlace de ejemplo: https://www.mixcloud.com/enchu/club-atlas-3/",
+            "features": {}
+          },
+          "5253 - ID 5253 - MixCloud - Me gusta - Max 10K - $9.60 por 1000": {
+            "pricePerUnit": 0.0096,
+            "minQuantity": 20,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: 1 h a 12 h \nVelocidad: 500 a 1K+ por día \nPublico: Mundial\nRecarga: Sin recarga\n👆 No olvide que estos datos son solo estimaciones (pueden variar)\n-------------------------------------------------\nEnlace: enlace de la pista\nEnlace de ejemplo: https://www.mixcloud.com/enchu/club-atlas-3/",
+            "features": {}
+          },
+          "5254 - ID 5254 - MixCloud - Me gusta - Max 5K - $9.60 por 1000": {
+            "pricePerUnit": 0.0096,
+            "minQuantity": 20,
+            "maxQuantity": 5000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: 1 h a 12 h \nVelocidad: 500 por día \nPublico: Mundial\nRecarga: Sin recarga\n👆 No olvide que estos datos son solo estimaciones (pueden variar)\n-------------------------------------------------\nEnlace: enlace de la pista\nEnlace de ejemplo: https://www.mixcloud.com/enchu/club-atlas-3/",
+            "features": {}
+          },
+          "5255 - ID 5255 - MixCloud - Seguidores - Max 10K - $9.60 por 1000": {
+            "pricePerUnit": 0.0096,
+            "minQuantity": 20,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: 1 h a 12 h \nVelocidad: 500 a 1K+ por día \nPublico: Mundial\nRecarga: Sin recarga\n👆 No olvide que estos datos son solo estimaciones (pueden variar)\n-------------------------------------------------\nEnlace: enlace de la pista\nEnlace de ejemplo: https://www.mixcloud.com/enchu/club-atlas-3/",
+            "features": {}
+          },
+          "5256 - ID 5256 - MixCloud - Seguidores - Max 5K - $9.60 por 1000": {
+            "pricePerUnit": 0.0096,
+            "minQuantity": 20,
+            "maxQuantity": 5000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: 1 h a 12 h \nVelocidad: 500  por día \nPublico: Mundial\nRecarga: Sin recarga\n👆 No olvide que estos datos son solo estimaciones (pueden variar)\n-------------------------------------------------\nEnlace: enlace de la pista\nEnlace de ejemplo: https://www.mixcloud.com/enchu/club-atlas-3/",
+            "features": {}
+          },
+          "5252 - ID 5252 - MixCloud - Reproducciones - Max 1M - $1.60 por 1000": {
+            "pricePerUnit": 0.0016,
+            "minQuantity": 100,
+            "maxQuantity": 1000000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: 1 h a 12 h \nVelocidad: 500 a 1K+ por día \nPublico: Mundial\nRecarga: Sin recarga\n👆 No olvide que estos datos son solo estimaciones (pueden variar)\n-------------------------------------------------\nEnlace: enlace de la pista\nEnlace de ejemplo: https://www.mixcloud.com/enchu/club-atlas-3/",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

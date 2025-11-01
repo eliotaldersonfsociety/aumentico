@@ -1,0 +1,26 @@
+{
+  "Kick.com - Espectadores de transmisiones en vivo": {
+    "categories": {
+      "Kick.com - Espectadores de transmisiones en vivo": {
+        "types": {
+          "4845 - ID 4845 - Kick.com - espectadores de transmisiones en vivo  - Max 10K - 15 Min - $0.60 por 1000": {
+            "pricePerUnit": 0.0006,
+            "minQuantity": 10,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "⚠️ inicie la transmisión y luego haga el pedido\n\nInicio: 5 a 10 minutos\nPublico: Mundial\nRecarga: Sin recarga\n👆 No olvide que estos datos son solo estimaciones (pueden variar)\n-------------------------------------------------\nEnlace: Enlace de canal Kick\nEnlace de ejemplo: https://kick.com/xxxx\n\n📌 Recuerde que debe de ser público",
+            "features": {}
+          },
+          "4846 - ID 4846 - Kick.com - espectadores de transmisiones en vivo  - Max 10K - 30 Min - $1.20 por 1000": {
+            "pricePerUnit": 0.0012,
+            "minQuantity": 10,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "⚠️ inicie la transmisión y luego haga el pedido\n\nInicio: 5 a 10 minutos\nPublico: Mundial\nRecarga: Sin recarga\n👆 No olvide que estos datos son solo estimaciones (pueden variar)\n-------------------------------------------------\nEnlace: Enlace de canal Kick\nEnlace de ejemplo: https://kick.com/xxxx\n\n📌 Recuerde que debe de ser público",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

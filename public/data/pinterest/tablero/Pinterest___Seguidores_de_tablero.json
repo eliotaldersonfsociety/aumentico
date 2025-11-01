@@ -1,0 +1,42 @@
+{
+  "Pinterest - Seguidores de tablero": {
+    "categories": {
+      "Pinterest - Seguidores de tablero": {
+        "types": {
+          "1211 - ID 1211 - Pinterest - Seguidores en el tablero - Max 10M - R30 - $6.20 por 1000": {
+            "pricePerUnit": 0.0062,
+            "minQuantity": 20,
+            "maxQuantity": 100000,
+            "deliveryTime": "12 horas",
+            "description": "Inicio: De 0 a 12 horasVelocidad: 200 a 500 DiaCalidad: Buena calidad Caídas: Sin caídasRecarga: 30 Días (Si cae más del 10%)Publico: Mundial —--------------------------------------Enlace: Link de tablero de PinterestEjemplo: https://www.pinterest.com/xyz/abc",
+            "features": {}
+          },
+          "1166 - ID 1166 - Pinterest - Seguidores de tablero - Max 500K - R30 - $6.82 por 1000": {
+            "pricePerUnit": 0.0068200000000000005,
+            "minQuantity": 20,
+            "maxQuantity": 500000,
+            "deliveryTime": "12 horas",
+            "description": "Inicio: De 30 minutos a 12 horasVelocidad: 500 a 5k DiaCaídas: Sin caídasRecarga: 30 Días (Si cae más del 10%)Publico: Mundial —--------------------------------------Enlace: Link de tablero de PinterestEjemplo: https://www.pinterest.com/xyz/abc",
+            "features": {}
+          },
+          "1168 - ID 1168 - Pinterest - Seguidores de tablero - Max 10M - R30 - $7.80 por 1000": {
+            "pricePerUnit": 0.0078,
+            "minQuantity": 20,
+            "maxQuantity": 10000000,
+            "deliveryTime": "12 horas",
+            "description": "Inicio: De 30 minutos a 12 horasVelocidad: 500 a 5k DiaCaídas: Sin caídasRecarga: 30 Días (Si cae más del 10%)Publico: Mundial —--------------------------------------Enlace: Link de tablero de PinterestEjemplo: https://www.pinterest.com/xyz/abc",
+            "features": {}
+          },
+          "1213 - ID 1213 - Pinterest - Seguidores de tablero - Max 200K - R30 - $9.92 por 1000": {
+            "pricePerUnit": 0.00992,
+            "minQuantity": 20,
+            "maxQuantity": 200000,
+            "deliveryTime": "12 horas",
+            "description": "Inicio: De 30 minutos a 12 horasVelocidad: 500 a 2k DiaCaídas: Sin caídasRecarga: 30 Días (Si cae más del 10%)Publico: Mundial —--------------------------------------Enlace: Link de tablero de PinterestEjemplo: https://www.pinterest.com/xyz/abc",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "Instagram - Guardar - Publicaciones": {
+    "categories": {
+      "Instagram - Guardar - Publicaciones": {
+        "types": {
+          "132 - ID 132 - Instagram - Guardar publicación -- Max. 1M - $0.01 por 1000": {
+            "pricePerUnit": 0.00001,
+            "minQuantity": 10,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: De 0 a 15 minutosCalidad: MezclaCaídas: Sin caídasGarantía: NoPublico: MundialCancelar: No disponible—--------------------------------------Enlace: Enlace de publicación de InstagramEjemplo: https://www.instagram.com/p/xyz",
+            "features": {}
+          },
+          "134 - ID 134 - Instagram - Guardar publicación -- Max. 100K - $0.01 por 1000": {
+            "pricePerUnit": 0.000014,
+            "minQuantity": 10,
+            "maxQuantity": 100000,
+            "deliveryTime": "2 Horas",
+            "description": "Inicio: De 0 a 2 HorasVelocidad: -Calidad: MezclaCaídas: Sin caídasGarantía: NoPublico: MundialCancelar: No disponible—--------------------------------------Enlace: Enlace de publicación de InstagramEjemplo: https://www.instagram.com/p/xyz",
+            "features": {}
+          },
+          "4817 - ID 4817 - Instagram - Guardar publicación - Max. 50K - $0.13 por 1000": {
+            "pricePerUnit": 0.000126,
+            "minQuantity": 50,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: De 15 a 60 minutos\nCalidad: Mezcla\nCaídas: Sin caídas\nGarantía: No\nPublico: Mundial\nCancelar: No disponible\n—--------------------------------------\nEnlace: Enlace de publicación de Instagram\nEjemplo: https://www.instagram.com/p/xyz",
+            "features": {}
+          },
+          "137 - ID 137 - Instagram - Guardar publicación + Impresión -- Max. 10K - $0.18 por 1000": {
+            "pricePerUnit": 0.000176,
+            "minQuantity": 100,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: De 0 a 15 MinutosVelocidad: 500 - 5000 HoraCalidad: MezclaCaídas: Sin caídasGarantía: NoPublico: MundialCancelar: No disponible—--------------------------------------Enlace: Enlace de publicación de InstagramEjemplo: https://www.instagram.com/p/xyz",
+            "features": {}
+          },
+          "4789 - ID 4789 - Instagram - Guardar publicación - Max. 50M - $0.19 por 1000": {
+            "pricePerUnit": 0.000192,
+            "minQuantity": 10,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: De 15 a 60 minutos\nCalidad: Mezcla\nCaídas: Sin caídas\nGarantía: No\nPublico: Mundial\nCancelar: No disponible\n—--------------------------------------\nEnlace: Enlace de publicación de Instagram\nEjemplo: https://www.instagram.com/p/xyz",
+            "features": {}
+          },
+          "131 - ID 131 - Instagram - Guardar publicación -- Max. 15K - $0.26 por 1000": {
+            "pricePerUnit": 0.000264,
+            "minQuantity": 100,
+            "maxQuantity": 400000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: De 0 a 2 horaVelocidad: -Calidad: MezclaCaídas: Sin caídasGarantía: NoPublico: MundialCancelar: No disponible—--------------------------------------Enlace: Enlace de publicación de InstagramEjemplo: https://www.instagram.com/p/xyz",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

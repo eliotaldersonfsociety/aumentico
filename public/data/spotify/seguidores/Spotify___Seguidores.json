@@ -1,0 +1,42 @@
+{
+  "Spotify - Seguidores": {
+    "categories": {
+      "Spotify - Seguidores": {
+        "types": {
+          "293 - ID 293 - Spotify - Seguidores/Usuario/Podcast - Max 150k - R30 - $0.63 por 1000": {
+            "pricePerUnit": 0.000626,
+            "minQuantity": 100,
+            "maxQuantity": 100000000,
+            "deliveryTime": "30 Días",
+            "description": "Inicio: De 0 a 30 minutosCalidad: apariencia realPublico: MundoCaídas: Sin caídasRecarga: 30 Días (Si cae más del 10%)—--------------------------------------Enlace: Enlace de usuario de SpotifyEjemplo: https://open.spotify.com/user/xyz—--------------------------------------📌 Los seguidores de usuarios y artistas se actualizarán en 1-48 horas📌 Seguidores/Usuario/Artista/Podcast funcionan para todas las listas de reproducción",
+            "features": {}
+          },
+          "301 - Spotify -  Seguidores de Spotify (Usuario/Lista de reproducción/Artista) - Max 10k - $0.74 por 1000": {
+            "pricePerUnit": 0.000736,
+            "minQuantity": 100,
+            "maxQuantity": 1000000,
+            "deliveryTime": "48 horas",
+            "description": "Inicio: De 0 a 1 horaVelocidad: 2 a 5k DiaCalidad: BOTPublico: MundoRecarga: Sin recarga—--------------------------------------Enlace: Insertar enlace de perfil completoEjemplo:  https://open.spotify. com/playlist—-------------------------------------📌 Los seguidores de usuarios y artistas se actualizarán en 1 - 48 horas📌 Puede caer en cualquier momento, sin recarga ni reembolso en ningún caso",
+            "features": {}
+          },
+          "292 - ID 292 - Spotify - Seguidores/Usuario/Lista de reproducción /Artista - Max 50k - R60 - $0.64 por 1000": {
+            "pricePerUnit": 0.00064,
+            "minQuantity": 100,
+            "maxQuantity": 1000000,
+            "deliveryTime": "60 Días",
+            "description": "Inicio: De 0 a 30 minutosVelocidad:  1 a 10k DiaCalidad: Real MixPublico: MundoCaídas: Sin caídasRecarga: 60 Días (Si cae más del 10%)—--------------------------------------Enlace: Enlace de usuario de SpotifyEjemplo: https://open.spotify.com/user/xyz—--------------------------------------📌 Los seguidores de usuarios y artistas se actualizarán en 1-48 horas",
+            "features": {}
+          },
+          "295 - Spotify - Seguidores de usuarios de (BOT) - Max 1M - $0.36 por 1000": {
+            "pricePerUnit": 0.00035999999999999997,
+            "minQuantity": 100,
+            "maxQuantity": 1000000,
+            "deliveryTime": "12 horas",
+            "description": "Inicio: De 0 a 12 horasVelocidad:  2 a 5 k DiaCalidad: BotPublico: MundoCaídas: -Recarga: Sin recarga—--------------------------------------Enlace: Enlace de la página del artista de SpotifyEjemplo: https://open.spotify.com/artist—-------------------------------------📌 Los seguidores de usuarios y artistas se actualizarán en 1-48 horas",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

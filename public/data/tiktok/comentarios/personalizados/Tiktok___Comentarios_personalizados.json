@@ -1,0 +1,50 @@
+{
+  "Tiktok - Comentarios personalizados": {
+    "categories": {
+      "Tiktok - Comentarios personalizados": {
+        "types": {
+          "218 - ID 218 - TikTok - Comentario personalizado - Max 1K - $22.09 por 1000": {
+            "pricePerUnit": 0.022088,
+            "minQuantity": 5,
+            "maxQuantity": 1000,
+            "deliveryTime": "6 Horas",
+            "description": "Inicio: De 0 a 6 Horas Un comentario por linea —---------------------------------- ---- Enlace: Enlace de Video de TikTok Ejemplo: https://www.tiktok.com/@jamesdrodriguez/video/7066095990230568198",
+            "features": {}
+          },
+          "4251 - ID 4251 - TikTok - Comentarios Personalizados - Max 10K - $75 por 1000": {
+            "pricePerUnit": 0.075,
+            "minQuantity": 5,
+            "maxQuantity": 750,
+            "deliveryTime": "12 horas",
+            "description": "✔️ Inicio: 1 a 12 horas\n✔️ Enlace: Enlace de publicación de TikTok\n✔️ En promedio  1 K al Día\n✔️ Tiempo de finalización: 0-24 horas\n\n⚠️ Recuerda no se pueden enviar enlaces erróneos.\n⚠️ No ingrese un segundo pedido cuando tenga un pedido activo en el sistema.\n⚠️ El número máximo solo se puede utilizar una vez por perfil.\n⚠️Un comentario por línea",
+            "features": {}
+          },
+          "2499 - ID 2499 - TikTok - Comentarios personalizados - Max 1K - $75 por 1000": {
+            "pricePerUnit": 0.075,
+            "minQuantity": 5,
+            "maxQuantity": 750,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 1 a 12 Horas Un comentario por línea —---------------------------------- ---- Enlace: Enlace de Video de TikTok Ejemplo: https://www.tiktok.com/@jamesdrodriguez/video/7066095990230568198",
+            "features": {}
+          },
+          "3572 - ID 3572 - TikTok - Comentarios personalisados - Max. 1000 - $144 por 1000": {
+            "pricePerUnit": 0.144,
+            "minQuantity": 5,
+            "maxQuantity": 10000,
+            "deliveryTime": "6 Horas",
+            "description": "Inicio: De 0 a 6 Horas Un comentario por línea —---------------------------------- ---- Enlace: Enlace de Video de TikTok Ejemplo: https://www.tiktok.com/@jamesdrodriguez/video/7066095990230568198",
+            "features": {}
+          },
+          "4249 - ID 4249 - TikTok - Comentarios Personalizados - Max 20K - $13.02 por 1000": {
+            "pricePerUnit": 0.01302,
+            "minQuantity": 1,
+            "maxQuantity": 20000,
+            "deliveryTime": "12 horas",
+            "description": "✔️ Inicio: 1 a 12 horas\n✔️ Enlace: Enlace de publicación de TİkTok\n✔️ En promedio  3K-5K por Día\n✔️ Tiempo de finalización: 0-24 horas\n\n⚠️ Recuerda no se pueden enviar enlaces erróneos.\n⚠️ No ingrese un segundo pedido cuando tenga un pedido activo en el sistema.\n⚠️ El número máximo solo se puede utilizar una vez por perfil.\n⚠️Un comentario por línea",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

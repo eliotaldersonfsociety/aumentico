@@ -1,0 +1,50 @@
+{
+  "Motion Array": {
+    "categories": {
+      "Motion Array": {
+        "types": {
+          "2916 - ID 2916 Motion Array - 30 dias - $5.24 por 1": {
+            "pricePerUnit": 0.00524,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "30 días",
+            "description": "✅Tiempo de uso de 30 días.✅Se entrega como llave.✅ El uso se proporciona a través del panel que te daremos.✅ Límite: 100 descargas por día✅ No hay reembolsos después de la entrega.✅ Ingrese su dirección de correo al realizar su pedido.✅ Tiempo de entrega: 0-24 horas",
+            "features": {
+              "0": "✅Tiempo de uso de 30 días.✅Se entrega como llave.✅ El uso se proporciona a través del panel que te daremos.✅ Límite: 100 descargas por día✅ No hay reembolsos después de la entrega.✅ Ingrese su dirección de correo al realizar su pedido.✅ Tiempo de entrega: 0-24 horas"
+            }
+          },
+          "2917 - ID 2917 Motion Array - 90 dias - $12.24 por 1": {
+            "pricePerUnit": 0.012240000000000001,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "90 días",
+            "description": "✅Tiempo de uso de 90 días.✅Se entrega como llave.✅ El uso se proporciona a través del panel que te daremos.✅ Límite: 100 descargas por día✅ No hay reembolsos después de la entrega.✅ Ingrese su dirección de correo al realizar su pedido.✅ Tiempo de entrega: 0-24 horas",
+            "features": {
+              "0": "✅Tiempo de uso de 90 días.✅Se entrega como llave.✅ El uso se proporciona a través del panel que te daremos.✅ Límite: 100 descargas por día✅ No hay reembolsos después de la entrega.✅ Ingrese su dirección de correo al realizar su pedido.✅ Tiempo de entrega: 0-24 horas"
+            }
+          },
+          "2918 - ID 2918 Motion Array - 180 dias - $19.04 por 1": {
+            "pricePerUnit": 0.019039999999999998,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "180 días",
+            "description": "✅Tiempo de uso de 180 días.✅Se entrega como llave.✅ El uso se proporciona a través del panel que te daremos.✅ Límite: 100 descargas por día✅ No hay reembolsos después de la entrega.✅ Ingrese su dirección de correo al realizar su pedido.✅ Tiempo de entrega: 0-24 horas",
+            "features": {
+              "0": "✅Tiempo de uso de 180 días.✅Se entrega como llave.✅ El uso se proporciona a través del panel que te daremos.✅ Límite: 100 descargas por día✅ No hay reembolsos después de la entrega.✅ Ingrese su dirección de correo al realizar su pedido.✅ Tiempo de entrega: 0-24 horas"
+            }
+          },
+          "2919 - ID 2919 Motion Array - 360  dias - $33.60 por 1": {
+            "pricePerUnit": 0.033600000000000005,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "360 días",
+            "description": "✅Tiempo de uso de 360 días.✅Se entrega como llave.✅ El uso se proporciona a través del panel que te daremos.✅ Límite: 100 descargas por día✅ No hay reembolsos después de la entrega.✅ Ingrese su dirección de correo al realizar su pedido.✅ Tiempo de entrega: 0-24 horas",
+            "features": {
+              "0": "✅Tiempo de uso de 360 días.✅Se entrega como llave.✅ El uso se proporciona a través del panel que te daremos.✅ Límite: 100 descargas por día✅ No hay reembolsos después de la entrega.✅ Ingrese su dirección de correo al realizar su pedido.✅ Tiempo de entrega: 0-24 horas"
+            }
+          }
+        }
+      }
+    }
+  }
+}

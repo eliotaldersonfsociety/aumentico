@@ -1,0 +1,50 @@
+{
+  "YouTube - Vistas - Con garantia - Para pedidos grandes": {
+    "categories": {
+      "YouTube - Vistas - Con garantia - Para pedidos grandes": {
+        "types": {
+          "1506 - ID 1506 - YouTube - Vistas - Para pedidos grandes - Max 1M - R30 - $2.76 por 1000": {
+            "pricePerUnit": 0.0027559999999999998,
+            "minQuantity": 20000,
+            "maxQuantity": 10000000,
+            "deliveryTime": "48 Horas",
+            "description": "Inicio: De 2 a 48 HorasPublico: MundoCaídas: No se han reportado caídasRecarga: 30 Días (Si cae más del 10%)☝️ Recuerde que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://www.youtube.com/watch?xyz—--------------------------------------📌 No olvide que todo debe ser público",
+            "features": {}
+          },
+          "2615 - ID 2615 - YouTube -Vistas de YouTube - R30 - $2.25 por 1000": {
+            "pricePerUnit": 0.00225,
+            "minQuantity": 30000,
+            "maxQuantity": 100000000,
+            "deliveryTime": "48 Horas",
+            "description": "Inicio: De 2 a 48 HorasPublico: MundoCaídas: No se han reportado caídasRecarga: 30 Días (Si cae más del 10%)☝️ Recuerde que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://www.youtube.com/watch?xyz—--------------------------------------📌 No olvide que todo debe ser público",
+            "features": {}
+          },
+          "1509 - ID 1509 - YouTube - Vistas - Max 1M - R30 - $3.05 por 1000": {
+            "pricePerUnit": 0.003054,
+            "minQuantity": 20000,
+            "maxQuantity": 1000000,
+            "deliveryTime": "48 Horas",
+            "description": "Inicio: De 2 a 48 HorasPublico: MundoCaídas: Muy rara vezRecarga: 30 Días (Si cae más del 10%)☝️ Recuerde que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://www.youtube.com/watch?xyz—--------------------------------------📌 No olvide que todo debe ser público",
+            "features": {}
+          },
+          "1461 - ID 1461 - YouTube - Vistas - Max 10M - R30 - $2.57 por 1000": {
+            "pricePerUnit": 0.002574,
+            "minQuantity": 5000,
+            "maxQuantity": 1000000,
+            "deliveryTime": "8 Horas",
+            "description": "Inicio: De 1 a 8 HorasVelocidad: 500 por diaPublico: MundoCaídas: 0 al 5%Recarga: 30 Días (Si cae más del 10%)☝️ Recuerde que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://www.youtube.com/watch?xyz📌 Asegúrese de que su video no sea privado.",
+            "features": {}
+          },
+          "3584 - ID 3584 - YouTube - Vistas - Max. 5M - R30 - $2.61 por 1000": {
+            "pricePerUnit": 0.002608,
+            "minQuantity": 20000,
+            "maxQuantity": 5000000,
+            "deliveryTime": "48 Horas",
+            "description": "Inicio: De 2 a 48 HorasPublico: MundoCaídas: Muy rara vezRecarga: 30 Días (Si cae más del 10%)☝️ Recuerde que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://www.youtube.com/watch?xyz—--------------------------------------📌 No olvide que todo debe ser público",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

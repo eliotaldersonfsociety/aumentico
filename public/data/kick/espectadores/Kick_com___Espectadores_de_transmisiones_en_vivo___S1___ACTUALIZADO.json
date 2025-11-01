@@ -1,0 +1,58 @@
+{
+  "Kick.com - Espectadores de transmisiones en vivo - S1 - ACTUALIZADO": {
+    "categories": {
+      "Kick.com - Espectadores de transmisiones en vivo - S1 - ACTUALIZADO": {
+        "types": {
+          "4837 - ID 4837 - Kick.com - espectadores de transmisiones en vivo  - Max 50K - 15 Min - $0.31 por 1000": {
+            "pricePerUnit": 0.000308,
+            "minQuantity": 10,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "Descripción del servicio\n⚠️ inicie la transmisión y luego haga el pedido\n- Ubicación: Mundial\n- Enlace: Enlace de transmisión en vivo de Kick.com\n- Hora de inicio: 10 - 15 minutos \n- Calidad: %100 estable\n- Tiempo: 15 Minutos\n- Recaraga: NO\n\nNotas:\n• Cuando el servicio está ocupado, la velocidad de inicio del proceso cambia.\n• No realice el segundo pedido en el mismo enlace antes de que su pedido se complete en el sistema.",
+            "features": {}
+          },
+          "4838 - ID 4838 - Kick.com - espectadores de transmisiones en vivo  - Max 50K - 30 Min - $0.62 por 1000": {
+            "pricePerUnit": 0.000616,
+            "minQuantity": 10,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "Descripción del servicio\n⚠️ inicie la transmisión y luego haga el pedido\n- Ubicación: Mundial\n- Enlace: Enlace de transmisión en vivo de Kick.com\n- Hora de inicio: 10 - 15 minutos \n- Calidad: %100 estable\n- Tiempo: 30 Minutos\n- Recarga: NO\n\nNotas:\n• Cuando el servicio está ocupado, la velocidad de inicio del proceso cambia.\n• No realice el segundo pedido en el mismo enlace antes de que su pedido se complete en el sistema.",
+            "features": {}
+          },
+          "4839 - ID 4839 - Kick.com - espectadores de transmisiones en vivo  - Max 50K - 45 Min - $0.96 por 1000": {
+            "pricePerUnit": 0.0009599999999999999,
+            "minQuantity": 10,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "Descripción del servicio\n⚠️ inicie la transmisión y luego haga el pedido\n- Ubicación: Mundial\n- Enlace: Enlace de transmisión en vivo de Kick.com\n- Hora de inicio: 10 - 15 minutos \n- Calidad: %100 estable\n- Tiempo: 45 Minutos\n- Recarga: NO\n\nNotas:\n• Cuando el servicio está ocupado, la velocidad de inicio del proceso cambia.\n• No realice el segundo pedido en el mismo enlace antes de que su pedido se complete en el sistema.",
+            "features": {}
+          },
+          "4840 - ID 4840 - Kick.com - espectadores de transmisiones en vivo  - Max 50K - 60 Min - $1.24 por 1000": {
+            "pricePerUnit": 0.00124,
+            "minQuantity": 10,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "Descripción del servicio\n⚠️ inicie la transmisión y luego haga el pedido\n- Ubicación: Mundial\n- Enlace: Enlace de transmisión en vivo de Kick.com\n- Hora de inicio: 10 - 15 minutos \n- Calidad: %100 estable\n- Tiempo: 60 Minutos\n- Recarga: NO\n\nNotas:\n• Cuando el servicio está ocupado, la velocidad de inicio del proceso cambia.\n• No realice el segundo pedido en el mismo enlace antes de que su pedido se complete en el sistema.",
+            "features": {}
+          },
+          "4841 - ID 4841 - Kick.com - espectadores de transmisiones en vivo  - Max 50K - 120 Min - $2.48 por 1000": {
+            "pricePerUnit": 0.00248,
+            "minQuantity": 10,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "Descripción del servicio\n⚠️ inicie la transmisión y luego haga el pedido\n- Ubicación: Mundial\n- Enlace: Enlace de transmisión en vivo de Kick.com\n- Hora de inicio: 10 - 15 minutos \n- Calidad: %100 estable\n- Tiempo: 120 Minutos\n- Recarga: NO\n\nNotas:\n• Cuando el servicio está ocupado, la velocidad de inicio del proceso cambia.\n• No realice el segundo pedido en el mismo enlace antes de que su pedido se complete en el sistema.",
+            "features": {}
+          },
+          "4843 - ID 4843 - Kick.com - espectadores de transmisiones en vivo  - Max 50K - 240 Min - $4.96 por 1000": {
+            "pricePerUnit": 0.00496,
+            "minQuantity": 10,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "Descripción del servicio\n⚠️ inicie la transmisión y luego haga el pedido\n- Ubicación: Mundial\n- Enlace: Enlace de transmisión en vivo de Kick.com\n- Hora de inicio: 10 - 15 minutos \n- Calidad: %100 estable\n- Tiempo: 240 Minutos\n- Recarga: NO\n\nNotas:\n• Cuando el servicio está ocupado, la velocidad de inicio del proceso cambia.\n• No realice el segundo pedido en el mismo enlace antes de que su pedido se complete en el sistema.",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

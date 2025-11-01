@@ -1,0 +1,26 @@
+{
+  "Pinterest - Me gusta": {
+    "categories": {
+      "Pinterest - Me gusta": {
+        "types": {
+          "2572 - ID 2572 - Pinterest - Pin - Me gusta Max 500K - R30 - $6.20 por 1000": {
+            "pricePerUnit": 0.0062,
+            "minQuantity": 50,
+            "maxQuantity": 500000,
+            "deliveryTime": "12 horas",
+            "description": "Inicio: De 30 minutos a 12 horasVelocidad: 500 a 5k DiaCaídas: 5%Recarga: 30 Días (Si cae más del 10%)Publico: Mundial 👆 No olvide que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace: Link del pin de PinterestEjemplo: https://www.pinterest.com/pin/123456789",
+            "features": {}
+          },
+          "2575 - ID 2575 - Pinterest - Pin - Me gusta Max 3K - R30 - $37.06 por 1000": {
+            "pricePerUnit": 0.03706,
+            "minQuantity": 1,
+            "maxQuantity": 10000,
+            "deliveryTime": "12 horas",
+            "description": "Inicio: De 30 minutos a 12 horasVelocidad: 500 a 2k DiaCaídas: 5%Recarga: 30 Días (Si cae más del 10%)Publico: Mundial 👆 No olvide que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace: Link del pin de PinterestEjemplo: https://www.pinterest.com/pin/123456789",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

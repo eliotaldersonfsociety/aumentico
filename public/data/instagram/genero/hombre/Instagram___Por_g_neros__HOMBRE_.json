@@ -1,0 +1,58 @@
+{
+  "Instagram - Por géneros (HOMBRE)": {
+    "categories": {
+      "Instagram - Por géneros (HOMBRE)": {
+        "types": {
+          "4585 - ID 4585 - Instagram - Me gusta Mayormente Hombres  - Max 50K  - R30 - $1.06 por 1000": {
+            "pricePerUnit": 0.001056,
+            "minQuantity": 20,
+            "maxQuantity": 50000,
+            "deliveryTime": "12  horas",
+            "description": "Inicio: De 1 A 12  horas\nCalidad: Buena calidad \nRecarga: 30 Días (Si cae más del 10%)\n—---------------------------------- ----\nEnlace: Enlace de publicación\nEjemplo: https://www.instagram.com/p/xyz",
+            "features": {}
+          },
+          "3880 - ID 3880 - Instagram - Me gusta - Mayormente HOMBRES - $1.02 por 1000": {
+            "pricePerUnit": 0.001024,
+            "minQuantity": 20,
+            "maxQuantity": 100000,
+            "deliveryTime": "12  horaS",
+            "description": "Inicio: De 1 A 12  horaSCalidad: Buena calidad Recarga: 30 Días (Si cae más del 10%)—---------------------------------- ----Enlace: Enlace de publicaciónEjemplo: https://www.instagram.com/p/xyz",
+            "features": {}
+          },
+          "591 - ID 591 - Instagram - Me gusta masculino (Brasil) mejor calidad - Max. 500 - $3.29 por 1000": {
+            "pricePerUnit": 0.003294,
+            "minQuantity": 10,
+            "maxQuantity": 5000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "595 - ID 595 - Instagram - Me gusta 100% masculino - Max. 10K - $2.97 por 1000": {
+            "pricePerUnit": 0.00297,
+            "minQuantity": 50,
+            "maxQuantity": 1000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "589 - ID 589 - Instagram - Seguidor MASCULINO (Brasil) - Max. 10k - R30 - $19.20 por 1000": {
+            "pricePerUnit": 0.0192,
+            "minQuantity": 20,
+            "maxQuantity": 10000,
+            "deliveryTime": "3 horas",
+            "description": "Inicio: De 0 a 3 horasCalidad: Buena calidad Publico: Brasil - Cuentas masculinasRecarga: 30 Días (Si cae más del 10%)—---------------------------------- ----Enlace: Enlace de cuentaEjemplo: https://www.instagram.com/jamesrodriguez10/",
+            "features": {}
+          },
+          "593 - ID 593 - Instagram - Comentarios aleatorios masculinos - Max. 5k - $19.80 por 1000": {
+            "pricePerUnit": 0.0198,
+            "minQuantity": 25,
+            "maxQuantity": 20000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "Twitch - Seguidores": {
+    "categories": {
+      "Twitch - Seguidores": {
+        "types": {
+          "1310 - ID 1310 - Twitch - Seguidores - Max10k - R30 ⚡️ - $0.46 por 1000": {
+            "pricePerUnit": 0.000462,
+            "minQuantity": 20,
+            "maxQuantity": 10000,
+            "deliveryTime": "30 Días",
+            "description": "Inicio: de 1h a 12 h\nVelocidad:  500 a 2k Dia\nCalidad: Apariencia real\nAudiencia: Mundo\nGarantía: (30 Días si cae más del 10%) \n—---------------------------------- ----\nEnlace: Insertar enlace de perfil de twitch completo\nEjemplo: https://www.twitch.tv/xyz",
+            "features": {}
+          },
+          "4880 - ID 4880 - Twitch - Seguidores - Max20k - R30 ⚡️ - $3.09 por 1000": {
+            "pricePerUnit": 0.003088,
+            "minQuantity": 20,
+            "maxQuantity": 20000,
+            "deliveryTime": "30 Días",
+            "description": "Inicio: de 1h a 12 h\nVelocidad:  500 a 2k Dia\nCalidad: Apariencia real\nAudiencia: Mundo\nGarantía: (30 Días si cae más del 10%) \n—---------------------------------- ----\nEnlace: Insertar enlace de perfil de twitch completo\nEjemplo: https://www.twitch.tv/xyz",
+            "features": {}
+          },
+          "4882 - ID 4882 - Twitch - Seguidores - Max20k - R30 - $1.28 por 1000": {
+            "pricePerUnit": 0.00128,
+            "minQuantity": 50,
+            "maxQuantity": 20000,
+            "deliveryTime": "30 Días",
+            "description": "Inicio: de 2h a 24 h\nVelocidad:  500 a 2k Dia\nCalidad: Apariencia real\nAudiencia: Mundo\nGarantía: (30 Días si cae más del 10%) \n—---------------------------------- ----\nEnlace: Insertar enlace de perfil de twitch completo\nEjemplo: https://www.twitch.tv/xyz",
+            "features": {}
+          },
+          "4883 - ID 4883 - Twitch - Seguidores - Max2M - R90 - $1.35 por 1000": {
+            "pricePerUnit": 0.00135,
+            "minQuantity": 20,
+            "maxQuantity": 2000000,
+            "deliveryTime": "90 Días",
+            "description": "Inicio: de 2h a 24 h\nVelocidad:  500 a 2k Dia\nCalidad: Apariencia real\nAudiencia: Mundo\nGarantía: (90 Días si cae más del 10%) \n—---------------------------------- ----\nEnlace: Insertar enlace de perfil de twitch completo\nEjemplo: https://www.twitch.tv/xyz",
+            "features": {}
+          },
+          "1316 - ID 1316 - Twitch - Seguidores - Max. 150k - SR - $1.95 por 1000": {
+            "pricePerUnit": 0.00195,
+            "minQuantity": 50,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: De 0 a 1 hCalidad: Apariencia realAudiencia: MundoRecarga: Sin recarga📌 No olvide que estos datos pueden variar.—---------------------------------- ----Enlace: Insertar enlace de perfil de twitch completoEjemplo: https://www.twitch.tv/xy",
+            "features": {}
+          },
+          "2694 - ID 2694 - Twitch Seguidores  | Máximo 10K | 0-6 horas - $7.96 por 1000": {
+            "pricePerUnit": 0.007956000000000001,
+            "minQuantity": 100,
+            "maxQuantity": 500000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: De 1 a 12 hCalidad: Apariencia realAudiencia: MundoRecarga: Sin recarga📌 No olvide que estos datos pueden variar.—---------------------------------- ----Enlace: Insertar enlace de perfil de twitch completoEjemplo: https://www.twitch.tv/xy",
+            "features": {}
+          },
+          "2695 - ID 2695 -Twitch - Seguidores ~ 𝐑𝐄𝗔𝐋 - 2.5k - 𝗥 30D - $17.97 por 1000": {
+            "pricePerUnit": 0.017972000000000002,
+            "minQuantity": 50,
+            "maxQuantity": 2500,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: De 0 a 1 hCalidad: Apariencia realAudiencia: MundoRecarga: 30 Dias (Si baja mas del 10%)📌 No olvide que estos datos pueden variar.—---------------------------------- ----Enlace: Insertar enlace de perfil de twitch completoEjemplo: https://www.twitch.tv/xy",
+            "features": {}
+          },
+          "2696 - ID 2696 -Twitch Seguidores  | Máximo 20K | 0-6 horas - $0.79 por 1000": {
+            "pricePerUnit": 0.0007920000000000001,
+            "minQuantity": 20,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: De 1 a 12 hCalidad: Apariencia realAudiencia: MundoRecarga: Sin recarga📌 No olvide que estos datos pueden variar.—---------------------------------- ----Enlace: Insertar enlace de perfil de twitch completoEjemplo: https://www.twitch.tv/xy",
+            "features": {}
+          },
+          "4153 - ID 4153 - Twitch - Seguidores - Max 2M - $0.97 por 1000": {
+            "pricePerUnit": 0.000972,
+            "minQuantity": 20,
+            "maxQuantity": 2000000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: de 12h a 24 hVelocidad:  500 a 2k DiaCalidad: Apariencia realAudiencia: MundoGarantía: No—---------------------------------- ----Enlace: Insertar enlace de perfil de twitch completoEjemplo: https://www.twitch.tv/xyz",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

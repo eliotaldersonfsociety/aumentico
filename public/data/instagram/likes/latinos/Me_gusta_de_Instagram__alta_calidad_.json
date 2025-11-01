@@ -1,0 +1,18 @@
+{
+  "Me gusta de Instagram (alta calidad)": {
+    "categories": {
+      "Me gusta de Instagram (alta calidad)": {
+        "types": {
+          "280 - ID 280 - Instagram - Me gusta - Buena calidad - America Latina, USA, Asia - R30 - $5.44 por 1000": {
+            "pricePerUnit": 0.00544,
+            "minQuantity": 10,
+            "maxQuantity": 30000,
+            "deliveryTime": "2 Horas",
+            "description": "Inicio: De 0 a 2 Horas (Cuando está congestionado, puede ser más)Velocidad: 3k a 8K por díaCaídas: Sin caídasGarantía: Recarga de 30 días (En caso de caer más del 10%)Publico: Mundial, también van latinosCancelar: No disponible—--------------------------------------Enlace: Enlace de publicación de InstagramEjemplo: https://www.instagram.com/p/xyz",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

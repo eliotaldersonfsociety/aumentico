@@ -1,0 +1,50 @@
+{
+  "Twitter - Me gusta - Con Garantía": {
+    "categories": {
+      "Twitter - Me gusta - Con Garantía": {
+        "types": {
+          "2973 - ID 2973 - Twitter (PARA PUBLICACIONES - Me gusta - Max 5K -  R30 - $8.66 por 1000": {
+            "pricePerUnit": 0.008656,
+            "minQuantity": 10,
+            "maxQuantity": 5000,
+            "deliveryTime": "No especificado",
+            "description": "⚠️ Alta posibilidad de caídas",
+            "features": {}
+          },
+          "4380 - ID 4380 - Twitter - Me gusta Mundial- Max. 10K - R30 - $12.60 por 1000": {
+            "pricePerUnit": 0.0126,
+            "minQuantity": 10,
+            "maxQuantity": 10000,
+            "deliveryTime": "0-1 horas",
+            "description": "Inicio: 0-1 horas\nVelocidad: 1K día\nRecarga: 30 días (si cae 10%)\n⚠️ Alta posibilidad de caídas",
+            "features": {}
+          },
+          "4381 - ID 4381 - Twitter - Me gusta Mundial- Max. 1K - R30 - $11.01 por 1000": {
+            "pricePerUnit": 0.011009999999999999,
+            "minQuantity": 10,
+            "maxQuantity": 4000,
+            "deliveryTime": "0-1 horas",
+            "description": "Inicio: 0-1 horas\nVelocidad: 1K día\nRecarga: 30 días (si cae 10%)\n⚠️ Alta posibilidad de caídas",
+            "features": {}
+          },
+          "4382 - ID 4382 - Twitter - Me gusta - Max. 4K - R30 - $10.50 por 1000": {
+            "pricePerUnit": 0.0105,
+            "minQuantity": 20,
+            "maxQuantity": 4000,
+            "deliveryTime": "0-1 horas",
+            "description": "Inicio: 0-1 horas\nVelocidad: 500 día\nRecarga: 30 días (si cae 10%)\n⚠️ Alta posibilidad de caídas",
+            "features": {}
+          },
+          "4384 - ID 4384 - Twitter - Me gusta  - Max. 1M - R45 - $34.02 por 1000": {
+            "pricePerUnit": 0.03402,
+            "minQuantity": 20,
+            "maxQuantity": 1000000,
+            "deliveryTime": "0-1 horas",
+            "description": "Inicio: 0-1 horas\nVelocidad:1K\nRecarga: 45 días (si cae 10%)\n⚠️ Alta posibilidad de caídas",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "Kwai - Comentarios": {
+    "categories": {
+      "Kwai - Comentarios": {
+        "types": {
+          "4170 - ID 4170 - Kwai - Comentarios aleatorios - BRASIL- 1M - $3.12 por 1000": {
+            "pricePerUnit": 0.0031179999999999997,
+            "minQuantity": 10,
+            "maxQuantity": 1000000,
+            "deliveryTime": "24 Horas",
+            "description": "Inicio: De 1 a 24 HorasVelocidad: 100 a 1000 por DíaCalidad: Buena calidadPublico: BrasilGarantía: NO👆 No olvide que estos datos son solo estimaciones (Pueden variar)—--------------------------------------🔞 Contenido para adultos no compatible",
+            "features": {}
+          },
+          "4728 - ID 4728 - Kwai - Comentarios Personalizados - 1M - $5.89 por 1000": {
+            "pricePerUnit": 0.005888,
+            "minQuantity": 10,
+            "maxQuantity": 1000000,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 1 a 12 Horas\nPublico: Mundo\nCaídas: -\nRecarga: No\nComentarios: Comentarios personalizados\n📌 Escriba un comentario por línea\n📌 No se aceptan menciones @\n📌 No se aceptan malas palabras o malas intenciones\n❌ Si el sistema detecta alguna falta, detendrá la entrega del servicio si derecho a reembolso.\n—--------------------------------------",
+            "features": {}
+          },
+          "4171 - ID 4171 - Kwai - Comentarios Personalizados - 1M - $10.67 por 1000": {
+            "pricePerUnit": 0.010672000000000001,
+            "minQuantity": 10,
+            "maxQuantity": 1000000,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 1 a 12 HorasPublico: MundoCaídas: -Recarga: NoComentarios: Comentarios personalizados📌 Escriba un comentario por línea📌 No se aceptan menciones @📌 No se aceptan malas palabras o malas intenciones❌ Si el sistema detecta alguna falta, detendrá la entrega del servicio si derecho a reembolso.—--------------------------------------",
+            "features": {}
+          },
+          "2362 - ID 2362 - Kwai - Comentarios personalizados - Max 5k - $33.60 por 1000": {
+            "pricePerUnit": 0.033600000000000005,
+            "minQuantity": 10,
+            "maxQuantity": 5000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

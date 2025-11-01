@@ -1,0 +1,74 @@
+{
+  "YouTube - Comunidad": {
+    "categories": {
+      "YouTube - Comunidad": {
+        "types": {
+          "1291 - ID 1291 - YouTube - Me gusta en la publicación de la comunidad - Max 5k - R15 - $2.40 por 1000": {
+            "pricePerUnit": 0.0024,
+            "minQuantity": 10,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "📌 No pongas un enlace de video, es solo para publicaciones de la comunidad de YouTube.¿Como obtener el enlace?hacer clic en la hora/fecha de publicaciónEjemplo:https://www.youtube.com/post/Ugkx2LKKsXl86blpLy33gsXmVWzBpmLa_e2r",
+            "features": {}
+          },
+          "2660 - ID 2660 -Me gusta en la publicación de la comunidad - R 15 - $8.44 por 1000": {
+            "pricePerUnit": 0.008438000000000001,
+            "minQuantity": 10,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "No pongas un enlace de video, es solo para publicaciones de la comunidad de YouTube.¿Como obtener el enlace?hacer clic en la hora/fecha de publicaciónEjemplo:https://www.youtube.com/post/Ugkx2LKKsXl86blpLy33gsXmVWzBpmLa_e2r",
+            "features": {}
+          },
+          "2661 - ID2661 - Me gusta en la publicación de la comunidad -R15 - $10.80 por 1000": {
+            "pricePerUnit": 0.0108,
+            "minQuantity": 100,
+            "maxQuantity": 3000,
+            "deliveryTime": "No especificado",
+            "description": "No pongas un enlace de video, es solo para publicaciones de la comunidad de YouTube.¿Como obtener el enlace?hacer clic en la hora/fecha de publicaciónEjemplo:https://www.youtube.com/post/Ugkx2LKKsXl86blpLy33gsXmVWzBpmLa_e2r",
+            "features": {}
+          },
+          "2662 - ID 2662 - Me gusta en la publicación de la comunidad - $11.95 por 1000": {
+            "pricePerUnit": 0.011952,
+            "minQuantity": 10,
+            "maxQuantity": 150000,
+            "deliveryTime": "No especificado",
+            "description": "No pongas un enlace de video, es solo para publicaciones de la comunidad de YouTube.¿Como obtener el enlace?hacer clic en la hora/fecha de publicaciónEjemplo:https://www.youtube.com/post/Ugkx2LKKsXl86blpLy33gsXmVWzBpmLa_e2r",
+            "features": {}
+          },
+          "2664 - ID 2664 Me gusta en la publicación de la comunidad - $15.48 por 1000": {
+            "pricePerUnit": 0.01548,
+            "minQuantity": 500,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "No pongas un enlace de video, es solo para publicaciones de la comunidad de YouTube.¿Como obtener el enlace?hacer clic en la hora/fecha de publicaciónEjemplo:https://www.youtube.com/post/Ugkx2LKKsXl86blpLy33gsXmVWzBpmLa_e2r",
+            "features": {}
+          },
+          "2667 - ID 2667- Me gusta en la publicación de la comunidad - (RAPIDO) - $8.21 por 1000": {
+            "pricePerUnit": 0.008208,
+            "minQuantity": 50,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2668 - ID 2668 -Me gusta en la publicación de la comunidad - R15 - $14.40 por 1000": {
+            "pricePerUnit": 0.0144,
+            "minQuantity": 50,
+            "maxQuantity": 1500,
+            "deliveryTime": "No especificado",
+            "description": "No pongas un enlace de video, es solo para publicaciones de la comunidad de YouTube.¿Como obtener el enlace?hacer clic en la hora/fecha de publicaciónEjemplo:https://www.youtube.com/post/Ugkx2LKKsXl86blpLy33gsXmVWzBpmLa_e2r",
+            "features": {}
+          },
+          "2669 - ID  2669 -Me gusta en la publicación de la comunidad - $10.80 por 1000": {
+            "pricePerUnit": 0.0108,
+            "minQuantity": 100,
+            "maxQuantity": 2000,
+            "deliveryTime": "No especificado",
+            "description": "No pongas un enlace de video, es solo para publicaciones de la comunidad de YouTube.¿Como obtener el enlace?hacer clic en la hora/fecha de publicaciónEjemplo:https://www.youtube.com/post/Ugkx2LKKsXl86blpLy33gsXmVWzBpmLa_e2r",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

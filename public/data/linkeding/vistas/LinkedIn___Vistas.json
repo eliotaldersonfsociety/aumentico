@@ -1,0 +1,26 @@
+{
+  "LinkedIn - Vistas": {
+    "categories": {
+      "LinkedIn - Vistas": {
+        "types": {
+          "561 - ID 561 - LinkedIn - Visualizaciones de publicaciones - Foto - Vídeo - Max 50k - $8.40 por 1000": {
+            "pricePerUnit": 0.008400000000000001,
+            "minQuantity": 500,
+            "maxQuantity": 5000000,
+            "deliveryTime": "24 horas",
+            "description": "Inicio: de 0 a 24 horas.Velocidad: 500 a 1k DiaRecarga: No",
+            "features": {}
+          },
+          "1556 - ID 1556- LinkedIn - Visualizaciones de publicaciones - Foto - Vídeo - Max 4k - $26.25 por 1000": {
+            "pricePerUnit": 0.02625,
+            "minQuantity": 500,
+            "maxQuantity": 100000000,
+            "deliveryTime": "24 horas",
+            "description": "Inicio: de 1 a 24 horas.Velocidad: 1k a 5k DiaCaídas: No que se sepaRecarga: 30 dias (Si cae más del 10%)",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

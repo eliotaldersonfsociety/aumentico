@@ -1,0 +1,58 @@
+{
+  "YouTube - Servicios Latinos/Hispanos": {
+    "categories": {
+      "YouTube - Servicios Latinos/Hispanos": {
+        "types": {
+          "5195 - ID 5195 - YouTube - Comentarios aleatorios HISPANOS - Max. 5K - $7.80 por 1000": {
+            "pricePerUnit": 0.0078,
+            "minQuantity": 10,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2041 - ID 2041 - YouTube - Comentarios aleatorios HISPANOS + USA - Max. 8K - $53.20 por 1000": {
+            "pricePerUnit": 0.053200000000000004,
+            "minQuantity": 10,
+            "maxQuantity": 8000,
+            "deliveryTime": "24 Horas",
+            "description": "COMENTARIOS ALEATORIOSInicio: De 1 a  24 HorasPublico: Habla hispanaRecarga: Sin recarga—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "724 - ID 724 - YouTube - Comentarios aleatorios HISPANOS - Max 100 - $70 por 1000": {
+            "pricePerUnit": 0.07,
+            "minQuantity": 10,
+            "maxQuantity": 250,
+            "deliveryTime": "24 Horas",
+            "description": "COMENTARIOS ALEATORIOSInicio: De 1 a  24 HorasPublico: Habla hispanaRecarga: Sin recarga—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "5018 - ID 5018 - YouTube - Comentarios aleatorios HISPANOS - Max 250 - $82.50 por 1000": {
+            "pricePerUnit": 0.0825,
+            "minQuantity": 10,
+            "maxQuantity": 250,
+            "deliveryTime": "24 Horas",
+            "description": "COMENTARIOS ALEATORIOS\nInicio: De 1 a  24 Horas\nPublico: Habla hispana\nRecarga: Sin recarga\n—--------------------------------------\nEnlace: Enlace de video de YouTube\nEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "5019 - ID 5019 - YouTube - Comentarios aleatorios HISPANOS - Max 250 - $97.50 por 1000": {
+            "pricePerUnit": 0.0975,
+            "minQuantity": 10,
+            "maxQuantity": 250,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "725 - ID 725 - YouTube - Comentarios aleatorios HISPANOS - $94.25 por 1000": {
+            "pricePerUnit": 0.09425,
+            "minQuantity": 10,
+            "maxQuantity": 250,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 0 a 12 HorasPublico: Habla hispanaComentarios personalizados📌 Escriba un comentario por línea📌 No se aceptan menciones📌 No se aceptan malas palabras o malas intenciones❌ Si el sistema detecta alguna falta, detendrá la entrega del servicio si derecho a reembolso.—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "YouTube - Visualizaciones de transmisión en vivo": {
+    "categories": {
+      "YouTube - Visualizaciones de transmisión en vivo": {
+        "types": {
+          "5201 - ID 5201 - YouTube - Vistas de transmisión en vivo - 30 Minutos - Max 10K - $2.04 por 1000": {
+            "pricePerUnit": 0.0020440000000000002,
+            "minQuantity": 50,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "5202 - ID 5202 - YouTube - Vistas de transmisión en vivo - 60 Minutos - Max 10K - $8.11 por 1000": {
+            "pricePerUnit": 0.008112,
+            "minQuantity": 50,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "5203 - ID 5203 - YouTube - Vistas de transmisión en vivo - 90 Minutos - Max 10K - $12.19 por 1000": {
+            "pricePerUnit": 0.01219,
+            "minQuantity": 50,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "5204 - ID 5204 - YouTube - Vistas de transmisión en vivo - 120 Minutos - Max 10K - $16.23 por 1000": {
+            "pricePerUnit": 0.016225999999999997,
+            "minQuantity": 50,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "5205 - ID 5205 - YouTube - Vistas de transmisión en vivo - 180 Minutos - Max 10K - $24.35 por 1000": {
+            "pricePerUnit": 0.02435,
+            "minQuantity": 50,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "5206 - ID 5206 - YouTube - Vistas de transmisión en vivo - 240 Minutos - Max 10K - $32.46 por 1000": {
+            "pricePerUnit": 0.032456000000000006,
+            "minQuantity": 50,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "3711 - ID 3711 - YouTube - Vistas de transmisión en vivo - 360 Minutos - Max 10K - $48.67 por 1000": {
+            "pricePerUnit": 0.048670000000000005,
+            "minQuantity": 50,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "Hora de inicio: de 0 a 15 minutosPara pedidos de 1000 obtienes 1000 espectadoresSi agregaste 2000 obtienes 2000 espectadores📌 Poner enlace de transmisión en vivo de YouTube",
+            "features": {}
+          },
+          "4347 - ID 4347 - YouTube - Vistas de transmisión en vivo - 15 Minutos - Max. 50k - $0.15 por 1000": {
+            "pricePerUnit": 0.00015,
+            "minQuantity": 50,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "Hora de inicio: de 0 a 15 minutos\n\nPara pedidos de 1000 obtienes 1000 espectadores\nSi agregaste 2000 obtienes 2000 espectadores\n\n📌 Poner enlace de transmisión en vivo de YouTube",
+            "features": {}
+          },
+          "4348 - ID 4348 - YouTube - Vistas de transmisión en vivo - 30 Minutos - Max. 50k - $0.30 por 1000": {
+            "pricePerUnit": 0.000298,
+            "minQuantity": 50,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "4349 - ID 4349 - YouTube - Vistas de transmisión en vivo - 60 Minutos - Max. 50k - $0.59 por 1000": {
+            "pricePerUnit": 0.000594,
+            "minQuantity": 50,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "Hora de inicio: de 0 a 15 minutos\n\nPara pedidos de 1000 obtienes 1000 espectadores\nSi agregaste 2000 obtienes 2000 espectadores\n\n📌 Poner enlace de transmisión en vivo de YouTube",
+            "features": {}
+          },
+          "4350 - ID 4350 - YouTube - Vistas de transmisión en vivo - 90 Minutos - Max. 50k - $0.89 por 1000": {
+            "pricePerUnit": 0.000892,
+            "minQuantity": 50,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "Hora de inicio: de 0 a 15 minutos\n\nPara pedidos de 1000 obtienes 1000 espectadores\nSi agregaste 2000 obtienes 2000 espectadores\n\n📌 Poner enlace de transmisión en vivo de YouTube",
+            "features": {}
+          },
+          "4351 - ID 4351 - YouTube - Vistas de transmisión en vivo - 120 Minutos - Max. 50k - $1.19 por 1000": {
+            "pricePerUnit": 0.001188,
+            "minQuantity": 50,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "Hora de inicio: de 0 a 15 minutos\n\nPara pedidos de 1000 obtienes 1000 espectadores\nSi agregaste 2000 obtienes 2000 espectadores\n\n📌 Poner enlace de transmisión en vivo de YouTube",
+            "features": {}
+          },
+          "4352 - ID 4352 - YouTube - Vistas de transmisión en vivo - 150 Minutos - Max. 50k - $2.38 por 1000": {
+            "pricePerUnit": 0.002376,
+            "minQuantity": 50,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "Hora de inicio: de 0 a 15 minutos\n\nPara pedidos de 1000 obtienes 1000 espectadores\nSi agregaste 2000 obtienes 2000 espectadores\n\n📌 Poner enlace de transmisión en vivo de YouTube",
+            "features": {}
+          },
+          "4353 - ID 4353 - YouTube - Vistas de transmisión en vivo - 180 Minutos - Max. 50k - $1.78 por 1000": {
+            "pricePerUnit": 0.001782,
+            "minQuantity": 50,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "Hora de inicio: de 0 a 15 minutos\n\nPara pedidos de 1000 obtienes 1000 espectadores\nSi agregaste 2000 obtienes 2000 espectadores\n\n📌 Poner enlace de transmisión en vivo de YouTube",
+            "features": {}
+          },
+          "4354 - ID 4354 - YouTube - Vistas de transmisión en vivo - 360 Minutos - Max. 50k - $3.56 por 1000": {
+            "pricePerUnit": 0.003564,
+            "minQuantity": 50,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "Hora de inicio: de 0 a 15 minutos\n\nPara pedidos de 1000 obtienes 1000 espectadores\nSi agregaste 2000 obtienes 2000 espectadores\n\n📌 Poner enlace de transmisión en vivo de YouTube",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

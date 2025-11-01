@@ -1,0 +1,42 @@
+{
+  "Instagram - Estadisticas automaticas": {
+    "categories": {
+      "Instagram - Estadisticas automaticas": {
+        "types": {
+          "4459 - ID 4459 - Instagram - Guardar publicación - AUTOMATICO - Max. 1M - $0.01 por 1000": {
+            "pricePerUnit": 0.00001,
+            "minQuantity": 10,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "¡Administra fácilmente tus redes sociales o las de tus clientes!\n\nEste servicio rastrea las futuras publicaciones, y envía automáticamente los Guardados.\nTambién puedes enviar Guardados automáticos a las publicaciones antiguas.\n\nCalidad: Buena calidad\nPublico: Mundial",
+            "features": {}
+          },
+          "4465 - ID 4465 - Instagram - Guardar publicación - AUTOMATICO- Max. 100K - $0.01 por 1000": {
+            "pricePerUnit": 0.000014,
+            "minQuantity": 10,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "¡Administra fácilmente tus redes sociales o las de tus clientes!\n\nEste servicio rastrea las futuras publicaciones, y envía automáticamente los Guardados.\nTambién puedes enviar Guardados automáticos a las publicaciones antiguas.\n\nCalidad: Buena calidad\nPublico: Mundial",
+            "features": {}
+          },
+          "4466 - ID 4466 - Instagram - Guardar publicación AUTOMATICAS-- Max. 400K - $0.26 por 1000": {
+            "pricePerUnit": 0.000264,
+            "minQuantity": 100,
+            "maxQuantity": 400000,
+            "deliveryTime": "No especificado",
+            "description": "¡Administra fácilmente tus redes sociales o las de tus clientes!\n\nEste servicio rastrea las futuras publicaciones, y envía automáticamente los Guardados.\nTambién puedes enviar Guardados automáticos a las publicaciones antiguas.\n\nCalidad: Buena calidad\nPublico: Mundial",
+            "features": {}
+          },
+          "4467 - ID 4467 - Instagram - Impresiones (Otro) AUTOMATICO - Max. 20k - $0.17 por 1000": {
+            "pricePerUnit": 0.00016800000000000002,
+            "minQuantity": 100,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "¡Administra fácilmente tus redes sociales o las de tus clientes!\n\nEste servicio rastrea las futuras publicaciones, y envía automáticamente las impresiones.\nTambién puedes enviar impresiones automáticas a las publicaciones antiguas.\n\nCalidad: Buena calidad\nPublico: Mundial",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

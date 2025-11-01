@@ -1,0 +1,42 @@
+{
+  "Instagram - Comentarios automáticos 🤖": {
+    "categories": {
+      "Instagram - Comentarios automáticos 🤖": {
+        "types": {
+          "2538 - ID 2538 - Instagram - Comentario Emoji - AUTOMATICO - Max 10k - $9.49 por 1000": {
+            "pricePerUnit": 0.009492,
+            "minQuantity": 10,
+            "maxQuantity": 10000,
+            "deliveryTime": "12 horas",
+            "description": "Inicio: De 15 minutos a 12 horasPublico: MundoCaídas: Sin caídasRecarga: No",
+            "features": {}
+          },
+          "2539 - ID 2539 - Instagram - Comentario Emoji - AUTOMATICO - Max 100k - $10.80 por 1000": {
+            "pricePerUnit": 0.0108,
+            "minQuantity": 10,
+            "maxQuantity": 50000,
+            "deliveryTime": "12 horas",
+            "description": "Inicio: De 15 minutos a 12 horasPublico: MundoCaídas: Sin caídasRecarga: No",
+            "features": {}
+          },
+          "2540 - ID 2540 - Instagram - Comentarios aleatorios - AUTOMATICO - Max 10k - $17.25 por 1000": {
+            "pricePerUnit": 0.01725,
+            "minQuantity": 5,
+            "maxQuantity": 10000,
+            "deliveryTime": "12 horas",
+            "description": "Inicio: De 15 minutos a 12 horasPublico: MundoCaídas: Sin caídasRecarga: No",
+            "features": {}
+          },
+          "3080 - ID 3080 - Instagram - Comentarios aleatorios - AUTOMATICO - Max 10k - $10.40 por 1000": {
+            "pricePerUnit": 0.0104,
+            "minQuantity": 10,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

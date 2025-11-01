@@ -1,0 +1,98 @@
+{
+  "Dribbble": {
+    "categories": {
+      "Dribbble": {
+        "types": {
+          "5283 - ID 5283 - Vistas Dribbble - Max 500K - $2.40 por 1000": {
+            "pricePerUnit": 0.0024,
+            "minQuantity": 100,
+            "maxQuantity": 500000,
+            "deliveryTime": "12 HoraS",
+            "description": "-Hora de inicio: 1 a 12 HoraS\n- Velocidad: 30k/día\n- Calidad: Alta\n- Tasa de abandono: Ninguna\n- Recarga o reembolso: No\n- Cancelación: No\n\n\n- URL de ejemplo: https://dribbble.com/shots/19026688-Example-Test",
+            "features": {}
+          },
+          "5284 - ID 5284 - Me gusta Dribbble - Max 1K - $2.40 por 1000": {
+            "pricePerUnit": 0.0024,
+            "minQuantity": 25,
+            "maxQuantity": 1000,
+            "deliveryTime": "12 HoraS",
+            "description": "-Hora de inicio: 1 a 12 HoraS\n- Velocidad: 30k/día\n- Calidad: Alta\n- Tasa de abandono: Ninguna\n- Recarga o reembolso: No\n- Cancelación: No\n\n\n- URL de ejemplo: https://dribbble.com/shots/19026688-Example-Test",
+            "features": {}
+          },
+          "5285 - ID 5285 -  Vistas Dribbble - Max 500K - $2.40 por 1000": {
+            "pricePerUnit": 0.0024,
+            "minQuantity": 100,
+            "maxQuantity": 500000,
+            "deliveryTime": "12 HoraS",
+            "description": "-Hora de inicio: 1 a 12 HoraS\n- Velocidad: 30k/día\n- Calidad: Alta\n- Tasa de abandono: Ninguna\n- Recarga o reembolso: No\n- Cancelación: No\n\n\n- URL de ejemplo: https://dribbble.com/shots/19026688-Example-Test",
+            "features": {}
+          },
+          "5286 - ID 5286 -  Me gusta Dribbble - Max 1K - $2.40 por 1000": {
+            "pricePerUnit": 0.0024,
+            "minQuantity": 25,
+            "maxQuantity": 1000,
+            "deliveryTime": "12 HoraS",
+            "description": "-Hora de inicio: 1 a 12 HoraS\n- Velocidad: 30k/día\n- Calidad: Alta\n- Tasa de abandono: Ninguna\n- Recarga o reembolso: No\n- Cancelación: No\n\n\n- URL de ejemplo: https://dribbble.com/shots/19026688-Example-Test",
+            "features": {}
+          },
+          "5287 - ID 5287 -  Seguidores Dribbble - Max 2K - $2.40 por 1000": {
+            "pricePerUnit": 0.0024,
+            "minQuantity": 25,
+            "maxQuantity": 2000,
+            "deliveryTime": "12 Horas",
+            "description": "-Hora de inicio: 1 a 12 Horas\n- Velocidad: 30k/día\n- Calidad: Alta\n- Tasa de abandono: Ninguna\n- Recarga o reembolso: No\n- Cancelación: No\n\nExample URL - https://dribbble.com/Example",
+            "features": {}
+          },
+          "5288 - ID 5288 -  Vistas Dribbble - Max 500K - $2.60 por 1000": {
+            "pricePerUnit": 0.0026,
+            "minQuantity": 100,
+            "maxQuantity": 500000,
+            "deliveryTime": "12 HoraS",
+            "description": "-Hora de inicio: 1 a 12 HoraS\n- Velocidad: 30k/día\n- Calidad: Alta\n- Tasa de abandono: Ninguna\n- Recarga o reembolso: No\n- Cancelación: No\n\n\n- URL de ejemplo: https://dribbble.com/shots/19026688-Example-Test",
+            "features": {}
+          },
+          "5289 - ID 5289 -  Me gusta Dribbble - Max 1K - $2.60 por 1000": {
+            "pricePerUnit": 0.0026,
+            "minQuantity": 25,
+            "maxQuantity": 1000,
+            "deliveryTime": "12 HoraS",
+            "description": "-Hora de inicio: 1 a 12 HoraS\n- Velocidad: 30k/día\n- Calidad: Alta\n- Tasa de abandono: Ninguna\n- Recarga o reembolso: No\n- Cancelación: No\n\n\n- URL de ejemplo: https://dribbble.com/shots/19026688-Example-Test",
+            "features": {}
+          },
+          "5290 - ID 5290 -  Vistas Dribbble - Max 500K - $2.80 por 1000": {
+            "pricePerUnit": 0.0028,
+            "minQuantity": 100,
+            "maxQuantity": 500000,
+            "deliveryTime": "12 HoraS",
+            "description": "-Hora de inicio: 1 a 12 HoraS\n- Velocidad: 30k/día\n- Calidad: Alta\n- Tasa de abandono: Ninguna\n- Recarga o reembolso: No\n- Cancelación: No\n\n\n- URL de ejemplo: https://dribbble.com/shots/19026688-Example-Test",
+            "features": {}
+          },
+          "5291 - ID 5291 -  Me gusta Dribbble - Max 1K - $2.80 por 1000": {
+            "pricePerUnit": 0.0028,
+            "minQuantity": 25,
+            "maxQuantity": 1000,
+            "deliveryTime": "12 HoraS",
+            "description": "-Hora de inicio: 1 a 12 HoraS\n- Velocidad: 30k/día\n- Calidad: Alta\n- Tasa de abandono: Ninguna\n- Recarga o reembolso: No\n- Cancelación: No\n\n\n- URL de ejemplo: https://dribbble.com/shots/19026688-Example-Test",
+            "features": {}
+          },
+          "5292 - ID 5292 -  Seguidores Dribbble - Max 2K - $2.80 por 1000": {
+            "pricePerUnit": 0.0028,
+            "minQuantity": 25,
+            "maxQuantity": 2000,
+            "deliveryTime": "12 Horas",
+            "description": "-Hora de inicio: 1 a 12 Horas\n- Velocidad: 30k/día\n- Calidad: Alta\n- Tasa de abandono: Ninguna\n- Recarga o reembolso: No\n- Cancelación: No\n\nExample URL - https://dribbble.com/Example",
+            "features": {}
+          },
+          "5293 - ID 5293 -  Seguidores Dribbble - Max 2K - $3.60 por 1000": {
+            "pricePerUnit": 0.0036,
+            "minQuantity": 25,
+            "maxQuantity": 2000,
+            "deliveryTime": "12 Horas",
+            "description": "-Hora de inicio: 1 a 12 Horas\n- Velocidad: 30k/día\n- Calidad: Alta\n- Tasa de abandono: Ninguna\n- Recarga o reembolso: No\n- Cancelación: No\n\nExample URL - https://dribbble.com/Example",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

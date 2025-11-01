@@ -1,0 +1,50 @@
+{
+  "Instagram - Seguidores - Pais objetivo": {
+    "categories": {
+      "Instagram - Seguidores - Pais objetivo": {
+        "types": {
+          "4651 - ID 4651 - Instagram - Seguidores - 100% Brasil - Max. 15k - $14.82 por 1000": {
+            "pricePerUnit": 0.01482,
+            "minQuantity": 10,
+            "maxQuantity": 150000,
+            "deliveryTime": "12 horas",
+            "description": "Inicio: De 1 a 12 horas\nCalidad: Seguidores con apariencia real\nPublico: 100% Brasil\nCancelar: No disponible\n☝️ No olvide que estos datos son solo estimaciones (Pueden variar)\n—--------------------------------------\nEnlace: Usuario de la cuenta de Instagram\n\n📌 Su cuenta debe ser pública",
+            "features": {
+              "0": "Publico: 100% Brasil"
+            }
+          },
+          "4650 - ID 4650 - Instagram - Seguidores - 100% Canada - Max. 5k - $12.32 por 1000": {
+            "pricePerUnit": 0.012320000000000001,
+            "minQuantity": 5,
+            "maxQuantity": 5000,
+            "deliveryTime": "12 horas",
+            "description": "Inicio: De 1 a 12 horas\nCalidad: Seguidores con apariencia real\nPublico: 100% Canadá (algunos pueden ir sin foto 5 %)\nCancelar: No disponible\n☝️ No olvide que estos datos son solo estimaciones (Pueden variar)\n—--------------------------------------\nEnlace: Usuario de la cuenta de Instagram\n\n📌 Su cuenta debe ser pública",
+            "features": {
+              "0": "Publico: 100% Canadá (algunos pueden ir sin foto 5 %)"
+            }
+          },
+          "4652 - ID 4652 - Instagram - Seguidores - 100% Francia y Italia - Max. 5k - $11.70 por 1000": {
+            "pricePerUnit": 0.011699999999999999,
+            "minQuantity": 5,
+            "maxQuantity": 5000,
+            "deliveryTime": "12 horas",
+            "description": "nicio: De 1 a 12 horas\nCalidad: Seguidores con apariencia real\nPublico: 100% Francia y Italia\nCancelar: No disponible\n☝️ No olvide que estos datos son solo estimaciones (Pueden variar)\n—--------------------------------------\nEnlace: Usuario de la cuenta de Instagram\n\n📌 Su cuenta debe ser pública",
+            "features": {
+              "0": "Publico: 100% Francia y Italia"
+            }
+          },
+          "4660 - ID 4660 - Instagram - Seguidores - 100% Estados Unidos - Max. 200k - $18.72 por 1000": {
+            "pricePerUnit": 0.01872,
+            "minQuantity": 10,
+            "maxQuantity": 1000000,
+            "deliveryTime": "12 horas",
+            "description": "Inicio: De 1 a 12 horas\nCalidad: Seguidores con apariencia real\nPublico: 100% Estados Unidos\nRecarga: 30 dias\nCancelar: No disponible\n☝️ No olvide que estos datos son solo estimaciones (Pueden variar)\n—--------------------------------------\nEnlace: Enlace de cuenta de Instagram\nEjemplo: https://www.instagram.com/falcao\n\n📌 Su cuenta debe ser pública",
+            "features": {
+              "0": "Publico: 100% Estados Unidos"
+            }
+          }
+        }
+      }
+    }
+  }
+}

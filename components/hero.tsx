@@ -5,17 +5,14 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import Link from "next/link";
-import { useTranslation } from "react-i18next";
 
 export function Hero() {
-  const { t } = useTranslation();
-
   const mensajes = [
-    t("hero.message1"),
-    t("hero.message2"),
-    t("hero.message3"),
-    t("hero.message4"),
-    t("hero.message5"),
+    "Aumenta tu presencia en redes sociales 🌟",
+    "Impulsa tu cuenta con seguidores reales 🚀",
+    "Aumenta tu alcance en Instagram y TikTok 💥",
+    "Entrega rápida y resultados visibles 📈",
+    "Confianza y soporte 24/7 🧠",
   ]
 
   const [index, setIndex] = useState(0)
@@ -43,7 +40,7 @@ export function Hero() {
       {/* Contenido principal */}
       <div className="relative z-10 container mx-auto px-4 text-center text-white pt-50">
         <Badge variant="secondary" className="mb-6 bg-white/20 text-white backdrop-blur-sm animate-pulse">
-          {t("hero.badge")}
+          Nuevo: Precios Competitivos
         </Badge>
 
         {/* Burbujas dinámicas */}
@@ -66,7 +63,7 @@ export function Hero() {
         <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Link href="#pricing">
             <Button size="lg" className="w-full sm:w-auto bg-pink-500 hover:bg-pink-600 text-white animate-bounce">
-              {t("hero.pricing")}
+              Ver Precios
             </Button>
           </Link>
           <Link href="/auth/register">
@@ -75,7 +72,7 @@ export function Hero() {
               variant="outline"
               className="w-full sm:w-auto bg-white/20 border backdrop-blur-md shadow-md border-white/30 !border-b-white"
             >
-              {t("nav.register")}
+              Registrarse
             </Button>
           </Link>
         </div>

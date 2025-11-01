@@ -1,0 +1,66 @@
+{
+  "YouTube - Comentarios personalizados": {
+    "categories": {
+      "YouTube - Comentarios personalizados": {
+        "types": {
+          "4258 - ID 4258 - YouTube - Comentarios Personalizados - Max 100K - $27.68 por 1000": {
+            "pricePerUnit": 0.027676,
+            "minQuantity": 20,
+            "maxQuantity": 200000,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 0 a  12 Horas\nPublico: Mundial\nRecarga: Sin garantía\n\n📌 Escriba un comentario por línea\n📌 No se aceptan menciones \n📌 No se aceptan malas palabras o malas intenciones\n❌ Si el sistema detecta alguna falta, detendrá la entrega del servicio sin derecho a reembolso.\n—--------------------------------------\nEnlace: Enlace de video de YouTube\nEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "2460 - ID 2460 - YouTube - Comentarios personalizado - Max 1M - 30R - $15.69 por 1000": {
+            "pricePerUnit": 0.015694,
+            "minQuantity": 10,
+            "maxQuantity": 100000,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 1 a 12 Horas\nPublico: Mundo\nRecarga: 30 Días (Si cae más del 10%)\n📌 Escriba un comentario por línea\n📌 No se aceptan menciones\n📌 No se aceptan malas palabras o malas intenciones\n❌ Si el sistema detecta alguna falta, detendrá la entrega del servicio si derecho a reembolso.\n—--------------------------------------\nEnlace: Enlace de video de YouTube\nEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "459 - ID 459 - YouTube -  Comentarios Personalizados  - Max 10k - $11.66 por 1000": {
+            "pricePerUnit": 0.011656000000000001,
+            "minQuantity": 5,
+            "maxQuantity": 10000,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 0 a 12 HorasPublico: MundoRecarga: Sin recarga📌 Escriba un comentario por línea📌 No se aceptan menciones📌 No se aceptan malas palabras o malas intenciones❌ Si el sistema detecta alguna falta, detendrá la entrega del servicio si derecho a reembolso.—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "4269 - ID 4269 - YouTube - Comentarios Personalizados - Orientales - Max 200K - R30 - $17.90 por 1000": {
+            "pricePerUnit": 0.017904,
+            "minQuantity": 10,
+            "maxQuantity": 100000,
+            "deliveryTime": "4 Horas",
+            "description": "Inicio: De 0 a  4 Horas\nPublico: Orientales\nRecarga: 30 Días (Si cae el 10%)\n📌 Escriba un comentario por línea\n📌 No se aceptan menciones \n📌 No se aceptan malas palabras o malas intenciones\n❌ Si el sistema detecta alguna falta, detendrá la entrega del servicio sin derecho a reembolso.\n—--------------------------------------\nEnlace: Enlace de video de YouTube\nEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "4706 - ID 4705 - YouTube - Comentarios personalizados - Max 5k - R30 - ACTUALIZADO - $22.50 por 1000": {
+            "pricePerUnit": 0.0225,
+            "minQuantity": 5,
+            "maxQuantity": 5000,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 1 a  12 Horas\nPublico: Mundial\nRecarga: 30 Días (Si cae el 10%)\n📌 Escriba un comentario por línea\n📌 No se aceptan menciones \n📌 No se aceptan malas palabras o malas intenciones\n❌ Si el sistema detecta alguna falta, detendrá la entrega del servicio sin derecho a reembolso.\n—--------------------------------------\nEnlace: Enlace de video de YouTube\nEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "458 - ID 458 - YouTube -  Comentarios Personalizados (Brasil) - Max 500 - $115.64 por 1000": {
+            "pricePerUnit": 0.11564,
+            "minQuantity": 10,
+            "maxQuantity": 250,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "719 - ID 719 - YouTube - Comentarios personalizados - Estados Unidos - Max 1k - $128.80 por 1000": {
+            "pricePerUnit": 0.1288,
+            "minQuantity": 10,
+            "maxQuantity": 2000,
+            "deliveryTime": "4 Horas",
+            "description": "Inicio: De 0 a  4 HorasPublico: Estados UnidosRecarga: Sin recarga📌 Escriba un comentario por línea📌 No se aceptan menciones 📌 No se aceptan malas palabras o malas intenciones❌ Si el sistema detecta alguna falta, detendrá la entrega del servicio si derecho a reembolso.—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

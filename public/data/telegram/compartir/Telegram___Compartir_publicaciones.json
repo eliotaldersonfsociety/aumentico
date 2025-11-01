@@ -1,0 +1,34 @@
+{
+  "Telegram - Compartir publicaciones": {
+    "categories": {
+      "Telegram - Compartir publicaciones": {
+        "types": {
+          "1286 - ID1286 - Telegram - Compartir publicación - Brasil - Max 10K - $0.14 por 1000": {
+            "pricePerUnit": 0.00014199999999999998,
+            "minQuantity": 10,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: 0 a 1 horaLa velocidad es alta. Por lo general, terminan en menos de una hora----------------------------------Poner enlace de publicaciones",
+            "features": {}
+          },
+          "1287 - ID1287 - Telegram - Compartir publicación - USA - Max 10K - $0.14 por 1000": {
+            "pricePerUnit": 0.00014199999999999998,
+            "minQuantity": 10,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: 0 a 1 horaLa velocidad es alta. Por lo general, terminan en menos de una hora----------------------------------Poner enlace de publicaciones",
+            "features": {}
+          },
+          "1288 - ID1288 - Telegram - Compartir publicación - Mixto - Max 10K - $0.14 por 1000": {
+            "pricePerUnit": 0.00014199999999999998,
+            "minQuantity": 10,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: 0 a 1 horaLa velocidad es alta. Por lo general, terminan en menos de una hora----------------------------------Poner enlace de publicaciones",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

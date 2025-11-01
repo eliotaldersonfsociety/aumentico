@@ -1,0 +1,26 @@
+{
+  "Telegram - Comentarios": {
+    "categories": {
+      "Telegram - Comentarios": {
+        "types": {
+          "1284 - ID 1284 - Telegram - Comentarios aleatorios - Inglés - Max 5k - $5.26 por 1000": {
+            "pricePerUnit": 0.005261999999999999,
+            "minQuantity": 10,
+            "maxQuantity": 500000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: 0 a 1 horaLa velocidad es alta. por lo general, terminan en menos de una hora----------------------------------Poner enlace de publicaciones",
+            "features": {}
+          },
+          "1285 - ID 1285 - Telegram - Comentarios aleatorios + Vistas- Inglés - Max 1.2k - $5.36 por 1000": {
+            "pricePerUnit": 0.005356,
+            "minQuantity": 10,
+            "maxQuantity": 10000,
+            "deliveryTime": "3 horas",
+            "description": "Inicio: 0 a 3 horas----------------------------------Poner enlace de publicaciones",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

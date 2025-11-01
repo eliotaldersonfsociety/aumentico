@@ -1,0 +1,66 @@
+{
+  "YouTube - Vistas - Sin recarga - ⚠️ Pueden caer⚠️": {
+    "categories": {
+      "YouTube - Vistas - Sin recarga - ⚠️ Pueden caer⚠️": {
+        "types": {
+          "4639 - ID 4639 - YouTube - Vistas - Max 100M - $1.49 por 1000": {
+            "pricePerUnit": 0.00149,
+            "minQuantity": 1000,
+            "maxQuantity": 100000,
+            "deliveryTime": "24 Horas",
+            "description": "⚠️ Las vistas pueden caer aleatoriamente después de completarse\n\nInicio: De 0 a 24 Horas\nCaídas: Puede caer hasta un 90% o más\nPublico: Mundo\nRecarga: Sin recarga, sin garantía en ningún caso\n☝️ No olvide que estos datos son solo estimaciones (Pueden variar)\n—--------------------------------------\nEnlace: Enlace de video de YouTube\nEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "1868 - ID 1868 - YouTube - Vistas - Max 50k - $1.65 por 1000": {
+            "pricePerUnit": 0.00165,
+            "minQuantity": 1000,
+            "maxQuantity": 300000,
+            "deliveryTime": "6 Horas",
+            "description": "⚠️ Las vistas pueden caer aleatoriamente después de completarsePEDIR SOLO PULTIPLOS DE 1000Inicio: De 0 a 6 HorasCaídas: Puede caer hasta un 90% o masPublico: MundoRecarga: Sin recarga, sin garantía en ningún caso☝️ No olvide que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "245 - ID 245 - YouTube - Vistas - Max 1M - $1.05 por 1000": {
+            "pricePerUnit": 0.0010500000000000002,
+            "minQuantity": 500,
+            "maxQuantity": 100000000,
+            "deliveryTime": "12 Horas",
+            "description": "⚠️ Las vistas pueden caer aleatoriamente después de completarseInicio: De 0 a 12 HorasCaídas: Puede caer hasta un 90% o masPublico: MundoRecarga: Sin recarga, sin garantía en ningún caso☝️ No olvide que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "246 - ID 246 - YouTube - Vistas - Max 50M  - (MULTIPLOS DE 1000) - $1.49 por 1000": {
+            "pricePerUnit": 0.001486,
+            "minQuantity": 1000,
+            "maxQuantity": 50000000,
+            "deliveryTime": "No especificado",
+            "description": "El pedido deben ser múltiplos de 1000 (1000, 2000, 3000...)Caídas: Puede tener grandes caidasPublico: MundoRecarga: Sin recarga/garantia en ningún caso☝️ No olvide que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "244 - ID 244 - YouTube - Vistas - Max 10M - $1.08 por 1000": {
+            "pricePerUnit": 0.00108,
+            "minQuantity": 1000,
+            "maxQuantity": 10000000,
+            "deliveryTime": "24 Horas",
+            "description": "⚠️ Las vistas pueden caer aleatoriamente después de completarseInicio: De 0 a 24 HorasCaídas: Puede caer hasta un 90% o másPublico: MundoRecarga: Sin recarga, sin garantía en ningún caso☝️ No olvide que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "4612 - ID 4612 - YouTube - Vistas - Max 7M - $2.13 por 1000": {
+            "pricePerUnit": 0.00213,
+            "minQuantity": 100,
+            "maxQuantity": 7000000,
+            "deliveryTime": "24 Horas",
+            "description": "⚠️ Las vistas pueden caer aleatoriamente después de completarse\n\nInicio: De 0 a 24 Horas\nCaídas: Puede caer hasta un 90% o más\nPublico: Mundo\nRecarga: Sin recarga, sin garantía en ningún caso\n☝️ No olvide que estos datos son solo estimaciones (Pueden variar)\n—--------------------------------------\nEnlace: Enlace de video de YouTube\nEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "4638 - ID 4638 - YouTube - Vistas - Max 100M - $3.81 por 1000": {
+            "pricePerUnit": 0.00381,
+            "minQuantity": 100,
+            "maxQuantity": 100000,
+            "deliveryTime": "24 Horas",
+            "description": "⚠️ Las vistas pueden caer aleatoriamente después de completarse\n\nInicio: De 0 a 24 Horas\nCaídas: Puede caer hasta un 90% o más\nPublico: Mundo\nRecarga: Sin recarga, sin garantía en ningún caso\n☝️ No olvide que estos datos son solo estimaciones (Pueden variar)\n—--------------------------------------\nEnlace: Enlace de video de YouTube\nEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

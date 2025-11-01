@@ -1,0 +1,26 @@
+{
+  "Otro": {
+    "categories": {
+      "Otro": {
+        "types": {
+          "143 - Twitter - Seguidores - Max 5K - $12.95 por 1000": {
+            "pricePerUnit": 0.012946,
+            "minQuantity": 100,
+            "maxQuantity": 1000000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "3122 - prueva - $2 por 1": {
+            "pricePerUnit": 0.002,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

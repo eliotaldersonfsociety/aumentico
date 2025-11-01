@@ -1,0 +1,42 @@
+{
+  "Spotify - Anuncios (ADS)": {
+    "categories": {
+      "Spotify - Anuncios (ADS)": {
+        "types": {
+          "2698 - ID 2698 - Spotify - Reproducciones de anuncios exclusivos de Spotify (USA) - $2.78 por 1000": {
+            "pricePerUnit": 0.002778,
+            "minQuantity": 1000,
+            "maxQuantity": 500000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2699 - ID 2699 - Spotify - Reproducciones de anuncios exclusivos globales de Spotify - $2.38 por 1000": {
+            "pricePerUnit": 0.002382,
+            "minQuantity": 1000,
+            "maxQuantity": 500000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2701 - ID 2701 -Spotify- EXCLUSIVO para Spotify Premium ADS (USA) Reproducciones - $3.47 por 1000": {
+            "pricePerUnit": 0.0034660000000000003,
+            "minQuantity": 1000,
+            "maxQuantity": 10000000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2700 - ID 2700 - Spotify-Transmisiones de Spotify de anuncios  (USA) - $8.87 por 1000": {
+            "pricePerUnit": 0.008872,
+            "minQuantity": 1000,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

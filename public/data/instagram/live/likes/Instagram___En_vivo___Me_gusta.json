@@ -1,0 +1,42 @@
+{
+  "Instagram - En vivo - Me gusta": {
+    "categories": {
+      "Instagram - En vivo - Me gusta": {
+        "types": {
+          "3882 - ID 3882 - Instagram - En vivo - Me gusta - $0.58 por 1000": {
+            "pricePerUnit": 0.000578,
+            "minQuantity": 100,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2759 - ID 2759 Instagram - En vivo - Me gusta - $0.72 por 1000": {
+            "pricePerUnit": 0.0007199999999999999,
+            "minQuantity": 200,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "Sólo nombre de usuarioSin recarga Me gusta en video en vivoEntrega rápidaMínimo 200",
+            "features": {}
+          },
+          "2761 - ID 2761 Instagram - En vivo - Me gusta - $3.56 por 1000": {
+            "pricePerUnit": 0.003564,
+            "minQuantity": 10,
+            "maxQuantity": 20000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2763 - ID 2763 Instagram - En vivo - Me gusta - $21 por 1000": {
+            "pricePerUnit": 0.021,
+            "minQuantity": 20,
+            "maxQuantity": 40000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

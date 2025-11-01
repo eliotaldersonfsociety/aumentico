@@ -1,0 +1,42 @@
+{
+  "Pinterest - Comentarios": {
+    "categories": {
+      "Pinterest - Comentarios": {
+        "types": {
+          "2579 - ID 2579 - Pinterest - Comentario de emojis - $38.30 por 1000": {
+            "pricePerUnit": 0.038304000000000005,
+            "minQuantity": 10,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2580 - ID 2580 - Pinterest - Comentarios personalizados - $110.81 por 1000": {
+            "pricePerUnit": 0.110808,
+            "minQuantity": 10,
+            "maxQuantity": 10000000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2581 - ID 2581 - Pinterest - Comentarios aleatorios - $110.81 por 1000": {
+            "pricePerUnit": 0.110808,
+            "minQuantity": 10,
+            "maxQuantity": 10000000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2582 - ID 2582 - Pinterest - Comentarios aleatorios - $71.80 por 1000": {
+            "pricePerUnit": 0.07179600000000001,
+            "minQuantity": 10,
+            "maxQuantity": 3000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

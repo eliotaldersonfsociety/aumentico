@@ -1,0 +1,48 @@
+{
+  "Instalación de Aplicaciones de (Android / iOS)": {
+    "categories": {
+      "Instalación de Aplicaciones de (Android / iOS)": {
+        "types": {
+          "2770 - ID 2770 Instalación - aplicaciones  (Android) - $448.50 por 1000": {
+            "pricePerUnit": 0.4485,
+            "minQuantity": 10,
+            "maxQuantity": 20000,
+            "deliveryTime": "10 días",
+            "description": "La aplicación debe estar disponible de forma gratuita en Play Store en todo el mundo.👉 Caída: no esperada👉 Garantía: 30 Dias👉 Poner enlace a la aplicación 👉 Personas y reales y dispositivos únicos 👉 La actualización de las estadísticas en Play Store puede tardar hasta 10 días en actualizarse👉 Enviar captura de pantalla de las estadísticas de las instalaciones para problemas",
+            "features": {}
+          },
+          "2771 - ID 2771 Instalación - aplicaciones (Android)- [USA] - $429 por 1000": {
+            "pricePerUnit": 0.429,
+            "minQuantity": 500,
+            "maxQuantity": 1000000,
+            "deliveryTime": "48 horas",
+            "description": "👉 Su aplicación debe estar disponible de forma gratuita en Play Store.👉 Descargar + Instalar + Abrir.👉Instalaciones 100% reales de usuarios/dispositivos reales de EE. UU.¡Aumente la clasificación de la aplicación en solo unos días!Nota: Tarda hasta 48 horas en mostrar las estadísticas en Play Store.En este servicio no lo podemos cancelar después del pedido, así que tenga cuidado",
+            "features": {
+              "0": "👉 Su aplicación debe estar disponible de forma gratuita en Play Store.👉 Descargar + Instalar + Abrir.👉Instalaciones 100% reales de usuarios/dispositivos reales de EE. UU.¡Aumente la clasificación de la aplicación en solo unos días!Nota: Tarda hasta 48 horas en mostrar las estadísticas en Play Store.En este servicio no lo podemos cancelar después del pedido, así que tenga cuidado"
+            }
+          },
+          "2772 - ID 2772 Instalación - aplicaciones (iOS) - $508.30 por 1000": {
+            "pricePerUnit": 0.5083,
+            "minQuantity": 10,
+            "maxQuantity": 1000,
+            "deliveryTime": "48 horas",
+            "description": "Su aplicación debe estar disponible de forma gratuita para todo el mundo en la App Store.Descargar + Instalar + Abrir.Instalaciones 100% reales de usuarios/dispositivos reales.¡Aumente la clasificación de la aplicación en solo unos días!Nota: Tarda hasta 48 horas en mostrar las estadísticas en la App Store.",
+            "features": {
+              "0": "Su aplicación debe estar disponible de forma gratuita para todo el mundo en la App Store.Descargar + Instalar + Abrir.Instalaciones 100% reales de usuarios/dispositivos reales.¡Aumente la clasificación de la aplicación en solo unos días!Nota: Tarda hasta 48 horas en mostrar las estadísticas en la App Store."
+            }
+          },
+          "2773 - ID 2773 Instalación - aplicaciones - (iOS) - [En todo el mundo] - $1001 por 1000": {
+            "pricePerUnit": 1.001,
+            "minQuantity": 50,
+            "maxQuantity": 1000000,
+            "deliveryTime": "48 horas",
+            "description": "Su aplicación debe estar disponible de forma gratuita para todo el mundo en la App Store.Descargar + Instalar + Abrir.Instalaciones 100% reales de usuarios/dispositivos reales.¡Aumente la clasificación de la aplicación en solo unos días!Nota: Tarda hasta 48 horas en mostrar las estadísticas en la App Store.En este servicio no podemos cancelar después del pedido, así que tenga cuidado",
+            "features": {
+              "0": "Su aplicación debe estar disponible de forma gratuita para todo el mundo en la App Store.Descargar + Instalar + Abrir.Instalaciones 100% reales de usuarios/dispositivos reales.¡Aumente la clasificación de la aplicación en solo unos días!Nota: Tarda hasta 48 horas en mostrar las estadísticas en la App Store.En este servicio no podemos cancelar después del pedido, así que tenga cuidado"
+            }
+          }
+        }
+      }
+    }
+  }
+}

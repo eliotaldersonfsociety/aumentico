@@ -1,0 +1,26 @@
+{
+  "Facebook - Solicitudes de amistad": {
+    "categories": {
+      "Facebook - Solicitudes de amistad": {
+        "types": {
+          "826 - ID 826 - Facebook - Solicitud de amistad - Max 5k - $4.67 por 1000": {
+            "pricePerUnit": 0.004666,
+            "minQuantity": 200,
+            "maxQuantity": 5000,
+            "deliveryTime": "48 Horas",
+            "description": "⚠️ Asegúrese que el perfil permita solicitudes de amistad de todo el mundoInicio: 1 a 48 HorasVelocidad: 500 a 1k por díaCaída: 0 al 5%Recarga: 30 Días (Si cae más del 10%)👆 No olvide que estos datos son solo estimaciones (pueden variar)----------------------------Enlace: Enlace de perfil de FacebookEjemplo de enlace: https://www.facebook.com/xyz",
+            "features": {}
+          },
+          "1370 - ID 1370 - Facebook - Solicitudes de amistad - Max. 5K - $6.24 por 1000": {
+            "pricePerUnit": 0.00624,
+            "minQuantity": 100,
+            "maxQuantity": 5000,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: 0 a 12 Horas\nVelocidad: 100 a 200 por Día\nCaida: 0 al 2%\nRecarga: Sin garantia\n----------------------------\nEnlace: Enlace de perfil de Facebook\nEjemplo de enlace: https://www.facebook.com/xyz",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

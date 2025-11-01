@@ -1,0 +1,42 @@
+{
+  "YouTube - Visualizaciones de transmisión en vivo - CALIDAD PREMIUM": {
+    "categories": {
+      "YouTube - Visualizaciones de transmisión en vivo - CALIDAD PREMIUM": {
+        "types": {
+          "1886 - ID 1886 - YouTube - Vistas de transmisión en vivo - 15 Minutos - Max 5k - $13.69 por 1000": {
+            "pricePerUnit": 0.013688,
+            "minQuantity": 20,
+            "maxQuantity": 500000,
+            "deliveryTime": "No especificado",
+            "description": "Hora de inicio: Generalmente de 5 a 10 minutosPueden llegar un 5% más o un 5% menos a la cantidad ordenadaPara pedidos de 1000 obtienes 1000 espectadoresSi agregaste 2000 obtienes 2000 espectadores📌 Poner enlace de transmisión en vivo de YouTube",
+            "features": {}
+          },
+          "1887 - ID 1887 - YouTube - Vistas de transmisión en vivo - 30 Minutos - Max 20k - $27.55 por 1000": {
+            "pricePerUnit": 0.02755,
+            "minQuantity": 100,
+            "maxQuantity": 20000,
+            "deliveryTime": "No especificado",
+            "description": "Hora de inicio: Generalmente de 5 a 10 minutosPueden llegar un 5% más o un 5% menos a la cantidad ordenadaPara pedidos de 1000 obtienes 1000 espectadoresSi agregaste 2000 obtienes 2000 espectadores📌 Poner enlace de transmisión en vivo de YouTube",
+            "features": {}
+          },
+          "1888 - ID 1888 - YouTube - Vistas de transmisión en vivo - 60 Minutos - Max 5k - $53.62 por 1000": {
+            "pricePerUnit": 0.053619999999999994,
+            "minQuantity": 100,
+            "maxQuantity": 20000,
+            "deliveryTime": "No especificado",
+            "description": "Hora de inicio: Generalmente de 5 a 10 minutosPueden llegar un 5% más o un 5% menos a la cantidad ordenadaPara pedidos de 1000 obtienes 1000 espectadoresSi agregaste 2000 obtienes 2000 espectadores📌 Poner enlace de transmisión en vivo de YouTube",
+            "features": {}
+          },
+          "1889 - ID 1889 - YouTube - Vistas de transmisión en vivo - 3 Horas - Max 5k - $158.54 por 1000": {
+            "pricePerUnit": 0.158536,
+            "minQuantity": 100,
+            "maxQuantity": 20000,
+            "deliveryTime": "No especificado",
+            "description": "Hora de inicio: Generalmente de 5 a 10 minutosPueden llegar un 5% más o un 5% menos a la cantidad ordenadaPara pedidos de 1000 obtienes 1000 espectadoresSi agregaste 2000 obtienes 2000 espectadores📌 Poner enlace de transmisión en vivo de YouTube",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

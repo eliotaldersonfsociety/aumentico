@@ -1,0 +1,42 @@
+{
+  "Instagram - Cuentas verificadas": {
+    "categories": {
+      "Instagram - Cuentas verificadas": {
+        "types": {
+          "3404 - ID 3404 Instagram - cuentas verificadas - 2 me gusta - $1.65 por 1": {
+            "pricePerUnit": 0.0016539999999999999,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "No especificado",
+            "description": "Recibirás 2 me gusta verificados por Instagram—--------------------------------------Enlace: Enlace de cuenta de InstagramEjemplo: https://www.instagram.com/falcao",
+            "features": {}
+          },
+          "3406 - ID 3406 Instagram - cuentas verificadas - 4 me gusta - $3.34 por 1": {
+            "pricePerUnit": 0.003336,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "No especificado",
+            "description": "Recibirás 4 me gusta verificados por Instagram—--------------------------------------Enlace: Enlace de cuenta de InstagramEjemplo: https://www.instagram.com/falcao",
+            "features": {}
+          },
+          "3407 - ID 3407 Instagram - cuentas verificadas - 5 me gusta - $4.13 por 1": {
+            "pricePerUnit": 0.0041340000000000005,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "No especificado",
+            "description": "Recibirás 5 me gusta verificados por Instagram—--------------------------------------Enlace: Enlace de cuenta de InstagramEjemplo: https://www.instagram.com/falcao",
+            "features": {}
+          },
+          "3823 - ID 3823 - Instagram - Cuentas Verificadas - 4 Comentarios (EMOJI) - $1.16 por 1": {
+            "pricePerUnit": 0.00116,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "No especificado",
+            "description": "Recibirás 4 Comentarios de cuentas verificadas por Instagram—--------------------------------------Enlace: Enlace de cuenta de InstagramEjemplo: https://www.instagram.com/falcao",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

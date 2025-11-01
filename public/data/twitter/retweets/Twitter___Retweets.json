@@ -1,0 +1,34 @@
+{
+  "Twitter - Retweets": {
+    "categories": {
+      "Twitter - Retweets": {
+        "types": {
+          "1830 - ID 1830 - Twitter - Retweets - Max 30K - $3.36 por 1000": {
+            "pricePerUnit": 0.003364,
+            "minQuantity": 5,
+            "maxQuantity": 10000,
+            "deliveryTime": "8 Horas",
+            "description": "Inicio: De 1 a 8 HorasVelocidad: 1K a 2K por diaPublico: Mundial Recarga: NOCancelar: Botón de cancelar disponible☝️ No olvide que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace: Enlace de tweet de Twitter Ejemplo: https://twitter.com/abc/status/123",
+            "features": {}
+          },
+          "2069 - ID 2069 - Twitter - Retweets - Max 500K 🐌 - $35.20 por 1000": {
+            "pricePerUnit": 0.0352,
+            "minQuantity": 100,
+            "maxQuantity": 50000,
+            "deliveryTime": "8 Horas",
+            "description": "Inicio: De 1 a 8 HorasVelocidad: 500 a 1K  por diaPublico: Mundial Recarga: NOCancelar: Botón de cancelar disponible☝️ No olvide que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace: Enlace de tweet de Twitter Ejemplo: https://twitter.com/abc/status/123",
+            "features": {}
+          },
+          "3623 - ID 3623 - Twitter - Retweets - Max 10K - $23.52 por 1000": {
+            "pricePerUnit": 0.02352,
+            "minQuantity": 10,
+            "maxQuantity": 2500,
+            "deliveryTime": "8 Horas",
+            "description": "Inicio: De 1 a 8 HorasVelocidad: 1K a 2K por diaPublico: Mundial Recarga: 15 dias si cae mas del 10%☝️ No olvide que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace: Enlace de tweet de Twitter Ejemplo: https://twitter.com/abc/status/123",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

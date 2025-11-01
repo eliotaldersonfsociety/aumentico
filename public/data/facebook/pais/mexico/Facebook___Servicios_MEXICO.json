@@ -1,0 +1,42 @@
+{
+  "Facebook - Servicios MEXICO": {
+    "categories": {
+      "Facebook - Servicios MEXICO": {
+        "types": {
+          "4818 - ID 4818 - Facebook - Comentarios aleatorios MEXICO - Max 250 - $130 por 1000": {
+            "pricePerUnit": 0.13,
+            "minQuantity": 10,
+            "maxQuantity": 250,
+            "deliveryTime": "No especificado",
+            "description": "Calidad: Buena calidad\nPublico: México\nRecarga: Sin recarga\nComentarios: Comentarios aleatorios\n—--------------------------------------\nEnlace: Enlace de publicación de Facebook\nEjemplo: https://www.facebook.com/FCFSeleccionColPage/posts/5103006123115312",
+            "features": {}
+          },
+          "33 - ID 33 - Facebook - Comentarios aleatorios - México - $169 por 1000": {
+            "pricePerUnit": 0.169,
+            "minQuantity": 10,
+            "maxQuantity": 250,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: Inicio lento, Si no tiene paciencia, por favor no pida el servicioCalidad: Buena calidadPublico: MéxicoRecarga: Sin recargaComentarios: Comentarios aleatorios—--------------------------------------Enlace: Enlace de publicación de FacebookEjemplo: https://www.facebook.com/FCFSeleccionColPage/posts/5103006123115312",
+            "features": {}
+          },
+          "34 - ID 34 - Facebook - Comentarios Personalizados - México - $236.60 por 1000": {
+            "pricePerUnit": 0.2366,
+            "minQuantity": 10,
+            "maxQuantity": 250,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: De 1 a 48 HCalidad: Real Buena calidadPublico: MéxicoRecarga: Sin recargaComentarios: Comentarios personalizados📌 Escriba un comentario por línea📌 No se aceptan menciones @📌 No se aceptan malas palabras o malas intenciones❌ Si el sistema detecta alguna falta, detendrá la entrega del servicio si derecho a reembolso.—--------------------------------------Enlace: Enlace de publicación de Facebookhttps://www.facebook.com/FCFSeleccionColPage/posts/510300612",
+            "features": {}
+          },
+          "32 - ID 32 - PAQUETE DE FACEBOOK HQ [MEXICO] [30-80 Me gusta][10-20 Emociones] [10 Compartir][15 Comentarios][Alcance de más de 100 publicaciones] - $2.80 por 1": {
+            "pricePerUnit": 0.0028,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "0-6 horas",
+            "description": "Inicio: 0-6 horasCalidad: Buena calidadPublico: MéxicoRecarga: Sin recargaComentarios: Deje el espacio en blanco si desea comentarios aleatorios—--------------------------------------Enlace: Enlace publicación de FacebookEjemplo: https://www.facebook.com/FCFSeleccionColPage/posts/5103006123115312📌 Por favor tomar el link desde una PC, haciendo clic en la hora/fecha de publicación📌 Debe ser pública y tener el botón me gusta activo",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

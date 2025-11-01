@@ -1,0 +1,122 @@
+{
+  "YouTube - Me gusta - No me gusta - SIN GARANTIA": {
+    "categories": {
+      "YouTube - Me gusta - No me gusta - SIN GARANTIA": {
+        "types": {
+          "4065 - ID 4065 - YouTube - Me gusta en video - Max 100K - $0.32 por 1000": {
+            "pricePerUnit": 0.00032,
+            "minQuantity": 10,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "241 - ID 241 - YouTube - No me gusta en video - Sin recarga - Max 100K - $0.41 por 1000": {
+            "pricePerUnit": 0.000406,
+            "minQuantity": 100,
+            "maxQuantity": 100000,
+            "deliveryTime": "2 Horas",
+            "description": "Inicio: De 0 a 2 HorasPublico: MundialRecarga: Sin recarga—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "3217 - ID 3217- YouTube - No me gusta en video - Sin recarga - Max 50K - $5.85 por 1000": {
+            "pricePerUnit": 0.005849999999999999,
+            "minQuantity": 50,
+            "maxQuantity": 25000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "237 - ID 237 - YouTube - Me gusta en video - Sin recarga -  Max 100K - $1.26 por 1000": {
+            "pricePerUnit": 0.001262,
+            "minQuantity": 10,
+            "maxQuantity": 100000,
+            "deliveryTime": "2 Horas",
+            "description": "Inicio: De 0 a 2 HorasPublico: MundialRecarga: No—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "236 - ID 236 - Youtube - Me gusta en video - sin recarga - Max 100K - $1.26 por 1000": {
+            "pricePerUnit": 0.001258,
+            "minQuantity": 10,
+            "maxQuantity": 20000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: De 0 a 15 minutosPublico: MundialRecarga: Sin recarga—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "239 - ID 239 - YouTube - Me gusta en video - Sin recarga - Max 50K - $2.07 por 1000": {
+            "pricePerUnit": 0.0020659999999999997,
+            "minQuantity": 10,
+            "maxQuantity": 100000,
+            "deliveryTime": "2 Horas",
+            "description": "Inicio: De 0 a 2 HorasPublico: MundialRecarga: Sin recarga—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "3215 - ID: 3215 YouTube - No me gusta en video - Sin recarga - Max 100K - $7.57 por 1000": {
+            "pricePerUnit": 0.007574,
+            "minQuantity": 100,
+            "maxQuantity": 4000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "234 - ID 234 - Youtube - Me gusta en video - sin recarga - Max 50K - $2.34 por 1000": {
+            "pricePerUnit": 0.0023380000000000002,
+            "minQuantity": 10,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: De 0 a 30 minutosPublico: MundialRecarga: Sin recarga—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "238 - ID 238 - YouTube - Me gusta en video - Sin recarga - Max 100K - - $3.24 por 1000": {
+            "pricePerUnit": 0.0032400000000000003,
+            "minQuantity": 10,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: De 0 a 30 minutosPublico: MundialRecarga: No—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "243 - ID 243 - YouTube - No me gusta en video - Sin recarga - Max 50K - $5.99 por 1000": {
+            "pricePerUnit": 0.005986,
+            "minQuantity": 100,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: De 0 a  30 minutosPublico: MundialRecarga: Sin recarga—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "3214 - ID 3214 YouTube - No me gusta en video - Sin recarga - Max 100K - $6.27 por 1000": {
+            "pricePerUnit": 0.0062699999999999995,
+            "minQuantity": 100,
+            "maxQuantity": 25000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "3979 - ID 3979 - YouTube - NO me gusta en video - Max 15K - $6.30 por 1000": {
+            "pricePerUnit": 0.0063,
+            "minQuantity": 50,
+            "maxQuantity": 15000,
+            "deliveryTime": "12  horas",
+            "description": "Inicio: De 1 a 12  horasPublico: MundialRecarga: Sin recarga—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "3216 - ID: 3216 YouTube - No me gusta en video - Sin recarga - Max 100K - $8.25 por 1000": {
+            "pricePerUnit": 0.00825,
+            "minQuantity": 50,
+            "maxQuantity": 5000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "240 - ID 240 - YouTube - Me gusta en video - Sin recarga - Max 20K - $8.85 por 1000": {
+            "pricePerUnit": 0.008846,
+            "minQuantity": 10,
+            "maxQuantity": 20000,
+            "deliveryTime": "2 Horas",
+            "description": "Inicio: De 0 a 2 HorasPublico: MundialRecarga: Sin recarga—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

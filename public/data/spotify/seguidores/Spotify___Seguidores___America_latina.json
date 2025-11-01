@@ -1,0 +1,26 @@
+{
+  "Spotify - Seguidores - America latina": {
+    "categories": {
+      "Spotify - Seguidores - America latina": {
+        "types": {
+          "1590 - ID 1590 - Spotify - Seguidores - Lista de reproducción / Artista - MÉXICO - R30 - $1.20 por 1000": {
+            "pricePerUnit": 0.0012,
+            "minQuantity": 100,
+            "maxQuantity": 150000000,
+            "deliveryTime": "48 horas",
+            "description": "Seguidores de lista de reproducción o artistas Inicio: De 1 a 12 horaVelocidad: 2 a 5k DiaPublico: México Recarga: 30 dias (Si baja mas del 10%👆 No olvide que estos datos son solo estimaciones (pueden variar)—--------------------------------------Enlace: Insertar enlace de Artista o lista de reproduccion completoEjemplo: https://open.spotify.com/playlist/abcdefghijkhttps://open.spotify.com/artist/abcdefghijk—-------------------------------------📌 Los seguidores de lista de reproducción y artistas se actualizarán en 1 - 48 horas📌 Puede caer en cualquier momento, sin recarga ni reembolso en ningún caso",
+            "features": {}
+          },
+          "2241 - ID 2241 - Spotify - Seguidores - Lista de reproducción / Artista - MÉXICO - Max 500K - R30 - $1.21 por 1000": {
+            "pricePerUnit": 0.001206,
+            "minQuantity": 100,
+            "maxQuantity": 500000,
+            "deliveryTime": "48 horas",
+            "description": "Seguidores de lista de reproducción o artistas Inicio: De 1 a 12 horaVelocidad: 2 a 5k DiaPublico: México Recarga: 30 dias (Si baja mas del 10%)👆 No olvide que estos datos son solo estimaciones (pueden variar)—--------------------------------------Enlace: Insertar enlace de Artista o lista de reproducción completoEjemplo: https://open.spotify.com/playlist/abcdefghijkhttps://open.spotify.com/artist/abcdefghijk—-------------------------------------📌 Los seguidores de lista de reproducción y artistas se actualizarán en 1 - 48 horas📌 Puede caer en cualquier momento, sin recarga ni reembolso en ningún caso",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

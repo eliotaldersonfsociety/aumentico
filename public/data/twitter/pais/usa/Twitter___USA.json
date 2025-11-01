@@ -1,0 +1,106 @@
+{
+  "Twitter - USA": {
+    "categories": {
+      "Twitter - USA": {
+        "types": {
+          "4147 - Twitter - USA  (100 Retweet, 200 Me gusta, 25 Comentarios) Perfiles Activos - $9.45 por 1": {
+            "pricePerUnit": 0.00945,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "3006 - ID 1326 - Twitter - Seguidores USA - 100% femeninos - Máx. 10k - R30 - $17.37 por 1000": {
+            "pricePerUnit": 0.017373999999999997,
+            "minQuantity": 10,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "1327 - ID 1327 - Twitter - Seguidores USA - 100% femeninos - Máx. 10k - R30 - $22.69 por 1000": {
+            "pricePerUnit": 0.022694,
+            "minQuantity": 100,
+            "maxQuantity": 50000,
+            "deliveryTime": "48 horas",
+            "description": "Inicio: De 0 a 48 horasVelocidad: 10k DíaCalidad: Buena calidadPublico: Femenino - USACaídas: Sin caídasRecarga: 30 Dias—--------------------------------------Enlace: Enlace de cuenta de twitter Ejemplo: https://twitter.com/FALCAO",
+            "features": {}
+          },
+          "355 - D 355 - Twitter - Seguidores USA - Máx. 10k - R30 - $18.22 por 1000": {
+            "pricePerUnit": 0.018224,
+            "minQuantity": 100,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2201 - ID 2201 - Twitter - Seguidores - USA - Max. 8k - R30 - $26.60 por 1000": {
+            "pricePerUnit": 0.026600000000000002,
+            "minQuantity": 100,
+            "maxQuantity": 8000,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 1 a 12 HorasVelocidad: 500 a 5K+ por diaCalidad: Buena calidadPublico: Mayoría de Estados UnidosCaídas: 5% por mes aproximadamenteRecarga: 30 Días (Si cae más del 10%)☝️ No olvide que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace: Enlace de cuenta de twitterEjemplo: https://twitter.com/FALCAO",
+            "features": {}
+          },
+          "521 - ID 521 - Twitter - Me gusta - USA - Max. 5k - R30 - $12.60 por 1000": {
+            "pricePerUnit": 0.0126,
+            "minQuantity": 10,
+            "maxQuantity": 4000,
+            "deliveryTime": "24 horas",
+            "description": "Este servicio es de alta demanda, por lo que en ocasiones puede tardar másInicio: De 0 a 24 horasVelocidad: 100 a 1k DiaCalidad: MediaPublico: USACaídas: Sin caídasRecarga: 30 Dias—--------------------------------------Enlace: Enlace de tweet de Twitter Ejemplo: https://twitter.com/abc/status/123",
+            "features": {}
+          },
+          "668 - ID 668 - Twitter - Comentarios aleatorios USA - Máx. 100 - $105.04 por 1000": {
+            "pricePerUnit": 0.10503799999999999,
+            "minQuantity": 10,
+            "maxQuantity": 250,
+            "deliveryTime": "48 horas",
+            "description": "Inicio: De 0 a 48 horasPublico: Estados UnidosRecarga: Sin recargaComentarios: Comentarios aleatorios—--------------------------------------Enlace: Enlace de tweet de TwitterEjemplo: https://twitter.com/abc/status/123",
+            "features": {}
+          },
+          "669 - ID 669 - Twitter - Comentarios personalizados USA - Máx. 100 - $134.86 por 1000": {
+            "pricePerUnit": 0.13486199999999998,
+            "minQuantity": 10,
+            "maxQuantity": 250,
+            "deliveryTime": "48 horas",
+            "description": "Inicio: De 0 a 48 horasPublico: Estados UnidosComentarios: Comentarios personalizados📌 Escriba un comentario por línea📌 No se aceptan menciones 📌 No se aceptan malas palabras o malas intenciones❌ Si el sistema detecta alguna falta, detendrá la entrega del servicio si derecho a reembolso.—--------------------------------------Enlace: Enlace de tweet de TwitterEjemplo: https://twitter.com/abc/status/123",
+            "features": {}
+          },
+          "1328 - ID: 1328 Twitter - Comentarios personalizados USA - $118.30 por 1000": {
+            "pricePerUnit": 0.1183,
+            "minQuantity": 10,
+            "maxQuantity": 250,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "3009 - ID: 1328 Twitter - Comentarios personalizados USA - $135.20 por 1000": {
+            "pricePerUnit": 0.1352,
+            "minQuantity": 10,
+            "maxQuantity": 250,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "3008 - ID: 1328 Twitter - Comentarios personalizados USA - $101.40 por 1000": {
+            "pricePerUnit": 0.1014,
+            "minQuantity": 10,
+            "maxQuantity": 250,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "3010 - ID: 1328 Twitter - Comentarios personalizados USA - $118.30 por 1000": {
+            "pricePerUnit": 0.1183,
+            "minQuantity": 10,
+            "maxQuantity": 250,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

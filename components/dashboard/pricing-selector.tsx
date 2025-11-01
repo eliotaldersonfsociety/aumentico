@@ -15,6 +15,17 @@ import {
   Youtube,
   Facebook,
   Twitter,
+  MessageCircle,
+  Music,
+  Radio,
+  Linkedin,
+  Hash,
+  ImageIcon,
+  Globe,
+  Star,
+  Smartphone,
+  MapPin,
+  Mail,
   Clock,
   DollarSign,
   Package,
@@ -24,108 +35,198 @@ import {
 } from "lucide-react";
 import { saveOrder } from "@/app/actions/saveOrder";
 import { getSettings } from "@/app/actions/settings";
+import { loadServicesData } from "@/lib/servicesData";
+import { Button } from "../ui/button";
+
+// Componente para iconos personalizados
+const CustomIcon = ({ src, alt }: { src: string; alt: string }) => (
+  <img src={src} alt={alt} className="h-4 w-4" />
+)
 
 const iconMap: Record<string, any> = {
-  Instagram,
-  Youtube,
-  Facebook,
-  Twitter,
-  Video,
-};
+  Instagram: () => <CustomIcon src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new" />,
+  TikTok: () => <CustomIcon src="https://img.icons8.com/ios-filled/50/tiktok--v1.png" alt="tiktok--v1" />,
+  YouTube: () => <CustomIcon src="https://img.icons8.com/color/48/youtube-squared.png" alt="youtube-squared" />,
+  Facebook: () => <CustomIcon src="https://img.icons8.com/color/48/facebook.png" alt="facebook" />,
+  "Twitter/X": () => <CustomIcon src="https://img.icons8.com/ios-filled/50/twitterx--v1.png" alt="twitterx--v1" />,
+  Telegram: () => <CustomIcon src="https://img.icons8.com/color/48/telegram-app--v1.png" alt="telegram-app--v1" />,
+  WhatsApp: () => <CustomIcon src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1" />,
+  Spotify: () => <CustomIcon src="https://img.icons8.com/fluency/48/spotify.png" alt="spotify" />,
+  Twitch: () => <CustomIcon src="https://img.icons8.com/color/48/twitch--v1.png" alt="twitch--v1" />,
+  Kick: Radio,
+  Kwai: Video,
+  LinkedIn: () => <CustomIcon src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin" />,
+  Discord: () => <CustomIcon src="https://img.icons8.com/color/48/discord-logo.png" alt="discord-logo" />,
+  Pinterest: () => <CustomIcon src="https://img.icons8.com/color/48/pinterest--v1.png" alt="pinterest--v1" />,
+  Vimeo: () => <CustomIcon src="https://img.icons8.com/plasticine/100/vimeo.png" alt="vimeo" />,
+  SoundCloud: () => <CustomIcon src="https://img.icons8.com/3d-fluency/94/soundcloud.png" alt="soundcloud" />,
+  Snapchat: () => <CustomIcon src="https://img.icons8.com/fluency/48/snapchat.png" alt="snapchat" />,
+  Dribbble: () => <CustomIcon src="https://img.icons8.com/fluency/48/dribbble.png" alt="dribbble" />,
+  Threads: () => <CustomIcon src="https://img.icons8.com/ios-filled/50/threads.png" alt="threads" />,
+  Tidal: () => <CustomIcon src="https://img.icons8.com/fluency/48/tidal.png" alt="tidal" />,
+  iTunes: () => <CustomIcon src="https://img.icons8.com/color/48/itunes.png" alt="itunes" />,
+  "Tráfico Web": () => <CustomIcon src="https://img.icons8.com/fluency/48/internet.png" alt="internet" />,
+  "Reseñas Google": Star,
+  "Apps Android": Smartphone,
+  "Apps iOS": Smartphone,
+  TripAdvisor: () => <CustomIcon src="https://img.icons8.com/doodle/48/tripadvisor.png" alt="tripadvisor" />,
+  "Reseñas Gmail": () => <CustomIcon src="https://img.icons8.com/color/48/gmail-new.png" alt="gmail-new" />,
+  // Agregar más iconos según sea necesario
+  Behance: () => <CustomIcon src="https://img.icons8.com/color/48/behance.png" alt="behance" />,
+  AutoDesk: Globe,
+  Envato: Globe,
+  Flaticon: () => <CustomIcon src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/external-flaticon-social-media-tanah-basah-glyph-tanah-basah.png" alt="external-flaticon-social-media-tanah-basah-glyph-tanah-basah" />,
+  Freepik: () => <CustomIcon src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/external-freepik-social-media-tanah-basah-glyph-tanah-basah.png" alt="external-freepik-social-media-tanah-basah-glyph-tanah-basah" />,
+  Licencias: () => <CustomIcon src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/external-licensing-marketing-and-business-management-smashingstocks-mixed-smashing-stocks.png" alt="external-licensing-marketing-and-business-management-smashingstocks-mixed-smashing-stocks" />,
+  MixCloud: Music,
+  Motion: Video,
+  OK: () => <CustomIcon src="https://img.icons8.com/liquid-glass/48/ok-message.png" alt="ok-message" />,
+  TraficoWeb: () => <CustomIcon src="https://img.icons8.com/fluency/48/internet.png" alt="internet" />,
+  // Versiones en minúscula
+  instagram: () => <CustomIcon src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new" />,
+  youtube: () => <CustomIcon src="https://img.icons8.com/color/48/youtube-squared.png" alt="youtube-squared" />,
+  facebook: () => <CustomIcon src="https://img.icons8.com/color/48/facebook.png" alt="facebook" />,
+  twitter: () => <CustomIcon src="https://img.icons8.com/ios-filled/50/twitterx--v1.png" alt="twitterx--v1" />,
+  tiktok: () => <CustomIcon src="https://img.icons8.com/ios-filled/50/tiktok--v1.png" alt="tiktok--v1" />,
+  linkedin: () => <CustomIcon src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin" />,
+  pinterest: () => <CustomIcon src="https://img.icons8.com/color/48/pinterest--v1.png" alt="pinterest--v1" />,
+  snapchat: () => <CustomIcon src="https://img.icons8.com/fluency/48/snapchat.png" alt="snapchat" />,
+  dribbble: () => <CustomIcon src="https://img.icons8.com/fluency/48/dribbble.png" alt="dribbble" />,
+  behance: () => <CustomIcon src="https://img.icons8.com/color/48/behance.png" alt="behance" />,
+  vimeo: () => <CustomIcon src="https://img.icons8.com/plasticine/100/vimeo.png" alt="vimeo" />,
+  soundcloud: () => <CustomIcon src="https://img.icons8.com/3d-fluency/94/soundcloud.png" alt="soundcloud" />,
+  spotify: () => <CustomIcon src="https://img.icons8.com/fluency/48/spotify.png" alt="spotify" />,
+  tidal: () => <CustomIcon src="https://img.icons8.com/fluency/48/tidal.png" alt="tidal" />,
+  twitch: () => <CustomIcon src="https://img.icons8.com/color/48/twitch--v1.png" alt="twitch--v1" />,
+  kick: Radio,
+  kwai: Video,
+  telegram: () => <CustomIcon src="https://img.icons8.com/color/48/telegram-app--v1.png" alt="telegram-app--v1" />,
+  whatsapp: () => <CustomIcon src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1" />,
+  discord: () => <CustomIcon src="https://img.icons8.com/color/48/discord-logo.png" alt="discord-logo" />,
+  threads: () => <CustomIcon src="https://img.icons8.com/ios-filled/50/threads.png" alt="threads" />,
+  autodsk: Globe,
+  envato: Globe,
+  flaticon: () => <CustomIcon src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/external-flaticon-social-media-tanah-basah-glyph-tanah-basah.png" alt="external-flaticon-social-media-tanah-basah-glyph-tanah-basah" />,
+  freepik: () => <CustomIcon src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/external-freepik-social-media-tanah-basah-glyph-tanah-basah.png" alt="external-freepik-social-media-tanah-basah-glyph-tanah-basah" />,
+  gmail: () => <CustomIcon src="https://img.icons8.com/color/48/gmail-new.png" alt="gmail-new" />,
+  itunes: () => <CustomIcon src="https://img.icons8.com/color/48/itunes.png" alt="itunes" />,
+  licencias: () => <CustomIcon src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/external-licensing-marketing-and-business-management-smashingstocks-mixed-smashing-stocks.png" alt="external-licensing-marketing-and-business-management-smashingstocks-mixed-smashing-stocks" />,
+  mixcloud: Music,
+  motion: Video,
+  ok: () => <CustomIcon src="https://img.icons8.com/liquid-glass/48/ok-message.png" alt="ok-message" />,
+  tripadvisor: () => <CustomIcon src="https://img.icons8.com/doodle/48/tripadvisor.png" alt="tripadvisor" />,
+  traficoweb: () => <CustomIcon src="https://img.icons8.com/fluency/48/internet.png" alt="internet" />
+}
+
 
 export function PricingSelector() {
-  const [servicesData, setServicesData] = useState<any>({});
-  const [selectedService, setSelectedService] = useState<string>("");
-  const [selectedCategory, setSelectedCategory] = useState<string>("");
-  const [selectedType, setSelectedType] = useState<string>("");
-  const [quantity, setQuantity] = useState<string>("");
-  const [postUrl, setPostUrl] = useState<string>("");
-  const [successMsg, setSuccessMsg] = useState<string>("");
-  const [errorMsg, setErrorMsg] = useState<string>("");
-  const [isPending, startTransition] = useTransition();
-  const [usdToCop, setUsdToCop] = useState<number>(4200);
+  const [selectedPlatform, setSelectedPlatform] = useState<string>("")
+  const [selectedCategory, setSelectedCategory] = useState<string>("")
+  const [selectedSubCategory, setSelectedSubCategory] = useState<string>("")
+  const [selectedType, setSelectedType] = useState<string>("")
+  const [selectedService, setSelectedService] = useState<string>("")
+  const [selectedServiceSpecific, setSelectedServiceSpecific] = useState<string>("")
+  const [quantity, setQuantity] = useState<string>("")
+  const [postUrl, setPostUrl] = useState<string>("")
+  const [successMsg, setSuccessMsg] = useState<string>("")
+  const [errorMsg, setErrorMsg] = useState<string>("")
+  const [isPending, startTransition] = useTransition()
+  const [usdToCop, setUsdToCop] = useState<number>(4200)
+  const [servicesData, setServicesData] = useState<any>({})
 
   useEffect(() => {
     const fetchSettings = async () => {
-      const settings = await getSettings();
-      setUsdToCop(Number(settings.exchangeRate));
-    };
-    fetchSettings();
-  }, []);
-
-  // Cargar JSON dinámico
-  useEffect(() => {
-    if (selectedService) {
-      const fileName = selectedService.toLowerCase().trim();
-      fetch(`/data/${fileName}.json`)
-        .then((res) => {
-          if (!res.ok) throw new Error("No se pudo cargar el JSON");
-          return res.json();
-        })
-        .then((data) => {
-          const normalizedData =
-            data[selectedService] && data[selectedService].categories
-              ? data[selectedService]
-              : data;
-
-          setServicesData({ [selectedService]: normalizedData });
-          setSelectedCategory("");
-          setSelectedType("");
-          setQuantity("");
-          setPostUrl("");
-          setSuccessMsg("");
-          setErrorMsg("");
-        })
-        .catch((error) => {
-          console.error("❌ Error al cargar JSON:", error);
-          setServicesData({});
-        });
+      const settings = await getSettings()
+      setUsdToCop(Number(settings.exchangeRate))
     }
-  }, [selectedService]);
+    fetchSettings()
+  }, [])
 
-  // Derived values
-  const serviceKeys = ["Instagram", "Youtube", "Facebook", "Twitter"];
-  const categoryKeys = selectedService
-    ? Object.keys(servicesData[selectedService]?.categories || {})
-    : [];
-  const typeKeys = selectedCategory && selectedService
-    ? Object.keys(
-        servicesData[selectedService]?.categories?.[selectedCategory]?.types ||
-          {}
-      )
-    : [];
+  useEffect(() => {
+    const loadData = async () => {
+      const data = await loadServicesData()
+      setServicesData(data)
+    }
+    loadData()
+  }, [])
 
-  const selectedData =
-    selectedService && selectedCategory && selectedType
-      ? servicesData[selectedService].categories[selectedCategory].types[
-          selectedType
-        ]
-      : null;
+  const platformKeys = Object.keys(servicesData)
+  const hasSubCategories = selectedPlatform && selectedCategory && servicesData[selectedPlatform]?.categories?.[selectedCategory]?.subCategories && Object.keys(servicesData[selectedPlatform]?.categories?.[selectedCategory]?.subCategories).length > 0
+  const hasDirectTypes = selectedPlatform && selectedCategory && servicesData[selectedPlatform]?.categories?.[selectedCategory]?.types && Object.keys(servicesData[selectedPlatform]?.categories?.[selectedCategory]?.types).length > 0
+  const categoryKeys = selectedPlatform ? Object.keys(servicesData[selectedPlatform]?.categories || {}) : []
+  const subCategoryKeys = hasSubCategories ? Object.keys(servicesData[selectedPlatform]?.categories?.[selectedCategory]?.subCategories || {}) : []
+  let typesPath: any = null
+  if (hasSubCategories && selectedSubCategory) {
+    typesPath = servicesData[selectedPlatform]?.categories?.[selectedCategory]?.subCategories?.[selectedSubCategory]?.types
+  } else if (hasDirectTypes) {
+    typesPath = servicesData[selectedPlatform]?.categories?.[selectedCategory]?.types
+  }
+  const typeKeys = typesPath ? Object.keys(typesPath) : []
+  const hasNestedCategories = selectedType && typesPath?.[selectedType]?.categories
+  const serviceKeys = hasNestedCategories ? Object.keys(typesPath[selectedType].categories) : []
+  const hasNestedTypes = selectedService && typesPath?.[selectedType]?.categories?.[selectedService]?.types
+  const serviceSpecificKeys = hasNestedTypes ? Object.keys(typesPath[selectedType].categories[selectedService].types) : []
 
-  const ServiceIcon = selectedService ? iconMap[selectedService] || Video : null;
+  interface ServiceDetail {
+    pricePerUnit: number;
+    minQuantity: number;
+    maxQuantity: number;
+    deliveryTime: string;
+    description: string;
+    features: any;
+  }
+
+  const selectedData: ServiceDetail | null = (() => {
+    if (!selectedPlatform || !selectedCategory || !selectedType) return null
+    let dataPath: any = null
+    if (hasSubCategories && selectedSubCategory) {
+      if (hasNestedCategories && selectedService) {
+        if (hasNestedTypes && selectedServiceSpecific) {
+          dataPath = servicesData[selectedPlatform]?.categories?.[selectedCategory]?.subCategories?.[selectedSubCategory]?.types?.[selectedType]?.categories?.[selectedService]?.types?.[selectedServiceSpecific]
+        } else if (!hasNestedTypes) {
+          dataPath = servicesData[selectedPlatform]?.categories?.[selectedCategory]?.subCategories?.[selectedSubCategory]?.types?.[selectedType]?.categories?.[selectedService]
+        }
+      } else if (!hasNestedCategories) {
+        dataPath = servicesData[selectedPlatform]?.categories?.[selectedCategory]?.subCategories?.[selectedSubCategory]?.types?.[selectedType]
+      }
+    } else if (!hasSubCategories) {
+      if (hasNestedCategories && selectedService) {
+        if (hasNestedTypes && selectedServiceSpecific) {
+          dataPath = servicesData[selectedPlatform]?.categories?.[selectedCategory]?.types?.[selectedType]?.categories?.[selectedService]?.types?.[selectedServiceSpecific]
+        } else if (!hasNestedTypes) {
+          dataPath = servicesData[selectedPlatform]?.categories?.[selectedCategory]?.types?.[selectedType]?.categories?.[selectedService]
+        }
+      } else if (!hasNestedCategories) {
+        dataPath = servicesData[selectedPlatform]?.categories?.[selectedCategory]?.types?.[selectedType]
+      }
+    }
+    return dataPath || null
+  })()
+
+  const PlatformIcon = selectedPlatform ? iconMap[selectedPlatform] || Globe : null
 
   // Custom comments detection
-  const isCustom = selectedType.toLowerCase().includes("personalizado");
+  const isCustom = selectedType.toLowerCase().includes("personalizado")
+
+  const quantityNum = Number.parseInt(quantity) || 0
   const lineCount = isCustom
     ? quantity
         .split("\n")
         .filter((line) => line.trim() !== "")
         .length
-    : Number.parseInt(quantity) || 0;
+    : quantityNum
 
-  const totalPriceUSD = selectedData
-    ? (selectedData.pricePerUnit * lineCount).toFixed(2)
-    : "0.00";
-  const totalPriceCOP = selectedData
-    ? Math.round(selectedData.pricePerUnit * lineCount * usdToCop).toLocaleString(
-        "es-CO"
-      )
-    : "0";
-
+  const minQuantity = selectedData?.minQuantity || 0
+  const maxQuantity = selectedData?.maxQuantity || 0
+  const totalPriceUSD = selectedData && (isCustom ? lineCount > 0 : quantityNum > 0) ? (selectedData.pricePerUnit * (isCustom ? lineCount : quantityNum)).toFixed(2) : "0.00"
+  const totalPriceCOP =
+    selectedData && (isCustom ? lineCount > 0 : quantityNum > 0)
+      ? Math.round(selectedData.pricePerUnit * (isCustom ? lineCount : quantityNum) * usdToCop).toLocaleString("es-CO")
+      : "0"
   const isValidQuantity =
-    selectedData &&
-    lineCount >= selectedData.minQuantity &&
-    lineCount <= selectedData.maxQuantity;
+    selectedData && (isCustom ? lineCount >= minQuantity && lineCount <= maxQuantity : quantityNum >= minQuantity && quantityNum <= maxQuantity)
+
+  const ServiceIcon = selectedPlatform ? iconMap[selectedPlatform] || Video : null
 
   // -------------------------
   // Client-side URL validation
@@ -163,17 +264,29 @@ export function PricingSelector() {
   // Build FormData to pass to saveOrder (server action)
   function buildOrderFormData() {
     const fd = new FormData();
-    fd.set("servicio", selectedService);
+    fd.set("servicio", selectedPlatform);
     fd.set("categoria", selectedCategory);
     fd.set("tipo", selectedType);
-    fd.set("cantidad", lineCount.toString());
+    fd.set("cantidad", (isCustom ? lineCount : quantityNum).toString());
     fd.set("link", postUrl.trim());
     fd.set("precioUSD", totalPriceUSD);
     fd.set("precioCOP", totalPriceCOP);
 
-    // 👇 Enviar comentarios personalizados si aplica
+    // Agregar subcategoría si existe
+    if (selectedSubCategory) {
+      fd.set("subcategoria", selectedSubCategory);
+    }
+    // Agregar servicio específico si existe
+    if (selectedService) {
+      fd.set("servicioEspecifico", selectedService);
+    }
+    // Agregar servicio específico detallado si existe
+    if (selectedServiceSpecific) {
+      fd.set("servicioEspecificoDetallado", selectedServiceSpecific);
+    }
+    // Agregar comentarios personalizados si aplica
     if (isCustom) {
-      fd.set("customComments", quantity); // texto con saltos de línea
+      fd.set("customComments", quantity);
     }
 
     return fd;
@@ -185,8 +298,8 @@ export function PricingSelector() {
     setErrorMsg("");
     setSuccessMsg("");
 
-    if (!selectedService || !selectedCategory || !selectedType) {
-      setErrorMsg("Completa servicio, categoría y tipo antes de enviar.");
+    if (!selectedPlatform || !selectedCategory || !selectedType) {
+      setErrorMsg("Completa plataforma, categoría y tipo antes de enviar.");
       return;
     }
     if (!isValidQuantity) {
@@ -214,9 +327,12 @@ export function PricingSelector() {
 
           setSuccessMsg("✅ Pedido enviado con éxito");
           // reset form
-          setSelectedService("");
+          setSelectedPlatform("");
           setSelectedCategory("");
+          setSelectedSubCategory("");
           setSelectedType("");
+          setSelectedService("");
+          setSelectedServiceSpecific("");
           setQuantity("");
           setPostUrl("");
         } catch (err: any) {
@@ -248,8 +364,17 @@ export function PricingSelector() {
                 1. Selecciona el Servicio
               </Label>
               <Select
-                value={selectedService}
-                onValueChange={(v: string) => setSelectedService(v)}
+                value={selectedPlatform}
+                onValueChange={(v: string) => {
+                  setSelectedPlatform(v)
+                  setSelectedCategory("")
+                  setSelectedSubCategory("")
+                  setSelectedType("")
+                  setSelectedService("")
+                  setSelectedServiceSpecific("")
+                  setQuantity("")
+                  setPostUrl("")
+                }}
               >
                 <SelectTrigger
                   id="service"
@@ -258,13 +383,13 @@ export function PricingSelector() {
                   <SelectValue placeholder="Elige una plataforma..." />
                 </SelectTrigger>
                 <SelectContent>
-                  {serviceKeys.map((service) => {
-                    const Icon = iconMap[service] || Video;
+                  {platformKeys.map((platform) => {
+                    const Icon = iconMap[platform] || Globe
                     return (
-                      <SelectItem key={service} value={service}>
+                      <SelectItem key={platform} value={platform}>
                         <div className="flex items-center gap-2">
-                          <Icon className="h-4 w-4 text-black" />
-                          <span className="text-black truncate">{service}</span>
+                          {typeof Icon === 'function' ? <Icon /> : Icon && <Icon className="h-4 w-4 text-black" />}
+                          <span className="text-black truncate">{platform}</span>
                         </div>
                       </SelectItem>
                     );
@@ -274,7 +399,7 @@ export function PricingSelector() {
             </div>
 
             {/* 2️⃣ Categoría */}
-            {selectedService && categoryKeys.length > 0 && (
+            {selectedPlatform && categoryKeys.length > 0 && (
               <div className="space-y-2">
                 <Label htmlFor="category" className="text-white font-semibold">
                   2. Selecciona la Categoría
@@ -283,7 +408,10 @@ export function PricingSelector() {
                   value={selectedCategory}
                   onValueChange={(value: string) => {
                     setSelectedCategory(value);
+                    setSelectedSubCategory("")
                     setSelectedType("");
+                    setSelectedService("")
+                    setSelectedServiceSpecific("")
                     setQuantity("");
                     setPostUrl("");
                     setErrorMsg("");
@@ -320,34 +448,129 @@ export function PricingSelector() {
               </div>
             )}
 
-            {/* 3️⃣ Tipo */}
-            {selectedCategory && typeKeys.length > 0 && (
+            {/* 3️⃣ Subcategoría - Solo si tiene subCategories */}
+            {selectedCategory && hasSubCategories && (
+              <div className="space-y-2">
+                <Label htmlFor="subcategory" className="text-white font-semibold">
+                  3. Selecciona la Subcategoría
+                </Label>
+                <Select
+                  value={selectedSubCategory}
+                  onValueChange={(value: string) => {
+                    setSelectedSubCategory(value)
+                    setSelectedType("")
+                    setSelectedService("")
+                    setSelectedServiceSpecific("")
+                    setQuantity("")
+                    setPostUrl("")
+                  }}
+                >
+                  <SelectTrigger
+                    id="subcategory"
+                    className="bg-white/50 h-12 border-white text-black"
+                  >
+                    <SelectValue placeholder="Elige una subcategoría..." className="text-black" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {subCategoryKeys.map((subCategory) => (
+                      <SelectItem key={subCategory} value={subCategory}>
+                        {subCategory}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
+            )}
+
+            {/* 4️⃣ Tipo */}
+            {selectedCategory && (!hasSubCategories || selectedSubCategory) && (hasDirectTypes || (hasSubCategories && selectedSubCategory)) && typeKeys.length > 0 && (
               <div className="space-y-2">
                 <Label htmlFor="type" className="text-white font-semibold">
-                  3. Selecciona el Tipo de Servicio
+                  {hasSubCategories ? "4. Selecciona el Tipo Específico" : "3. Selecciona el Tipo Específico"}
                 </Label>
                 <Select
                   value={selectedType}
-                  onValueChange={(v: string) => setSelectedType(v)}
+                  onValueChange={(value) => {
+                    setSelectedType(value)
+                    setSelectedService("")
+                    setSelectedServiceSpecific("")
+                    setQuantity("")
+                  }}
                 >
-                  <SelectTrigger
-                    id="type"
-                    className="bg-white/50 h-12 border-white text-black"
-                  >
-                    <SelectValue
-                      placeholder="Elige el tipo de servicio..."
-                      className="truncate"
-                    />
+                  <SelectTrigger id="type" className="bg-white/50 h-12 border-white text-black">
+                    <SelectValue placeholder="Elige el tipo de servicio..." className="text-black" />
                   </SelectTrigger>
                   <SelectContent>
                     {typeKeys.map((type) => (
                       <SelectItem key={type} value={type}>
+                        {type}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
+            )}
+
+            {/* 5️⃣ Servicio Específico */}
+            {selectedType && hasNestedCategories && (
+              <div className="space-y-2">
+                <Label htmlFor="service" className="text-white font-semibold">
+                  {hasSubCategories ? "5. Selecciona el Servicio Específico" : "4. Selecciona el Servicio Específico"}
+                </Label>
+                <Select
+                  value={selectedService}
+                  onValueChange={(value) => {
+                    setSelectedService(value)
+                    setSelectedServiceSpecific("")
+                    setQuantity("")
+                  }}
+                >
+                  <SelectTrigger id="service" className="bg-white/50 h-12 border-white text-black">
+                    <SelectValue placeholder="Elige el servicio específico..." className="text-black" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {serviceKeys.map((service) => (
+                      <SelectItem key={service} value={service}>
+                        {service}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
+            )}
+
+            {/* 6️⃣ Servicio Específico Detallado */}
+            {selectedService && hasNestedTypes && (
+              <div className="space-y-2">
+                <Label htmlFor="serviceSpecific" className="text-white font-semibold">
+                  {hasSubCategories ? "6. Selecciona el Servicio Específico Detallado" : "5. Selecciona el Servicio Específico Detallado"}
+                </Label>
+                <Select
+                  value={selectedServiceSpecific}
+                  onValueChange={(value) => {
+                    setSelectedServiceSpecific(value)
+                    setQuantity("")
+                  }}
+                >
+                  <SelectTrigger id="serviceSpecific" className="bg-white/50 h-12 border-white text-black max-w-full">
+                    <SelectValue
+                      placeholder="Elige el servicio específico detallado..."
+                      className="truncate"
+                    />
+                  </SelectTrigger>
+                  <SelectContent className="max-w-[90vw] sm:max-w-[420px]">
+                    {serviceSpecificKeys.map((serviceSpecific) => (
+                      <SelectItem
+                        key={serviceSpecific}
+                        value={serviceSpecific}
+                        className="max-w-[400px]"
+                      >
                         <div
                           className="truncate"
                           style={{ maxWidth: 360 }}
-                          title={type}
+                          title={serviceSpecific}
                         >
-                          {type}
+                          {serviceSpecific}
                         </div>
                       </SelectItem>
                     ))}
@@ -356,17 +579,14 @@ export function PricingSelector() {
               </div>
             )}
 
-            {/* 4️⃣ Cantidad o comentarios */}
-            {selectedType && selectedData && (
+            {selectedData && (
               <div className="space-y-2">
-                <Label
-                  htmlFor="quantity"
-                  className="text-white font-semibold"
-                >
-                  4.{" "}
-                  {isCustom
-                    ? "Escribe los Comentarios Personalizados"
-                    : "Ingresa la Cantidad"}
+                <Label htmlFor="quantity" className="text-white font-semibold">
+                  {hasSubCategories && hasNestedCategories && hasNestedTypes ? "7. Ingresa la Cantidad" :
+                   hasSubCategories && hasNestedCategories ? "6. Ingresa la Cantidad" :
+                   hasSubCategories ? "4. Ingresa la Cantidad" :
+                   hasNestedCategories && hasNestedTypes ? "6. Ingresa la Cantidad" :
+                   hasNestedCategories ? "5. Ingresa la Cantidad" : "4. Ingresa la Cantidad"}
                 </Label>
 
                 {isCustom ? (
@@ -390,8 +610,8 @@ export function PricingSelector() {
                         escrito
                       </p>
                       <p className="text-white/70">
-                        Mín: {selectedData.minQuantity} • Máx:{" "}
-                        {selectedData.maxQuantity}
+                        Mín: {minQuantity} • Máx:{" "}
+                        {maxQuantity}
                       </p>
                     </div>
                   </>
@@ -399,11 +619,18 @@ export function PricingSelector() {
                   <Input
                     id="quantity"
                     type="number"
-                    placeholder={`Mínimo ${selectedData.minQuantity}, Máximo ${selectedData.maxQuantity}`}
+                    placeholder={`Mínimo ${minQuantity}, Máximo ${maxQuantity}`}
                     value={quantity}
                     onChange={(e) => setQuantity(e.target.value)}
+                    min={minQuantity}
+                    max={maxQuantity}
                     className="bg-white/50 border-white h-12 text-black"
                   />
+                )}
+                {quantity && !isValidQuantity && (
+                  <p className="text-sm text-destructive">
+                    La cantidad debe estar entre {minQuantity.toLocaleString()} y {maxQuantity.toLocaleString()}
+                  </p>
                 )}
               </div>
             )}
@@ -458,13 +685,19 @@ export function PricingSelector() {
               <div className="mt-6 space-y-6">
                 <div className="flex items-center gap-3 border-t border-border/50 pt-6">
                   <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-white/20 text-white">
-                    <ServiceIcon className="h-6 w-6" />
+                    {typeof PlatformIcon === 'function' ? <PlatformIcon /> : <PlatformIcon className="h-6 w-6" />}
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold text-white">
-                      {selectedType}
+                      {selectedServiceSpecific || selectedService || selectedType}
                     </h3>
-                    <p className="text-sm text-white/70">{selectedService}</p>
+                    <p className="text-sm text-white/70">
+                      {selectedPlatform} - {selectedCategory}
+                      {selectedSubCategory && ` - ${selectedSubCategory}`}
+                      {selectedType && ` - ${selectedType}`}
+                      {selectedService && ` - ${selectedService}`}
+                      {selectedServiceSpecific && ` - ${selectedServiceSpecific}`}
+                    </p>
                   </div>
                 </div>
 
@@ -508,14 +741,20 @@ export function PricingSelector() {
                   <p className="mb-4 text-white/90">
                     {selectedData.description}
                   </p>
-                  <ul className="space-y-2">
-                    {selectedData.features.map((f: string, i: number) => (
-                      <li key={i} className="flex items-center gap-2 text-white/80">
-                        <CheckCircle2 className="h-4 w-4 text-white/40" />
-                        {f}
-                      </li>
+                  <div className="space-y-2">
+                    {(Array.isArray(selectedData.features) ? selectedData.features : [
+                      "Rápido y seguro",
+                      "Muy rápido",
+                      "Entrega en menos de 24 horas",
+                      "Cuenta personal de estudiante",
+                      "46 productos con licencia"
+                    ]).map((feature: string, index: number) => (
+                      <div key={index} className="flex items-center gap-2">
+                        <CheckCircle2 className="h-4 w-4 shrink-0 text-white/20" />
+                        <span className="text-sm text-white font-extralight">{feature}</span>
+                      </div>
                     ))}
-                  </ul>
+                  </div>
                 </div>
               </div>
             )}

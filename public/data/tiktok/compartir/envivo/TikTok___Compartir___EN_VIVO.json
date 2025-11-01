@@ -1,0 +1,26 @@
+{
+  "TikTok - Compartir - EN VIVO": {
+    "categories": {
+      "TikTok - Compartir - EN VIVO": {
+        "types": {
+          "1825 - ID 1825 - TikTok - Compartir - Transmisión en vivo - Max 1M - $0.63 por 1000": {
+            "pricePerUnit": 0.00063,
+            "minQuantity": 50,
+            "maxQuantity": 10000000,
+            "deliveryTime": "No especificado",
+            "description": "✔️ Transmitir en vivo y luego realizar el pedidoInicio: 0 - 10 Min—--------------------------------------Enlace: Insertar enlace de perfil completoEjemplo de enlace:https://www.tiktok.com/@username/live📌 Este servicio solo funciona en el perfil público / en vivo",
+            "features": {}
+          },
+          "1826 - ID 1826 - TikTok - Compartir - Transmisión en vivo - Max 5M - $2.14 por 1000": {
+            "pricePerUnit": 0.002142,
+            "minQuantity": 10,
+            "maxQuantity": 10000000,
+            "deliveryTime": "No especificado",
+            "description": "✔️ Transmitir en vivo y luego realizar el pedidoInicio: 0 - 10 Min—--------------------------------------Enlace: Insertar enlace de perfil completoEjemplo de enlace:https://www.tiktok.com/@username/live📌 Este servicio solo funciona en el perfil público / en vivo",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

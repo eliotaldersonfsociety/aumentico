@@ -1,0 +1,18 @@
+{
+  "Facebook - Comentarios aleatorios - Transmicion en vivo": {
+    "categories": {
+      "Facebook - Comentarios aleatorios - Transmicion en vivo": {
+        "types": {
+          "1490 - ID 1490 - Facebook - Comentarios ALEATORIOS - TRANSMISIÓN EN VIVO - $240 por 1000": {
+            "pricePerUnit": 0.24,
+            "minQuantity": 1,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: Inicio de 5 a 15 minutosPublico: MundialRecarga: Sin recargaComentarios: Comentarios aleatorios—--------------------------------------Enlace: Enlace de transmisión en vivo de Facebook",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

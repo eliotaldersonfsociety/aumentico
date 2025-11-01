@@ -1,0 +1,58 @@
+{
+  "YouTube - Comentarios por Genero": {
+    "categories": {
+      "YouTube - Comentarios por Genero": {
+        "types": {
+          "4443 - ID 4443 - YouTube - Comentarios Personalizados - Mayormente Hombres - Max 150 - $91 por 1000": {
+            "pricePerUnit": 0.091,
+            "minQuantity": 5,
+            "maxQuantity": 1000,
+            "deliveryTime": "12 Horas",
+            "description": "Descripción del servicio\n\n- Ubicaciones: EE. UU. 🇺🇸 y Hombre\n- Enlace: Enlace de vídeo de Youtube\n- Inicio: 1 a 12 Horas\n- Velocidad: 150/Día\n- Alta calidad\n- Comentarios personalizados\n\nNotas:\n• Cuando el servicio está ocupado, la velocidad de inicio del proceso cambia.\n• No realice el segundo pedido en el mismo enlace antes de que su pedido se complete en el sistema.",
+            "features": {}
+          },
+          "4444 - ID 4444 - YouTube - Comentarios Personalizados - Mayormente Mujeres - Max 150 - $78 por 1000": {
+            "pricePerUnit": 0.078,
+            "minQuantity": 5,
+            "maxQuantity": 1000,
+            "deliveryTime": "12 Horas",
+            "description": "Descripción del servicio\n\n- Ubicaciones: EE. UU. 🇺🇸 y Mujer\n- Enlace: Enlace de vídeo de Youtube\n- Inicio: 1 a 12 Horas\n- Velocidad: 150/Día\n- Alta calidad\n- Comentarios aleatorios\n\nNotas:\n• Cuando el servicio está ocupado, la velocidad de inicio del proceso cambia.\n• No realice el segundo pedido en el mismo enlace antes de que su pedido se complete en el sistema.",
+            "features": {}
+          },
+          "4447 - ID 4447 - YouTube - Comentarios Personalizados - Mayormente Mujeres - Max 500 - $91 por 1000": {
+            "pricePerUnit": 0.091,
+            "minQuantity": 10,
+            "maxQuantity": 500,
+            "deliveryTime": "12 horas",
+            "description": "- Calidad = ALTA\n- Hora de inicio = 1 a 12 horas\n- Recarga = Sin recarga / reembolso\n- Mínimo = 10\n- Máximo = 500\n- Especificaciones = TODOS LOS PERFILES CON FOTOS",
+            "features": {}
+          },
+          "4449 - ID 4449 - YouTube - Comentarios Aleatorios  - Mayormente Mujeres - Max 10K - R30 - $22.50 por 1000": {
+            "pricePerUnit": 0.0225,
+            "minQuantity": 10,
+            "maxQuantity": 10000,
+            "deliveryTime": "12 Horas",
+            "description": "Descripción del servicio\n\n- Enlace: Enlace de vídeo de Youtube\n- Inicio: 1 a 12 Horas\n- Velocidad: 1K/Día\n- Alta calidad\n- Comentarios Aleatorios Mujeres Principalmente\n\nNotas:\n• Cuando el servicio está ocupado, la velocidad de inicio del proceso cambia.\n• No realice el segundo pedido en el mismo enlace antes de que su pedido se complete en el sistema.",
+            "features": {}
+          },
+          "4451 - ID 4451 - YouTube - Comentarios Aleatorios  - Mayormente Hombres - Max 10K - R30 - $21.75 por 1000": {
+            "pricePerUnit": 0.02175,
+            "minQuantity": 20,
+            "maxQuantity": 10000,
+            "deliveryTime": "12 Horas",
+            "description": "Descripción del servicio\n\n- Enlace: Enlace de vídeo de Youtube\n- Inicio: 1 a 12 Horas\n- Velocidad: 1K/Día\n- Alta calidad\n- Comentarios Aleatorios Hombres Principalmente\n\nNotas:\n• Cuando el servicio está ocupado, la velocidad de inicio del proceso cambia.\n• No realice el segundo pedido en el mismo enlace antes de que su pedido se complete en el sistema.",
+            "features": {}
+          },
+          "4462 - ID 4462 - YouTube - Comentarios Aleatorios en INGLES - Mayormente Mujeres - Max 500 - $65 por 1000": {
+            "pricePerUnit": 0.065,
+            "minQuantity": 10,
+            "maxQuantity": 500,
+            "deliveryTime": "12 horas",
+            "description": "- Calidad = ALTA\n- Hora de inicio = 0 a 12 horas Inicio\n- Recarga = Sin recarga / reembolso\n- Mínimo = 10\n- Máximo = 500\n- Especificaciones = TODOS LOS PERFILES CON FOTOS",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

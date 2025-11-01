@@ -1,0 +1,42 @@
+{
+  "Twitch - Vistas de clips": {
+    "categories": {
+      "Twitch - Vistas de clips": {
+        "types": {
+          "1323 - ID 1323 - Twitch - Vistas de clips - Max 100K - $0.18 por 1000": {
+            "pricePerUnit": 0.000176,
+            "minQuantity": 10,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: de 0 a 24 h\nVelocidad:  300 por hora\nCalidad: Buena calidad\nAudiencia: Mundo\nGarantía: NO\n—---------------------------------- ----\nEnlace: Ingrese el enlace del video completo de twitch\nEjemplo: https://www.twitch.tv/videos/540013233",
+            "features": {}
+          },
+          "1324 - ID 1324 - Twitch - Reproducciones de clips - R30 - $0.24 por 1000": {
+            "pricePerUnit": 0.00023999999999999998,
+            "minQuantity": 10,
+            "maxQuantity": 10000000,
+            "deliveryTime": "30 Días",
+            "description": "Inicio: de 0 a 6 hVelocidad:  100 a 150 DiaCalidad: Buena calidadAudiencia: MundoGarantía: 30 Días (Si cae más del 10%)—---------------------------------- ----Enlace de ejemplo: https://clips.twitch.tv/HereIsSomeName",
+            "features": {}
+          },
+          "3162 - ID 3162- Twitch - Reproducciones de clips - R30 - $4.34 por 1000": {
+            "pricePerUnit": 0.00434,
+            "minQuantity": 10,
+            "maxQuantity": 20000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "3161 - ID 3161- Twitch - Reproducciones de clips - Max 50K - $2.64 por 1000": {
+            "pricePerUnit": 0.00264,
+            "minQuantity": 1,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

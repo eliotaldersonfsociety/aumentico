@@ -1,0 +1,58 @@
+{
+  "TikTok -Comentarios - En vivo": {
+    "categories": {
+      "TikTok -Comentarios - En vivo": {
+        "types": {
+          "4158 - ID 4158 - TikTok - Comentarios Personalizados - En vivo - Max 5K - $2.50 por 1000": {
+            "pricePerUnit": 0.002496,
+            "minQuantity": 1,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "4159 - ID 4159 - TikTok - Comentarios Aleatorios en INGLES - En vivo - Max 50 K - $2.72 por 1000": {
+            "pricePerUnit": 0.00272,
+            "minQuantity": 10,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "4160 - ID 4160 - TikTok - Comentarios Personalizados - En vivo - Max 10K - $9.72 por 1000": {
+            "pricePerUnit": 0.009715999999999999,
+            "minQuantity": 10,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "4161 - ID 4161 - TikTok - Comentarios Aleatorios Emoji - En vivo - Max 10K - $14.57 por 1000": {
+            "pricePerUnit": 0.014574,
+            "minQuantity": 10,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "1827 - ID 1827 - TikTok - Comentarios - Transmisión en vivo - Max 1M - $22.05 por 1000": {
+            "pricePerUnit": 0.02205,
+            "minQuantity": 5,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "✔️ Transmitir en vivo y luego realizar el pedidoInicio: 0 - 10 Min—--------------------------------------Enlace: Insertar enlace de perfil completoEjemplo de enlace:https://www.tiktok.com/@username/live📌 Este servicio solo funciona en el perfil público / en vivo",
+            "features": {}
+          },
+          "1828 - ID 1828 - TikTok - Comentario de Emoji  - Transmisión en vivo - Max 1M - $15.15 por 1000": {
+            "pricePerUnit": 0.015153999999999999,
+            "minQuantity": 10,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "✔️ Transmitir en vivo y luego realizar el pedidoInicio: 0 - 10 Min—--------------------------------------Enlace: Insertar enlace de perfil completoEjemplo de enlace:https://www.tiktok.com/@username/live📌 Este servicio solo funciona en el perfil público / en vivo",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

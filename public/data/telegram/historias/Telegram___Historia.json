@@ -1,0 +1,34 @@
+{
+  "Telegram - Historia": {
+    "categories": {
+      "Telegram - Historia": {
+        "types": {
+          "2778 - ID 2778 - Telegram - Historia  - Vistas - $0.32 por 1000": {
+            "pricePerUnit": 0.000324,
+            "minQuantity": 15,
+            "maxQuantity": 150000,
+            "deliveryTime": "No especificado",
+            "description": "Calidad: BotVelocidad: RápidaRecarga: NoRefillEnlace: Url de la historia Horade inicio: InstantáneoDrop: Non Drop",
+            "features": {}
+          },
+          "2779 - ID 2779 - Telegram - Historia - Vistas - $0.32 por 1000": {
+            "pricePerUnit": 0.000324,
+            "minQuantity": 10,
+            "maxQuantity": 5000,
+            "deliveryTime": "No especificado",
+            "description": "Calidad: BotVelocidad: RápidaRecarga: NoRefillEnlace: Url de la historia Horade inicio: InstantáneoDrop: Non Drop",
+            "features": {}
+          },
+          "2780 - ID 2780- Telegram - Historia - Vistas - $0.79 por 1000": {
+            "pricePerUnit": 0.0007920000000000001,
+            "minQuantity": 10,
+            "maxQuantity": 1000000,
+            "deliveryTime": "No especificado",
+            "description": "Calidad: BotVelocidad: RápidaRecarga: NoRefillEnlace: Url de la historia Horade inicio: InstantáneoDrop: Non Drop",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

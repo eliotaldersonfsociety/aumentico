@@ -1,0 +1,26 @@
+{
+  "Instagram - Otros servicios BRASIL": {
+    "categories": {
+      "Instagram - Otros servicios BRASIL": {
+        "types": {
+          "1963 - ID 1963 - Instagram - Guardar publicaciones - Brasil - $0.48 por 1000": {
+            "pricePerUnit": 0.00047999999999999996,
+            "minQuantity": 100,
+            "maxQuantity": 9000,
+            "deliveryTime": "No especificado",
+            "description": "Poner el enlace de la publicación",
+            "features": {}
+          },
+          "1965 - ID 1965 - Instagram - Alcance + impreciones -  Brasil - Max 100K - $0.86 por 1000": {
+            "pricePerUnit": 0.00086,
+            "minQuantity": 100,
+            "maxQuantity": 250000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

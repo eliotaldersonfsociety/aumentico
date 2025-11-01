@@ -1,0 +1,50 @@
+{
+  "Twitter - Votos de encuesta": {
+    "categories": {
+      "Twitter - Votos de encuesta": {
+        "types": {
+          "2249 - ID 2249 - Twitter - Votos de encuesta - ALEATORIOS - Max 50K - $1.09 por 1000": {
+            "pricePerUnit": 0.001088,
+            "minQuantity": 100,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "👉 VOTOS ALEATORIOSInicio: De 0 a 1 horaVelocidad: 1K a 2K DíaCalidad: Buena calidadCaídas: 5% al 10%Recarga: Sin recargaPublico: Mundial👆 No olvide que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace de encuesta de TwitterEnlace de ejemplo: https://twitter.com/abc/status/123456789—--------------------------------------⚠️ Si la encuesta finaliza, el pedido se da por terminado.",
+            "features": {}
+          },
+          "2250 - ID 2250 - Twitter - Votos de encuesta - ALEATORIOS - Max 100K - R30 - $1.80 por 1000": {
+            "pricePerUnit": 0.0018,
+            "minQuantity": 100,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "👉 VOTOS ALEATORIOSInicio: De 0 a 1 horaVelocidad: 1K a 2K DíaCalidad: Buena calidadCaídas: 5% al 10%Recarga: 30 DiasPublico: Mundial👆 No olvide que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace de encuesta de TwitterEnlace de ejemplo: https://twitter.com/abc/status/123456789—--------------------------------------⚠️ Si la encuesta finaliza, el pedido se da por terminado.",
+            "features": {}
+          },
+          "330 - ID 330 - Twitter - Votos de encuesta - Personalizados - Max 100k - (Lento) - $2.16 por 1000": {
+            "pricePerUnit": 0.00216,
+            "minQuantity": 100,
+            "maxQuantity": 100000,
+            "deliveryTime": "48 horas",
+            "description": "Inicio: De 1 a 48 horasCalidad: Buena calidadCaídas: 5 al 10%Recarga: Sin recargaPublico: Mundial👆 No olvide que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace de encuesta de TwitterEnlace de ejemplo: https://twitter.com/abc/status/123456789—--------------------------------------¿Como hacer el pedido)Link: El link de la encuesta.Cantidad: Cantidad de votos que desea comprar.Número de respuesta: El número de la respuesta se obtiene contando de arriba hacia abajo, ejemplo, si la encuesta tiene 4 opciones, y desea comprar votos para la 3 opción, entonces poner en este campo el número 3.—--------------------------------------⚠️ Si la encuesta finaliza, el pedido se da por terminado.",
+            "features": {}
+          },
+          "338 - ID 338 - Twitter - Votos de encuesta - Personalizados - R45 - Max 100k ⚡ - $7.41 por 1000": {
+            "pricePerUnit": 0.00741,
+            "minQuantity": 100,
+            "maxQuantity": 100000,
+            "deliveryTime": "45 Días",
+            "description": "Inicio: De 0 a 1 horaVelocidad: 20K DíaCalidad: Buena calidadCaídas: Sin caídasRecarga: 45 Días (Si cae más del 10%)Publico: Mundial👆 No olvide que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace de ejemplo: https://twitter.com/abc/status/123456789?vote=ButtonNumberhttps://twitter.com/abc/status/1234567890?vote=1",
+            "features": {}
+          },
+          "337 - ID 337 - Twitter - Votos de encuesta - Personalizados - R60 - Max 600k - Rápido ⚡ - $9.26 por 1000": {
+            "pricePerUnit": 0.009264,
+            "minQuantity": 100,
+            "maxQuantity": 600000,
+            "deliveryTime": "60 Días",
+            "description": "Inicio: De 0 a 30 minutosVelocidad: 600K DíaCalidad: Real HQCaídas: Sin caídasRecarga: 60 Días (Si cae más del 10%)Publico: Mundial👆 No olvide que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace de ejemplo: https://twitter.com/abc/status/123456789?vote=ButtonNumberhttps://twitter.com/abc/status/1234567890?vote=1—--------------------------------------⚠️ Si la encuesta finaliza, el pedido se da por terminado.",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

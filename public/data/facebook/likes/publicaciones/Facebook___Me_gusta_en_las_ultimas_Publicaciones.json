@@ -1,0 +1,36 @@
+{
+  "Facebook - Me gusta en las ultimas Publicaciones": {
+    "categories": {
+      "Facebook - Me gusta en las ultimas Publicaciones": {
+        "types": {
+          "4261 - ID 4261 - Facebook - Me gusta en las ultimas 50 Publicaciones - Max 10M - $7.20 por 1000": {
+            "pricePerUnit": 0.0072,
+            "minQuantity": 10000,
+            "maxQuantity": 10000000,
+            "deliveryTime": "12-24 horas",
+            "description": "Inicio: 12-24 horas\nVelocidad: 5-20K/día\nCalidad: mundial -  asiático\nEnlace: enlace de página o perfil de Facebook\n\n✅Si realiza su pedido con un enlace de publicación, los Me gusta se enviarán comenzando con la publicación que solicitó hacia atrás para obtener un total de 50 publicaciones. \n\n✅Los Me gusta de las publicaciones de Facebook se dividen en tus últimas 50 publicaciones\n\n✅Si tiene menos de 50 publicaciones, las dividiremos entre las publicaciones que tenga.\n\n✅Los me gusta, no son para publicaciones futuras, sino para publicaciones que ya se publicaron antes del pedido.\nCalidad: mundial -  asiático\n\n\n👆Recuerde, que estos datos son solo estimaciones..",
+            "features": {
+              "0": "✅Si realiza su pedido con un enlace de publicación, los Me gusta se enviarán comenzando con la publicación que solicitó hacia atrás para obtener un total de 50 publicaciones.",
+              "1": "✅Los Me gusta de las publicaciones de Facebook se dividen en tus últimas 50 publicaciones",
+              "2": "✅Si tiene menos de 50 publicaciones, las dividiremos entre las publicaciones que tenga.",
+              "3": "✅Los me gusta, no son para publicaciones futuras, sino para publicaciones que ya se publicaron antes del pedido."
+            }
+          },
+          "4262 - ID 4262 - Facebook - Me gusta en las ultimas 100 Publicaciones - Max 10M - $7.20 por 1000": {
+            "pricePerUnit": 0.0072,
+            "minQuantity": 20000,
+            "maxQuantity": 10000000,
+            "deliveryTime": "12-24 horas",
+            "description": "Inicio: 12-24 horas\nVelocidad: 5-20K/día\nCalidad: mundial -  asiático\nEnlace: enlace de página o perfil de Facebook\n\n✅Si realiza su pedido con un enlace de publicación, los Me gusta se enviarán comenzando con la publicación que solicitó hacia atrás para obtener un total de 100 publicaciones. \n\n✅Los Me gusta de las publicaciones de Facebook se dividen en tus últimas 100 publicaciones\n\n✅Si tiene menos de 100 publicaciones, las dividiremos entre las publicaciones que tenga.\n\n✅Los me gusta, no son para publicaciones futuras, sino para publicaciones que ya se publicaron antes del pedido.\nCalidad: mundial -  asiático\n\n\n👆Recuerde, que estos datos son solo estimaciones..",
+            "features": {
+              "0": "✅Si realiza su pedido con un enlace de publicación, los Me gusta se enviarán comenzando con la publicación que solicitó hacia atrás para obtener un total de 100 publicaciones.",
+              "1": "✅Los Me gusta de las publicaciones de Facebook se dividen en tus últimas 100 publicaciones",
+              "2": "✅Si tiene menos de 100 publicaciones, las dividiremos entre las publicaciones que tenga.",
+              "3": "✅Los me gusta, no son para publicaciones futuras, sino para publicaciones que ya se publicaron antes del pedido."
+            }
+          }
+        }
+      }
+    }
+  }
+}

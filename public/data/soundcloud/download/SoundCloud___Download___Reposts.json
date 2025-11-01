@@ -1,0 +1,42 @@
+{
+  "SoundCloud - Download - Reposts": {
+    "categories": {
+      "SoundCloud - Download - Reposts": {
+        "types": {
+          "1685 - ID 1685 - Soundcloud - Download - Max 10M - $1.92 por 1000": {
+            "pricePerUnit": 0.0019199999999999998,
+            "minQuantity": 100,
+            "maxQuantity": 10000000,
+            "deliveryTime": "No especificado",
+            "description": "⚠️ ¡La pista debe ser descargable!Inicio: 1 h a 48 h Velocidad: 500 a 1K+ por día Publico: MundoRecarga: Sin recarga👆 No olvide que estos datos son solo estimaciones (pueden variar)-------------------------------------------------Enlace: Enlace de la pista completaEnlace de ejemplo: https://soundcloud.com/xyz/abc-def-ghi",
+            "features": {}
+          },
+          "1683 - ID 1683 - SoundCloud Reposts - USA - Max 10K - R30 - $14.40 por 1000": {
+            "pricePerUnit": 0.0144,
+            "minQuantity": 50,
+            "maxQuantity": 2000,
+            "deliveryTime": "No especificado",
+            "description": "Nota: La cantidad del pedido debe ser un múltiplo de 100 (por ejemplo, 100, 200, 800, 900, etc.)Inicio: 1 h a 48 h Velocidad: 200 a 1K+ por día Publico: Estados UnidosRecarga: 30 dias (Si baja mas del 10%)👆 No olvide que estos datos son solo estimaciones (pueden variar)-------------------------------------------------Enlace: Enlace de la pista completaEnlace de ejemplo: https://soundcloud.com/xyz/abc-def-ghi",
+            "features": {}
+          },
+          "1686 - ID 1686 - SoundCloud Reposts - USA - Max 7.5K - R30 - $25.26 por 1000": {
+            "pricePerUnit": 0.025263999999999998,
+            "minQuantity": 20,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: 1 h a 48 h Velocidad: 200 a 1K+ por día Publico: Estados UnidosRecarga: 30 dias (Si baja mas del 10%)👆 No olvide que estos datos son solo estimaciones (pueden variar)-------------------------------------------------Enlace: Enlace de la pista completaEnlace de ejemplo: https://soundcloud.com/xyz/abc-def-ghi",
+            "features": {}
+          },
+          "5133 - ID 5133 - SoundCloud Reposts - Max 100K - $22.68 por 1000": {
+            "pricePerUnit": 0.02268,
+            "minQuantity": 20,
+            "maxQuantity": 50000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

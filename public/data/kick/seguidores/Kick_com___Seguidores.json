@@ -1,0 +1,34 @@
+{
+  "Kick.com - Seguidores": {
+    "categories": {
+      "Kick.com - Seguidores": {
+        "types": {
+          "2203 - ID 2203 - Kick - Seguidores - Max 100K - $2.75 por 1000": {
+            "pricePerUnit": 0.0027519999999999997,
+            "minQuantity": 10,
+            "maxQuantity": 100000,
+            "deliveryTime": "24 horas",
+            "description": "Inicio: 8 a 24 horas Velocidad: 1K a 3K+ por día Publico: MundialRecarga: Sin recarga👆 No olvide que estos datos son solo estimaciones (pueden variar)-------------------------------------------------Enlace: Enlace de canal KickEnlace de ejemplo: https://kick.com/xxxx📌 Recuerde que debe de ser público",
+            "features": {}
+          },
+          "2707 - ID 2707 - Kick - seguidores - Max1K - R15 - $17.25 por 1000": {
+            "pricePerUnit": 0.01725,
+            "minQuantity": 10,
+            "maxQuantity": 1000,
+            "deliveryTime": "24 horas",
+            "description": "Inicio: 8 a 24 horas \nVelocidad: 1K a 3K+ por día \nPublico: Mundial\nRecarga: (15 Dias si cae mas del 10%)\n👆 No olvide que estos datos son solo estimaciones (pueden variar)\n-------------------------------------------------\nEnlace: Enlace de canal Kick\nEnlace de ejemplo: https://kick.com/xxxx\n\n📌 Recuerde que debe de ser público",
+            "features": {}
+          },
+          "2708 - ID 2708 - Kick - seguidores - Max1K - R15 - $17.25 por 1000": {
+            "pricePerUnit": 0.01725,
+            "minQuantity": 10,
+            "maxQuantity": 1000,
+            "deliveryTime": "24 horas",
+            "description": "Inicio: 8 a 24 horas \nVelocidad: 1K a 3K+ por día \nPublico: Mundial\nRecarga: 15 días (si cae más del 10%)\n👆 No olvide que estos datos son solo estimaciones (pueden variar)\n-------------------------------------------------\nEnlace: Enlace de canal Kick\nEnlace de ejemplo: https://kick.com/xxxx\n\n📌 Recuerde que debe de ser público",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

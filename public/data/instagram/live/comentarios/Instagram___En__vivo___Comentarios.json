@@ -1,0 +1,50 @@
+{
+  "Instagram - En  vivo - Comentarios": {
+    "categories": {
+      "Instagram - En  vivo - Comentarios": {
+        "types": {
+          "2767 - ID2767 Instagram - Comentarios de video en vivo - Aleatorio (Femenino) - $18 por 1000": {
+            "pricePerUnit": 0.018,
+            "minQuantity": 50,
+            "maxQuantity": 2000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2766 - ID 2766 Instagram - Comentarios de video en vivo - ALEATORIO - $19.50 por 1000": {
+            "pricePerUnit": 0.0195,
+            "minQuantity": 100,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2768 - ID2768 Instagram - Comentarios de video en vivo - Aleatorio (Masculino) - $27 por 1000": {
+            "pricePerUnit": 0.027,
+            "minQuantity": 50,
+            "maxQuantity": 2000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2764 - ID 2764 Instagram - Comentarios de video en vivo (masculino) - $45 por 1000": {
+            "pricePerUnit": 0.045,
+            "minQuantity": 50,
+            "maxQuantity": 2000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2765 - ID 2765 Instagram - Comentarios de video en vivo (Femenino) - $45 por 1000": {
+            "pricePerUnit": 0.045,
+            "minQuantity": 50,
+            "maxQuantity": 2000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

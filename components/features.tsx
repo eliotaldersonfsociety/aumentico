@@ -1,39 +1,36 @@
 "use client"
 
 import { Shield, Zap, HeadphonesIcon, TrendingUp } from "lucide-react"
-import { useTranslation } from "react-i18next"
 
 export function Features() {
-  const { t } = useTranslation();
-
   const features = [
     {
       icon: Zap,
-      title: t("features.fastDelivery.title"),
-      description: t("features.fastDelivery.description"),
+      title: "Entrega Rápida",
+      description: "Comenzamos a procesar tu orden inmediatamente. La mayoría de servicios se completan en 24-48 horas.",
     },
     {
       icon: Shield,
-      title: t("features.secure.title"),
-      description: t("features.secure.description"),
+      title: "100% Seguro",
+      description: "Todos nuestros servicios cumplen con las políticas de las plataformas. No requieren contraseña.",
     },
     {
       icon: TrendingUp,
-      title: t("features.realGrowth.title"),
-      description: t("features.realGrowth.description"),
+      title: "Crecimiento Real",
+      description: "Trabajamos con usuarios reales y activos. Sin bots, sin cuentas falsas, solo crecimiento orgánico.",
     },
     {
       icon: HeadphonesIcon,
-      title: t("features.support.title"),
-      description: t("features.support.description"),
+      title: "Soporte 24/7",
+      description: "Nuestro equipo está disponible las 24 horas para ayudarte con cualquier pregunta o problema.",
     },
   ]
 
   return (
     <section className="container mx-auto px-4 py-20">
       <div className="mb-12 text-center">
-        <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">{t("features.title")}</h2>
-        <p className="text-lg text-muted-foreground">{t("features.subtitle")}</p>
+        <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">¿Por Qué Elegirnos?</h2>
+        <p className="text-lg text-muted-foreground">Ofrecemos los mejores servicios con garantía de calidad</p>
       </div>
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
         {features.map((feature, index) => (

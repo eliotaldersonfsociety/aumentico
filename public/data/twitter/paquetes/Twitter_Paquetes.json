@@ -1,0 +1,50 @@
+{
+  "Twitter Paquetes": {
+    "categories": {
+      "Twitter Paquetes": {
+        "types": {
+          "2958 - ID 2958 Twitter Paquetes - Todo el mundo - (100 Retweet + 100 me gusta + 100 Seguidores) - $7 por 1": {
+            "pricePerUnit": 0.007,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2957 - ID 2957 Twitter Paquetes - (100 Retweet + 40 me gusta ) - $10.95 por 1": {
+            "pricePerUnit": 0.01095,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2704 - ID 2704-Twitter- (USA) - 100 Retweets 200 Me gusta 25 comentarios - (PAQUETE HQ) - $16.88 por 1": {
+            "pricePerUnit": 0.016876000000000002,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2959 - ID 2959 Twitter Paquetes - (100 Retweet + 40 me gusta ) - $18 por 1": {
+            "pricePerUnit": 0.018,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2960 - ID 2960 Twitter Paquetes - USA - (100 Retweet +200 me gusta + 25 Comentarios) - $21.87 por 1": {
+            "pricePerUnit": 0.02187,
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

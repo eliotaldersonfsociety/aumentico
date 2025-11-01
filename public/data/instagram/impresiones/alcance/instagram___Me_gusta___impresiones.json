@@ -1,0 +1,26 @@
+{
+  "nstagram - Me gusta + impresiones": {
+    "categories": {
+      "nstagram - Me gusta + impresiones": {
+        "types": {
+          "2609 - ID 2609 -Instagram - Me gusta + Impresión + Alcance  - R30 -  TRABAJANDO - $0.81 por 1000": {
+            "pricePerUnit": 0.0008100000000000001,
+            "minQuantity": 500,
+            "maxQuantity": 300000,
+            "deliveryTime": "No especificado",
+            "description": "Velocidad: 2k a 5k \nCalidad: Cuentas Mixtas con apariencia real\nCaídas: 0 al 5%\nGarantía:  de 30 dias (si baja mas del 10%)\nPublico: Mundial\nCancelar: Sin botón de cancelar\n👆 No olvide que estos datos son solo estimaciones (Pueden variar)\n—--------------------------------------\nEnlace: Enlace de publicación de Instagram\nEjemplo: https://www.instagram.com/p/xyz",
+            "features": {}
+          },
+          "2610 - ID 2610 - Instagram - Me gusta +Impresión + Alcance - R30 - TRABAJANDO - $1.04 por 1000": {
+            "pricePerUnit": 0.001044,
+            "minQuantity": 100,
+            "maxQuantity": 200000,
+            "deliveryTime": "No especificado",
+            "description": "Velocidad: 2k a 5k Calidad: Cuentas Mixtas con apariencia realCaídas: 0 al 5%Garantía:  de 30 dias (si baja mas del 10%)Publico: MundialCancelar: Sin botón de cancelar👆 No olvide que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace: Enlace de publicación de InstagramEjemplo: https://www.instagram.com/p/xyz",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "LinkedIn - Comentarios": {
+    "categories": {
+      "LinkedIn - Comentarios": {
+        "types": {
+          "1557 - ID 1557 - LinkedIn - Comentarios personalizados - Turco - Max 150 - $61.39 por 1000": {
+            "pricePerUnit": 0.06139,
+            "minQuantity": 5,
+            "maxQuantity": 1000,
+            "deliveryTime": "24 horas",
+            "description": "Inicio: de 1 a 24 horas.Velocidad: 150 Por DiaCaídas: No que se sepaRecarga: No---------------------------------Enlace de ejemplo:https://www.linkedin.com/posts/xxxxxxxUN COMENTARIO POR LÍNEA",
+            "features": {}
+          },
+          "1559 - ID 1559 - LinkedIn - Comentarios aleatorios - Hombres - Turco - Max 150 - $84.86 por 1000": {
+            "pricePerUnit": 0.08486400000000001,
+            "minQuantity": 5,
+            "maxQuantity": 1000,
+            "deliveryTime": "24 horas",
+            "description": "Inicio: de 1 a 24 horas.Velocidad: 150 Por DiaCaídas: No que se sepaRecarga: No---------------------------------Enlace de ejemplo:https://www.linkedin.com/posts/xxxxxxx",
+            "features": {}
+          },
+          "1562 - ID 1562 - LinkedIn - Comentarios aleatorios - Max 10k - $77.30 por 1000": {
+            "pricePerUnit": 0.077296,
+            "minQuantity": 1,
+            "maxQuantity": 3000,
+            "deliveryTime": "24 horas",
+            "description": "Inicio: de 1 a 24 horas.Velocidad: 50 a 100 Por DiaPublico: MundialCaídas: No que se sepaRecarga: No---------------------------------Enlace de ejemplo:https://www.linkedin.com/posts/xxxxxxx",
+            "features": {}
+          },
+          "1563 - ID 1563 - LinkedIn - Comentarios positivos aleatorios - Max 10k - $97.46 por 1000": {
+            "pricePerUnit": 0.09746200000000001,
+            "minQuantity": 25,
+            "maxQuantity": 4000,
+            "deliveryTime": "24 horas",
+            "description": "Inicio: de 1 a 24 horas.Velocidad: 50 a 100 Por DiaPublico: MundialCaídas: No que se sepaRecarga: No---------------------------------Enlace de ejemplo:https://www.linkedin.com/posts/xxxxxxx",
+            "features": {}
+          },
+          "1564 - ID 1564 - LinkedIn - Comentarios aleatorios - USA - Max 10k - $85.17 por 1000": {
+            "pricePerUnit": 0.08517,
+            "minQuantity": 1,
+            "maxQuantity": 3000,
+            "deliveryTime": "24 horas",
+            "description": "Inicio: de 1 a 24 horas.Velocidad: 50 a 100 Por DiaPublico: USACaídas: No que se sepaRecarga: No---------------------------------Enlace de ejemplo:https://www.linkedin.com/posts/xxxxxxx",
+            "features": {}
+          },
+          "1566 - ID 1566 - LinkedIn - Comentarios personalizados - Max 10k - $135.50 por 1000": {
+            "pricePerUnit": 0.1355,
+            "minQuantity": 5,
+            "maxQuantity": 1000,
+            "deliveryTime": "24 horas",
+            "description": "Inicio: de 1 a 24 horas.Velocidad: 50 a 100 Por DíaPublico: MundialCaídas: No que se sepaRecarga: No---------------------------------Enlace de ejemplo:https://www.linkedin.com/posts/xxxxxxxUN COMENTARIO POR LÍNEA",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

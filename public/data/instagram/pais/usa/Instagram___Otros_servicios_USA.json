@@ -1,0 +1,26 @@
+{
+  "Instagram - Otros servicios USA": {
+    "categories": {
+      "Instagram - Otros servicios USA": {
+        "types": {
+          "514 - ID 514 - Instagram - Impresión USA - Max. 1M - $0.17 por 1000": {
+            "pricePerUnit": 0.000166,
+            "minQuantity": 200,
+            "maxQuantity": 10000000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: De 0 a 30 MinutosPublico: USA Caídas: Sin caídas—--------------------------------------Enlace: Enlace de publicación de InstagramEjemplo: https://www.instagram.com/p/xyzo",
+            "features": {}
+          },
+          "515 - ID 515 - Instagram - Impresión USA - Max. 50M - $0.17 por 1000": {
+            "pricePerUnit": 0.000166,
+            "minQuantity": 200,
+            "maxQuantity": 10000000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

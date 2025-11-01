@@ -1,0 +1,66 @@
+{
+  "Tiktok - Comentarios aleatorios": {
+    "categories": {
+      "Tiktok - Comentarios aleatorios": {
+        "types": {
+          "1617 - ID 1617 - TikTok - Comentario aleatorio - Max 10K - $12.80 por 1000": {
+            "pricePerUnit": 0.0128,
+            "minQuantity": 10,
+            "maxQuantity": 10000,
+            "deliveryTime": "8 Horas",
+            "description": "Inicio: De 0 a 8 Horas Comentarios aleatorios positivos en Inglés—---------------------------------- ---- Enlace: Enlace de Video de TikTok Ejemplo: https://www.tiktok.com/@jamesdrodriguez/video/7066095990230568198",
+            "features": {}
+          },
+          "5157 - ID 5157 - TikTok - Comentario aleatorio - Max 10K - $1.20 por 1000": {
+            "pricePerUnit": 0.0012,
+            "minQuantity": 5,
+            "maxQuantity": 100000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "219 - ID 219 - TikTok - Comentario aleatorio - Max 3K - $13.33 por 1000": {
+            "pricePerUnit": 0.013328,
+            "minQuantity": 10,
+            "maxQuantity": 20000,
+            "deliveryTime": "8 Horas",
+            "description": "Inicio: De 1 a 8 Horas Comentarios aleatorios en Inglés—---------------------------------- ---- Enlace: Enlace de Video de TikTok Ejemplo: https://www.tiktok.com/@jamesdrodriguez/video/7066095990230568198",
+            "features": {}
+          },
+          "220 - ID 220 - TikTok - Comentario aleatorio - Max 3K - $22.38 por 1000": {
+            "pricePerUnit": 0.022382000000000003,
+            "minQuantity": 10,
+            "maxQuantity": 3000,
+            "deliveryTime": "4 Horas",
+            "description": "Inicio: De 0 a 4 Horas Comentarios aleatorios en Inglés—---------------------------------- ---- Enlace: Enlace de Video de TikTok Ejemplo: https://www.tiktok.com/@jamesdrodriguez/video/7066095990230568198",
+            "features": {}
+          },
+          "1363 - ID 1363 - TikTok - Comentario positivo aleatorio - Max 1K - $13.92 por 1000": {
+            "pricePerUnit": 0.01392,
+            "minQuantity": 10,
+            "maxQuantity": 1000,
+            "deliveryTime": "8 Horas",
+            "description": "Inicio: De 0 a 8 Horas Comentarios aleatorios en Inglés—---------------------------------- ---- Enlace: Enlace de Video de TikTok Ejemplo: https://www.tiktok.com/@jamesdrodriguez/video/7066095990230568198",
+            "features": {}
+          },
+          "617 - ID 617 - TikTok - Comentario aleatorio - Alta calidad - Max 2K - $13.05 por 1000": {
+            "pricePerUnit": 0.01305,
+            "minQuantity": 10,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "5005 - ID 5005 - TikTok - Comentarios aleatorios - MIX INGLES / EMOJI - Max 100K - R30 - $8.10 por 1000": {
+            "pricePerUnit": 0.0081,
+            "minQuantity": 10,
+            "maxQuantity": 100000,
+            "deliveryTime": "8 Horas",
+            "description": "Comentarios aleatorios MIX Inglés y emojis\nInicio: De 1 a 8 Horas \nCalidad: ALTA\nRecarga: 30 días (si cae más del 10%)\n—---------------------------------- ---- \nEnlace: Enlace de Video de TikTok \nEjemplo: https://www.tiktok.com/@jamesdrodriguez/video/7066095990230568198",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

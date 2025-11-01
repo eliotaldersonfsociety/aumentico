@@ -1,0 +1,34 @@
+{
+  "Spotify - guardar": {
+    "categories": {
+      "Spotify - guardar": {
+        "types": {
+          "360 - ID 360 - Spotify - guardar para pista/álbum - garantía de por vida - Max 292k - $0.67 por 1000": {
+            "pricePerUnit": 0.00067,
+            "minQuantity": 100,
+            "maxQuantity": 10000000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: De 0 a 1 horaVelocidad: 250 a 500 por diaPublico: MundialCaídas: Sin caídasRecarga: De por vidaCancelar: No—---------------------------------- ----Enlace: Enlace de lista de pista o álbum de Spotify",
+            "features": {}
+          },
+          "362 - ID 362 - Spotify - Guarda Pista/álbum/episodio - Max 250K - R30 - $0.66 por 1000": {
+            "pricePerUnit": 0.00066,
+            "minQuantity": 100,
+            "maxQuantity": 1000000,
+            "deliveryTime": "2 horas",
+            "description": "Inicio: De 0 a 2 horasPublico: MundialCaídas: Sin caídasRecarga: NoCancelar: No—---------------------------------- ----Enlace: Enlace de lista de pista o álbum de Spotify",
+            "features": {}
+          },
+          "4131 - ID 4131 - Spotify - Guardar Pista/álbum - Max 100K - $3.24 por 1000": {
+            "pricePerUnit": 0.0032400000000000003,
+            "minQuantity": 100,
+            "maxQuantity": 100000,
+            "deliveryTime": "34 horas",
+            "description": "Inicio: De 0 a 34 horasVelocidad: 250 a 500 por diaPublico: MundialCaídas: Sin caídasRecarga: 30 DiasCancelar: No—---------------------------------- ----Enlace: Enlace de lista de pista o álbum de Spotify",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "LinkedIn - Conectar": {
+    "categories": {
+      "LinkedIn - Conectar": {
+        "types": {
+          "2288 - ID 2288 - LinkedIn - conectar - Max 10K - $58.05 por 1000": {
+            "pricePerUnit": 0.05805,
+            "minQuantity": 50,
+            "maxQuantity": 10000,
+            "deliveryTime": "48 horas",
+            "description": "Inicio: de 12 a 48 horas.Velocidad: 50 a 100 por diaPublico: TurquíaCaídas: No que se sepaRecarga:Sin recarga👆 No olvide que estos datos son estimaciones (Pueden variar)---------------------------------Enlace: Link de perfil de LinkedInEjemplo: https://www.linkedin.com/in/123⚠️ Tener el botón de conectar activo",
+            "features": {}
+          },
+          "2292 - ID 2292 - LinkedIn - Conectar - Max 1K - $60.20 por 1000": {
+            "pricePerUnit": 0.060200000000000004,
+            "minQuantity": 50,
+            "maxQuantity": 10000,
+            "deliveryTime": "48 horas",
+            "description": "Inicio: de 12 a 48 horas.Velocidad: 50 a 100 por diaPublico: MundialCaídas: No que se sepaRecarga: Sin recarga👆 No olvide que estos datos son estimaciones (Pueden variar)---------------------------------Enlace: Link de perfil de LinkedInEjemplo: https://www.linkedin.com/in/123⚠️ Tener el botón de conectar activo",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

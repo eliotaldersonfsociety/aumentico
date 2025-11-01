@@ -11,7 +11,6 @@ import { Footer } from "@/components/footer";
 import { initDemoData } from "@/lib/init-demo-data";
 import { Gallery } from "@/components/gallery";
 import { FAQ } from "@/components/faq";
-import { useTranslation } from "react-i18next";
 
 const FollowerGrowthSimulator = dynamic(() => import("@/components/FollowerGrowthSimulator"), {
   ssr: false,
@@ -75,8 +74,6 @@ const FollowerGrowthSimulator = dynamic(() => import("@/components/FollowerGrowt
 });
 
 export default function Home() {
-  const { t } = useTranslation();
-
   useEffect(() => {
     initDemoData();
   }, []);
@@ -98,10 +95,10 @@ export default function Home() {
             {/* Texto grande */}
             <div className="flex-1">
               <h2 className="text-5xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-gray-400 leading-tight animate-slide-in-left">
-                {t("simulator.title")}
+                Impulsa tu presencia en redes como nunca antes
               </h2>
               <p className="mt-4 text-sm sm:text-base md:text-lg lg:text-xl text-muted-foreground max-w-2xl animate-slide-in-left">
-                {t("simulator.description")}
+                Visualiza en tiempo real cómo crecerán tus seguidores con nuestras estrategias probadas. Aumenta tu alcance, engagement y autoridad digital con herramientas diseñadas para creadores que quieren destacar. Ya sea que estés comenzando o ya tengas una audiencia, nuestro simulador te muestra el potencial real de crecimiento mes a mes, basado en datos reales de algoritmos y tendencias actuales.
               </p>
             </div>
 

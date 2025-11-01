@@ -1,0 +1,34 @@
+{
+  "Kwai - Transmisión en vivo": {
+    "categories": {
+      "Kwai - Transmisión en vivo": {
+        "types": {
+          "2377 - ID 2377 - Kwai - Me gusta en transmisión en vivo - Max 10M - $1.76 por 1000": {
+            "pricePerUnit": 0.00176,
+            "minQuantity": 100,
+            "maxQuantity": 10000000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: De 5 a 15 minutosPublico: MundialCaídas: Estable - Sin caídasRecarga: Sin recarga👆 No olvide que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace: Enlace de transmisión en vivo de KwaiEjemplo: https://kwai-video.com/l/abcdefgh",
+            "features": {}
+          },
+          "3058 - ID 3058- Kwai - Me gusta en transmisión en vivo - Max 10M - $1.74 por 1000": {
+            "pricePerUnit": 0.00174,
+            "minQuantity": 50,
+            "maxQuantity": 1000000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "3059 - ID 3059- Kwai - Me gusta en transmisión en vivo - Max 10M - $1.65 por 1000": {
+            "pricePerUnit": 0.00165,
+            "minQuantity": 100,
+            "maxQuantity": 10000000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

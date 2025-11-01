@@ -1,0 +1,34 @@
+{
+  "Spotify - Reproducciones - Mundiales": {
+    "categories": {
+      "Spotify - Reproducciones - Mundiales": {
+        "types": {
+          "2857 - ID 2857 Spotify - Plays - Global -reproduce rápido - $0.48 por 1000": {
+            "pricePerUnit": 0.00047999999999999996,
+            "minQuantity": 500,
+            "maxQuantity": 20000000,
+            "deliveryTime": "36-72 horas",
+            "description": "Este servicio es 70% gratis - 30% cuentas premium reproducciones El mejor servicio del mercadoPremium + reproducciones gratuitasSpotify actualiza los recuentoscada 36-72 horas. Debe esperar la actualización después de la finalización, no solicite un refuerzo / recarga antes de 3 días hábiles.",
+            "features": {}
+          },
+          "2855 - ID 2855 Spotify - Plays - Global -Reproduce lento - $0.69 por 1000": {
+            "pricePerUnit": 0.00069,
+            "minQuantity": 1000,
+            "maxQuantity": 10000,
+            "deliveryTime": "36-72 horas",
+            "description": "Este servicio es 70% gratis - 30% cuentas premium reproducciones El mejor servicio del mercadoPremium + reproducciones gratuitasSpotify actualiza los recuentoscada 36-72 horas. Debe esperar la actualización después de la finalización, no solicite un refuerzo / recarga antes de 3 días hábiles.",
+            "features": {}
+          },
+          "2856 - ID 2856 Spotify - Plays - Global -reproduce lento - $0.69 por 1000": {
+            "pricePerUnit": 0.00069,
+            "minQuantity": 1000,
+            "maxQuantity": 10000,
+            "deliveryTime": "36-72 horas",
+            "description": "Este servicio es 70% gratis - 30% cuentas premium reproducciones El mejor servicio del mercadoPremium + reproducciones gratuitasSpotify actualiza los recuentoscada 36-72 horas. Debe esperar la actualización después de la finalización, no solicite un refuerzo / recarga antes de 3 días hábiles.",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

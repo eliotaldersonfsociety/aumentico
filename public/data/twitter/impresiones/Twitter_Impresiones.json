@@ -1,0 +1,50 @@
+{
+  "Twitter Impresiones": {
+    "categories": {
+      "Twitter Impresiones": {
+        "types": {
+          "2983 - ID 2983 Twitter Impresiones - Max 10M - $0.12 por 1000": {
+            "pricePerUnit": 0.00011999999999999999,
+            "minQuantity": 100,
+            "maxQuantity": 10000000,
+            "deliveryTime": "2 horas",
+            "description": "⌛ Inicio estimado: 0 - 2 horas\n⚡ Velocidad promedio: 1M por día\n💎 Calidad: alta calidad\n♻️ Recarga: sin recarga ⛔️\n🔗 Formato del enlace: enlace de publicación\nNotas:\n📌 No cambie el nombre de usuario después de realizar un pedido.\n📌 Cuando el servicio está ocupado, la velocidad de inicio del proceso cambia.\n📌 No realice el segundo pedido en el mismo enlace antes de que su pedido se complete en el sistema.",
+            "features": {}
+          },
+          "2985 - ID 2985 - Twitter Impresiones - Max 200M - $0.23 por 1000": {
+            "pricePerUnit": 0.00022600000000000002,
+            "minQuantity": 100,
+            "maxQuantity": 2147483647,
+            "deliveryTime": "2 horas",
+            "description": "⌛ Inicio estimado: 0 - 2 horas\n⚡ Velocidad promedio: 1M por día\n💎 Calidad: alta calidad\n♻️ Recarga: sin recarga ⛔️\n🔗 Formato del enlace: enlace de publicación\nNotas:\n📌 No cambie el nombre de usuario después de realizar un pedido.\n📌 Cuando el servicio está ocupado, la velocidad de inicio del proceso cambia.\n📌 No realice el segundo pedido en el mismo enlace antes de que su pedido se complete en el sistema.",
+            "features": {}
+          },
+          "2986 - ID 2986 - Twitter Impresiones - Max 50M - $0.13 por 1000": {
+            "pricePerUnit": 0.000132,
+            "minQuantity": 100,
+            "maxQuantity": 50000000,
+            "deliveryTime": "2 horas",
+            "description": "⌛ Inicio estimado: 0 - 2 horas\n⚡ Velocidad promedio: 1M por día\n💎 Calidad: alta calidad\n♻️ Recarga: sin recarga ⛔️\n🔗 Formato del enlace: enlace de publicación\nNotas:\n📌 No cambie el nombre de usuario después de realizar un pedido.\n📌 Cuando el servicio está ocupado, la velocidad de inicio del proceso cambia.\n📌 No realice el segundo pedido en el mismo enlace antes de que su pedido se complete en el sistema.",
+            "features": {}
+          },
+          "2989 - ID 2989 - Twitter Impresiones - Max 100M - $0.32 por 1000": {
+            "pricePerUnit": 0.000324,
+            "minQuantity": 100,
+            "maxQuantity": 2000000,
+            "deliveryTime": "2 horas",
+            "description": "⌛ Inicio estimado: 0 - 2 horas\n⚡ Velocidad promedio: 1M por día\n💎 Calidad: alta calidad\n♻️ Recarga: 30 Dias (Si cae mas del 10 %)\n🔗 Formato del enlace: enlace de publicación\nNotas:\n📌 No cambie el nombre de usuario después de realizar un pedido.\n📌 Cuando el servicio está ocupado, la velocidad de inicio del proceso cambia.\n📌 No realice el segundo pedido en el mismo enlace antes de que su pedido se complete en el sistema.",
+            "features": {}
+          },
+          "2988 - Twitter Impresiones (USA) - $0.28 por 1000": {
+            "pricePerUnit": 0.00027600000000000004,
+            "minQuantity": 100,
+            "maxQuantity": 2147483647,
+            "deliveryTime": "2 horas",
+            "description": "⌛ Inicio estimado: 0 - 2 horas\n⚡ Velocidad promedio: 1M por día\n💎 Calidad: alta calidad\n♻️ Recarga: 30 Dias (Si cae mas del 10 %)\n🔗 Formato del enlace: enlace de publicación\nNotas:\n📌 No cambie el nombre de usuario después de realizar un pedido.\n📌 Cuando el servicio está ocupado, la velocidad de inicio del proceso cambia.\n📌 No realice el segundo pedido en el mismo enlace antes de que su pedido se complete en el sistema.",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

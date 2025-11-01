@@ -1,0 +1,66 @@
+{
+  "Instagram - En vivo - Vistas": {
+    "categories": {
+      "Instagram - En vivo - Vistas": {
+        "types": {
+          "2752 - ID  2752 Instagram - En vivo - Vistas - (15 min) - $1.80 por 1000": {
+            "pricePerUnit": 0.0018,
+            "minQuantity": 10,
+            "maxQuantity": 20000,
+            "deliveryTime": "No especificado",
+            "description": "- Vistas durante: 15 minutos- Hora de inicio de 2 a 5 minutos- Espectadores reales y activos [a quienes también les gusta]- En su mayoría espectadores de nombres aleatorios en inglés​",
+            "features": {}
+          },
+          "2753 - ID 2753 Instagram - En vivo - Vistas - (30 min) - $3.60 por 1000": {
+            "pricePerUnit": 0.0036,
+            "minQuantity": 10,
+            "maxQuantity": 20000,
+            "deliveryTime": "No especificado",
+            "description": "- Vistas durante: 30 minutos- Hora de inicio de 2 a 5 minutos- Espectadores reales y activos [a quienes también les gusta]- En su mayoría espectadores de nombres aleatorios en inglés​",
+            "features": {}
+          },
+          "2754 - ID 2754 -Instagram - En vivo - Vistas - (60 min) - $7.20 por 1000": {
+            "pricePerUnit": 0.0072,
+            "minQuantity": 10,
+            "maxQuantity": 20000,
+            "deliveryTime": "No especificado",
+            "description": "- Vistas durante: 60 minutos- Hora de inicio de 2 a 5 minutos- Espectadores reales y activos [a quienes también les gusta]- En su mayoría espectadores de nombres aleatorios en inglés",
+            "features": {}
+          },
+          "2755 - ID 2755 - Instagram - En vivo - Vistas - (90 min) - $10.80 por 1000": {
+            "pricePerUnit": 0.0108,
+            "minQuantity": 10,
+            "maxQuantity": 20000,
+            "deliveryTime": "No especificado",
+            "description": "- Vistas durante: 90  minutos\n- Hora de inicio de 2 a 5 minutos\n- Espectadores reales y activos\n- En su mayoría espectadores de nombres aleatorios en inglés",
+            "features": {}
+          },
+          "2756 - ID 2756 Instagram - En vivo - Vistas - (120 min) - $14.40 por 1000": {
+            "pricePerUnit": 0.0144,
+            "minQuantity": 10,
+            "maxQuantity": 20000,
+            "deliveryTime": "No especificado",
+            "description": "- Vistas durante: 120  minutos- Hora de inicio de 2 a 5 minutos- Espectadores reales y activos [a quienes también les gusta]- En su mayoría espectadores de nombres aleatorios en inglés",
+            "features": {}
+          },
+          "2757 - ID 2757 Instagram - En vivo - Vistas - (180 min) - $21.60 por 1000": {
+            "pricePerUnit": 0.0216,
+            "minQuantity": 10,
+            "maxQuantity": 20000,
+            "deliveryTime": "No especificado",
+            "description": "- Vistas durante: 180 minutos- Hora de inicio de 2 a 5 minutos- Espectadores reales y activos [a quienes también les gusta]- En su mayoría espectadores de nombres aleatorios en inglés​",
+            "features": {}
+          },
+          "2758 - ID 2758  Instagram - En vivo - Vistas - (360  min) - $28.80 por 1000": {
+            "pricePerUnit": 0.0288,
+            "minQuantity": 10,
+            "maxQuantity": 20000,
+            "deliveryTime": "No especificado",
+            "description": "- Vistas durante: 360 minutos- Hora de inicio de 2 a 5 minutos- Espectadores reales y activos [a quienes también les gusta]- En su mayoría espectadores de nombres aleatorios en inglés",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

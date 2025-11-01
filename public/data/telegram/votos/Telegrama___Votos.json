@@ -1,0 +1,58 @@
+{
+  "Telegrama - Votos": {
+    "categories": {
+      "Telegrama - Votos": {
+        "types": {
+          "1243 - ID 1243 - Telegram - Voto/Encuesta - $0.82 por 1000": {
+            "pricePerUnit": 0.000816,
+            "minQuantity": 10,
+            "maxQuantity": 300000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2651 - ID 2651 -Telegram - Votos + Encuesta - $1.17 por 1000": {
+            "pricePerUnit": 0.00117,
+            "minQuantity": 10,
+            "maxQuantity": 300000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2652 - ID 2652 -Telegram - Votos + Encuesta - $1.13 por 1000": {
+            "pricePerUnit": 0.0011339999999999998,
+            "minQuantity": 10,
+            "maxQuantity": 500000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2653 - ID 2651 -Telegram -  Encuesta + votos - $1.41 por 1000": {
+            "pricePerUnit": 0.001408,
+            "minQuantity": 10,
+            "maxQuantity": 300000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2654 - ID 2654 -Telegram - Votos + Encuesta - $1.40 por 1000": {
+            "pricePerUnit": 0.0014,
+            "minQuantity": 10,
+            "maxQuantity": 10000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          },
+          "2655 - ID 2655 -Telegram - Votos + Encuesta - $9.50 por 1000": {
+            "pricePerUnit": 0.009504,
+            "minQuantity": 5,
+            "maxQuantity": 200000,
+            "deliveryTime": "No especificado",
+            "description": "",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

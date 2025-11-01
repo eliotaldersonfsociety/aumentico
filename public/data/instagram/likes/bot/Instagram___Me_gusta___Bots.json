@@ -1,0 +1,26 @@
+{
+  "Instagram - Me gusta - Bots": {
+    "categories": {
+      "Instagram - Me gusta - Bots": {
+        "types": {
+          "3787 - ID 3787 - Instagram - me gusta - Bots - $0.30 por 1000": {
+            "pricePerUnit": 0.0003,
+            "minQuantity": 10,
+            "maxQuantity": 500000,
+            "deliveryTime": "8 horas",
+            "description": "Inicio: De 5 minutos a 8 horasCalidad: BotsPublico: MundialRecarga: Sin recarga ☝️ No olvide que estos datos son solo estimaciones (Pueden variar)—--------------------------------------Enlace: Enlace de publicación de InstagramEjemplo: https://www.instagram.com/p/xyz",
+            "features": {}
+          },
+          "95 - ID 95 - Instagram - Me gusta - Bots - Max. 50K - $0.39 por 1000": {
+            "pricePerUnit": 0.00039,
+            "minQuantity": 10,
+            "maxQuantity": 300000,
+            "deliveryTime": "No especificado",
+            "description": "Inicio: De 0 a 30 MinutosVelocidad: -Calidad: BotsPublico: MundialCaídas: -—--------------------------------------Enlace: Enlace de publicación de InstagramEjemplo: https://www.instagram.com/p/xyz",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}

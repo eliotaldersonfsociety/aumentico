@@ -1,0 +1,74 @@
+{
+  "YouTube - Comentarios de Emoji": {
+    "categories": {
+      "YouTube - Comentarios de Emoji": {
+        "types": {
+          "262 - ID 262 - YouTube -  Comentarios (Emoji) - Max 10k - $7.36 por 1000": {
+            "pricePerUnit": 0.00736,
+            "minQuantity": 10,
+            "maxQuantity": 5000,
+            "deliveryTime": "2 Horas",
+            "description": "Inicio: De 0 a  2 HorasPublico: MundialRecarga: Sin recarga/garantía—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "92 - ID 92 - YouTube - Comentarios(Emoji) - Max 1M - $45 por 1000": {
+            "pricePerUnit": 0.045,
+            "minQuantity": 5,
+            "maxQuantity": 200,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 0 a  12 HorasPublico: MundialCaídas: Por lo general sin caidasRecarga: Sin recarga Nota: Captura de pantalla: https://storage.perfectcdn.com/aa7ed1/lz5lelzld01tyeam.PNG—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "2453 - ID 2453 - YouTube - Comentarios(Emoji) - Max 5K - $8.40 por 1000": {
+            "pricePerUnit": 0.008400000000000001,
+            "minQuantity": 10,
+            "maxQuantity": 10000,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 1 a  12 HorasPublico: MundialCaídas: Por lo general sin caidasRecarga: Sin recarga Nota: Captura de pantalla: https://storage.perfectcdn.com/aa7ed1/lz5lelzld01tyeam.PNG—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "1356 - ID 1356 - YouTube -  Comentarios(Emoji) - Max 1000 - $6.90 por 1000": {
+            "pricePerUnit": 0.006900000000000001,
+            "minQuantity": 10,
+            "maxQuantity": 5000,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 0 a  12 HorasPublico: MundialNota: Captura de pantalla: https://storage.perfectcdn.com/aa7ed1/lz5lelzld01tyeam.PNG—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "5185 - ID 5185 - YouTube - Comentarios Emoji positivo - Max. 1K - R30 - $13.50 por 1000": {
+            "pricePerUnit": 0.0135,
+            "minQuantity": 10,
+            "maxQuantity": 1000,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 1 a  12 Horas\nPublico: Mundial\nCaídas: Por lo general sin caidas\nRecarga: 30 dias (si baja mas del 10%)\n—--------------------------------------\nEnlace: Enlace de video de YouTube\nEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "5186 - ID 5186 - YouTube - Comentarios Emoji - Max. 4K - R30 - $59.75 por 1000": {
+            "pricePerUnit": 0.059752,
+            "minQuantity": 20,
+            "maxQuantity": 3500,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 1 a  12 Horas\nPublico: Mundial\nCaídas: Por lo general sin caidas\nRecarga: 30 dias (si baja mas del 10%)\n—--------------------------------------\nEnlace: Enlace de video de YouTube\nEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "2452 - ID 2452 - YouTube - Comentarios(Emoji) - Max. 11K - $18 por 1000": {
+            "pricePerUnit": 0.018,
+            "minQuantity": 20,
+            "maxQuantity": 11000,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 0 a  12 HorasPublico: MundialCaídas: Por lo general sin caidasRecarga: Sin recarga Nota: Captura de pantalla: https://storage.perfectcdn.com/aa7ed1/lz5lelzld01tyeam.PNG—--------------------------------------Enlace: Enlace de video de YouTubeEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          },
+          "5187 - ID 5187 - YouTube - Comentarios Emoji - Max. 11K - R30 - $21.75 por 1000": {
+            "pricePerUnit": 0.02175,
+            "minQuantity": 20,
+            "maxQuantity": 11000,
+            "deliveryTime": "12 Horas",
+            "description": "Inicio: De 1 a  12 Horas\nPublico: Mundial\nCaídas: Por lo general sin caidas\nRecarga: 30 dias (si baja mas del 10%)\n—--------------------------------------\nEnlace: Enlace de video de YouTube\nEjemplo: https://youtu.be/xyzabc",
+            "features": {}
+          }
+        }
+      }
+    }
+  }
+}
