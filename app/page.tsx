@@ -11,6 +11,7 @@ import { Footer } from "@/components/footer";
 import { initDemoData } from "@/lib/init-demo-data";
 import { Gallery } from "@/components/gallery";
 import { FAQ } from "@/components/faq";
+import YouTubeVideoSimulator from '@/components/YouTubeVideoSimulator';
 
 const FollowerGrowthSimulator = dynamic(() => import("@/components/FollowerGrowthSimulator"), {
   ssr: false,
@@ -110,9 +111,23 @@ export default function Home() {
         </div>
       </div>
 
-      <div id="faq" className="px-6 py-4 sm:px-8 sm:py-6 md:px-10 md:py-8">
-        <FAQ />
+      <div
+        id="faq"
+        className="px-6 py-1 sm:px-8 sm:py-1 md:px-10 md:py-1 flex flex-col md:flex-row items-start gap-10 max-w-7xl mx-auto w-full box-border"
+      >
+        {/* YouTube a la izquierda en desktop, abajo en móvil */}
+        <div className="flex-1 w-full md:w-1/2 order-2 md:order-1">
+          <YouTubeVideoSimulator />
+        </div>
+
+        {/* FAQ arriba en móvil, derecha en desktop */}
+        <div className="flex-1 w-full md:w-1/2 order-1 md:order-2">
+          <FAQ />
+        </div>
       </div>
+
+
+
       <Footer />
     </main>
   );
