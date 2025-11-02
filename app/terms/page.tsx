@@ -88,7 +88,7 @@ export default function TermsPage() {
             <h2 className="text-xl font-semibold mt-6">10. Contacto</h2>
             <p>
               Para cualquier duda o solicitud relacionada con estos Términos de Servicio, 
-              puede contactarnos al correo electrónico: <strong>soporte@tuservicio.com</strong>
+              puede contactarnos al correo electrónico: <strong>soporte@aumentodeseguidores.com</strong>
             </p>
 
             <p className="text-sm opacity-80 mt-8">
