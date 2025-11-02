@@ -25,7 +25,7 @@ function BlogContent() {
   useEffect(() => {
     const fetchPosts = async () => {
       setLoading(true)
-      const result = await getMarketingPosts(10, undefined, true)
+      const result = await getMarketingPosts(12, undefined, true)
       setPosts(result.posts)
       setLoading(false)
     }
@@ -48,7 +48,7 @@ function BlogContent() {
       ) : posts.length > 0 ? (
         <>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {posts.slice((page - 1) * 10, page * 10).map((post) => (
+            {posts.slice((page - 1) * 12, page * 12).map((post) => (
               <BlogCard key={post.id} {...post} />
             ))}
           </div>
