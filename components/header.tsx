@@ -29,7 +29,9 @@ export function Header({ className }: HeaderProps) {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-2 animate-breathe">
-            <Logo />
+              <Link href="/" className="transition-transform hover:scale-105 active:scale-95">
+                <Logo />
+              </Link>
           </div>
 
           {/* Navegación escritorio */}
