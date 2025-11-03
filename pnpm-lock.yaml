@@ -14,6 +14,9 @@ importers:
       '@libsql/client':
         specifier: ^0.15.15
         version: 0.15.15
+      '@lottiefiles/dotlottie-react':
+        specifier: ^0.17.6
+        version: 0.17.6(react@18.3.1)
       '@midudev/tailwind-animations':
         specifier: ^0.2.0
         version: 0.2.0(tailwindcss@4.1.16)
@@ -560,6 +563,14 @@ packages:
     resolution: {integrity: sha512-Fj0j8RnBpo43tVZUVoNK6BV/9AtDUM5S7DF3LB4qTYg1LMSZqi3yeCneUTLJD6XomQJlZzbI4mst89yspVSAnA==}
     cpu: [x64]
     os: [win32]
+
+  '@lottiefiles/dotlottie-react@0.17.6':
+    resolution: {integrity: sha512-YIa3QYZGPoB+qTdPlpt4cBypdIj2umK/ptD6duaztanbIE8bI+gsqdI8roLPSnNUmIdNwrNM+5zLB7Ly9fu3EA==}
+    peerDependencies:
+      react: ^17 || ^18 || ^19
+
+  '@lottiefiles/dotlottie-web@0.55.0':
+    resolution: {integrity: sha512-MYpRPxc0630GruhmL5ufTNvjobi9SZG1Zgdr1mr7KCYV1WwMYEO4DobGnR5E+Wbvgp1ChY+7hBKynYobCculGw==}
 
   '@midudev/tailwind-animations@0.2.0':
     resolution: {integrity: sha512-4mktb060dA7SZz0LjMfhBT30HWPmQENwF4AJC7/etESWohe4pukST0ohC2yAePS5GNinhY3MXmZZ8//2ywafOQ==}
@@ -3683,6 +3694,13 @@ snapshots:
 
   '@libsql/win32-x64-msvc@0.5.22':
     optional: true
+
+  '@lottiefiles/dotlottie-react@0.17.6(react@18.3.1)':
+    dependencies:
+      '@lottiefiles/dotlottie-web': 0.55.0
+      react: 18.3.1
+
+  '@lottiefiles/dotlottie-web@0.55.0': {}
 
   '@midudev/tailwind-animations@0.2.0(tailwindcss@4.1.16)':
     dependencies:
