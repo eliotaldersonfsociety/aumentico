@@ -16,6 +16,7 @@ import {
   User,
   DollarSign,
   LogOut,
+  Send
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import SmallLogo from "@/public/logo/smalllogo";
@@ -26,6 +27,7 @@ const menuItems = [
   { icon: Package, label: "Servicios", href: "/dashboard/services" },
   { icon: ShoppingCart, label: "Órdenes", href: "/dashboard/orders" },
   { icon: Users, label: "Clientes", href: "/dashboard/customers" },
+  { icon: Send, label: "Correo", href: "/dashboard/send" },
   { icon: Settings, label: "Configuración", href: "/dashboard/settings" },
   { icon: LogOut, label: "Salir", href: "/" },
 ];
