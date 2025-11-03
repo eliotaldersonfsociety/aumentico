@@ -1,13 +1,14 @@
-// app/dashboard/send/actions.ts
 "use server";
 
 import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-export type CorreoState =
-  | { success: true; message: string }
-  | { success: false; error: string };
+export type CorreoState = {
+  success: boolean;
+  message?: string;
+  error?: string;
+};
 
 export async function enviarCorreoCorporativo(
   prevState: CorreoState,
