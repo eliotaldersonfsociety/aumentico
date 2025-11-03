@@ -37,6 +37,12 @@ export function Header({ className }: HeaderProps) {
           {/* Navegación escritorio */}
           <nav className="hidden items-center gap-6 md:flex">
             <a
+              href="/"
+              className="text-sm font-medium text-white hover:bg-white/40 hover:translate-x-4 hover:shadow-md transition-all px-3 py-2 rounded-md"
+            >
+             Inicio
+            </a>
+            <a
               href="#servicios"
               className="text-sm font-medium text-white hover:bg-white/40 hover:translate-x-4 hover:shadow-md transition-all px-3 py-2 rounded-md"
             >
@@ -53,6 +59,12 @@ export function Header({ className }: HeaderProps) {
               className="text-sm font-medium text-white hover:bg-white/40 hover:translate-x-4 hover:shadow-md transition-all px-3 py-2 rounded-md"
             >
               FAQ
+            </a>
+            <a
+              href="/contacto"
+              className="text-sm font-medium text-white hover:bg-white/40 hover:translate-x-4 hover:shadow-md transition-all px-3 py-2 rounded-md"
+            >
+              Contacto
             </a>
           </nav>
 
@@ -93,12 +105,6 @@ export function Header({ className }: HeaderProps) {
                   </SheetHeader>
 
                   <nav className="mt-8 flex flex-col gap-4 ml-6">
-                    <a
-                      href="/"
-                      className="text-sm font-medium text-white hover:bg-white/40 hover:translate-x-4 hover:shadow-md transition-all px-3 py-2 rounded-md"
-                    >
-                     Inicio
-                    </a>
                     <a
                       href="#servicios"
                       className="text-sm font-medium text-white hover:bg-white/40 hover:border hover:border-white/40 hover:translate-x-4 hover:shadow-md transition-all px-3 py-2 rounded-md"
