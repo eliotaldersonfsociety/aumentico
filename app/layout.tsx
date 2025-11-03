@@ -4,6 +4,7 @@ import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 import { FloatingIconsBackground } from '@/components/FloatingIconsBackground'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const _geist = Geist({ subsets: ['latin'] })
 const _geistMono = Geist_Mono({ subsets: ['latin'] })
@@ -92,6 +93,7 @@ export default function RootLayout({
         <FloatingIconsBackground />
         {children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )
