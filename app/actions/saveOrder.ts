@@ -2,114 +2,120 @@
 'use server';
 
 import { cookies } from 'next/headers';
-import db from '@/lib/db';
-import { randomUUID } from 'crypto';
+import { db } from '@/lib/db';
+import { users, orders, sessions } from '@/drizzle/schema';
+import { eq, and, gt, sql } from 'drizzle-orm';
 import { z } from 'zod';
+import { uploadToImageKit } from '@/lib/imagekit';
 
 const orderSchema = z.object({
-  servicio: z.string().min(1, "Servicio requerido"),
-  categoria: z.string().min(1, "Categoría requerida"),
-  tipo: z.string().min(1, "Tipo requerido"),
-  cantidad: z.coerce.number().int().min(1, "Cantidad inválida"),
-  link: z.string().url("URL inválida"),
-  precioUSD: z.string().regex(/^\d+(\.\d{1,2})?$/, "Precio USD inválido"),
-  precioCOP: z.string().min(1, "Precio COP requerido"),
+  servicio: z.string().min(1),
+  categoria: z.string().min(1),
+  tipo: z.string().min(1),
+  cantidad: z.coerce.number().int().min(1),
+  link: z.string().optional().refine(v => !v || /^https?:\/\/.+/.test(v), "URL inválida"),
+  precioUSD: z.coerce.number().positive(),
+  precioCOP: z.coerce.number().positive(),
   customComments: z.string().optional(),
+  paymentProof: z.string().optional(),
 });
 
 async function getAuthenticatedUserId() {
-  const sessionCookie = (await cookies()).get('session')?.value;
-  if (!sessionCookie) {
-    throw new Error('No autorizado');
-  }
+  const sessionId = (await cookies()).get('session')?.value;
+  if (!sessionId) throw new Error("No autorizado");
 
-  const sessionResult = await db.execute({
-    sql: 'SELECT user_id FROM sessions WHERE id = ? AND expires_at > ?',
-    args: [sessionCookie, Math.floor(Date.now() / 1000)],
+  const session = await db.query.sessions.findFirst({
+    columns: { userId: true, expiresAt: true },
+    where: eq(sessions.id, sessionId),
   });
 
-  if (sessionResult.rows.length === 0) {
-    throw new Error('Sesión inválida o expirada');
-  }
+  if (!session || session.expiresAt < new Date()) throw new Error("Sesión inválida o expirada");
 
-  return sessionResult.rows[0].user_id as string;
+  return session.userId;
 }
 
-export async function saveOrder(formData: FormData) {
+export async function saveOrder(formData: FormData, isCheckout: boolean = false) {
   try {
-    const raw = {
-      servicio: formData.get('servicio')?.toString().trim() || '',
-      categoria: formData.get('categoria')?.toString().trim() || '',
-      tipo: formData.get('tipo')?.toString().trim() || '',
-      cantidad: formData.get('cantidad')?.toString().trim() || '',
-      link: formData.get('link')?.toString().trim() || '',
-      precioUSD: formData.get('precioUSD')?.toString().trim() || '',
-      precioCOP: formData.get('precioCOP')?.toString().trim() || '',
-      customComments: formData.get('customComments')?.toString() || undefined,
-    };
-
-    const validated = orderSchema.safeParse(raw);
-    if (!validated.success) {
-      const errors = validated.error.flatten().fieldErrors;
-      const firstError = Object.values(errors).flat()[0];
-      return { error: firstError || 'Datos inválidos' };
-    }
-
     const userId = await getAuthenticatedUserId();
 
-    // Obtener el saldo del usuario
-    const userResult = await db.execute({
-      sql: 'SELECT balance FROM users WHERE id = ?',
-      args: [userId],
-    });
+    // Extraer file si existe
+    const file = formData.get('file') as File | null;
+    let paymentProof: string | undefined;
 
-    if (userResult.rows.length === 0) {
-      return { error: 'Usuario no encontrado' };
+    if (file && file.size > 0) {
+      const buffer = Buffer.from(await file.arrayBuffer());
+      try {
+        paymentProof = await uploadToImageKit(buffer, `payment-${Date.now()}-${file.name}`);
+      } catch {
+        paymentProof = 'Error al subir imagen';
+      }
     }
 
-    const userBalance = Number(userResult.rows[0].balance) || 0;
-    const orderPrice = Number(validated.data.precioUSD);
+    // Parseo seguro
+    const raw = {
+      servicio: formData.get('servicio'),
+      categoria: formData.get('categoria'),
+      tipo: formData.get('tipo'),
+      cantidad: formData.get('cantidad'),
+      link: formData.get('link'),
+      precioUSD: formData.get('precioUSD'),
+      precioCOP: formData.get('precioCOP'),
+      customComments: formData.get('customComments'),
+      paymentProof,
+    };
 
-    if (userBalance < orderPrice) {
-      return { error: 'Saldo insuficiente para realizar la compra' };
+    const validation = orderSchema.safeParse(raw);
+    if (!validation.success) {
+      const msg = Object.values(validation.error.flatten().fieldErrors).flat()[0];
+      return { error: msg || "Datos inválidos" };
     }
 
-    const orderId = randomUUID();
-    const now = Math.floor(Date.now() / 1000);
+    const data = validation.data;
 
-    // Descontar el saldo del usuario
-    await db.execute({
-      sql: 'UPDATE users SET balance = balance - ? WHERE id = ?',
-      args: [orderPrice, userId],
-    });
+    // -------------------------------
+    //     🔥 TRANSACCIÓN ATÓMICA
+    // -------------------------------
+    await db.transaction(async (tx) => {
 
-    // Insertar la orden con estado "pagado"
-    await db.execute({
-      sql: `
-        INSERT INTO orders (
-          id, user_id, servicio, categoria, tipo, cantidad, link,
-          precio_usd, precio_cop, custom_comments, status, created_at
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-      `,
-      args: [
-        orderId,
+      if (!isCheckout) {
+        // Leer usuario (balance) en 1 sola query
+        const result = await tx.query.users.findFirst({
+          columns: { balance: true },
+          where: eq(users.id, userId),
+        });
+
+        if (!result) throw new Error("Usuario no encontrado");
+
+        if (result.balance < data.precioUSD) {
+          throw new Error("Saldo insuficiente");
+        }
+
+        // Descontar saldo
+        await tx
+          .update(users)
+          .set({ balance: sql`${users.balance} - ${data.precioUSD}` })
+          .where(eq(users.id, userId));
+      }
+
+      // Insert de la orden
+      await tx.insert(orders).values({
         userId,
-        validated.data.servicio,
-        validated.data.categoria,
-        validated.data.tipo,
-        validated.data.cantidad,
-        validated.data.link,
-        validated.data.precioUSD,
-        validated.data.precioCOP,
-        validated.data.customComments || null,
-        'pendiente', // 👈 estado pagado
-        now,
-      ],
+        servicio: data.servicio,
+        categoria: data.categoria,
+        tipo: data.tipo,
+        cantidad: data.cantidad,
+        link: data.link || null,
+        precioUsd: data.precioUSD,
+        precioCop: data.precioCOP,
+        customComments: data.customComments || null,
+        paymentProof: data.paymentProof || null,
+        status: "pendiente",
+      });
     });
 
     return { success: true };
-  } catch (error: any) {
-    console.error('Error en saveOrder:', error);
-    return { error: error.message || 'Error al guardar el pedido' };
+
+  } catch (err: any) {
+    return { error: err.message || "Error al guardar el pedido" };
   }
 }

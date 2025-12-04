@@ -138,8 +138,11 @@ export function Gallery() {
   const tweet = tweets[current];
 
   return (
-    <div className="flex justify-center py-8">
-      <div className="w-full max-w-2xl bg-white text-black rounded-2xl shadow-xl border border-gray-200 overflow-hidden mx-4 sm:mx-auto transition-all duration-500">
+    <section className="container mx-auto pt-4">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+          {/* Lado izquierdo: Tweet */}
+          <div className="lg:col-span-2 flex justify-center">
+            <div className="w-full max-w-2xl bg-white text-black rounded-2xl shadow-xl border border-gray-200 overflow-hidden transition-all duration-500 min-h-[220px] mx-4">
         <div className="flex items-center p-4 gap-3">
           <Image
             src={avatarUrl || "/default-avatar.png"}
@@ -190,6 +193,16 @@ export function Gallery() {
           </div>
         </div>
       </div>
+      </div>
+
+      {/* Lado derecho: Título y párrafo */}
+      <div className="lg:col-span-1 text-center lg:text-left">
+        <h3 className="mb-4 text-2xl font-bold text-purple-gradient">Lo que dicen nuestros clientes</h3>
+        <p className="text-lg text-white">
+          Miles de usuarios satisfechos han transformado sus redes sociales con nuestros servicios. Lee sus experiencias reales y únete a la comunidad de éxito.
+        </p>
+      </div>
     </div>
+</section>
   );
 }

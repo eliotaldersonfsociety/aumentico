@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="120" viewBox="0 0 200 120">
+  <!-- Fondo del badge -->
+  <rect x="10" y="10" width="180" height="40" rx="12" fill="#ef476f"></rect>
+
+  <!-- Flecha inferior -->
+  <polygon points="100,50 94,56 106,56" fill="#ef476f"></polygon>
+
+  <!-- Contenido -->
+  <g fill="white" font-family="sans-serif" font-weight="bold" font-size="12">
+
+    <!-- Comentarios (💬) -->
+    <g transform="translate(35, 27)">
+      <path d="M0 2a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H8l-4 4v-4H2a2 2 0 0 1-2-2z"></path>
+      <text x="26" y="10">25</text>
+    </g>
+
+    <!-- Usuarios (👤) -->
+    <g transform="translate(85, 27)">
+      <circle cx="8" cy="4" r="3"></circle>
+      <path d="M2 12a6 6 0 0 1 12 0v2H2z"></path>
+      <text x="26" y="10">77</text>
+    </g>
+
+    <!-- Corazón (❤️) -->
+    <g transform="translate(135, 27)">
+      <path d="M8 13s-5-3.3-5-7.5S6 0 8 2.5C10 0 13 0 13 5.5S8 13 8 13z"></path>
+      <text x="26" y="10">87</text>
+    </g>
+  </g>
+
+  <!-- Texto inferior con sombra roja -->
+  <text x="100" y="85" text-anchor="middle" fill="white" font-size="12" font-weight="bold" font-family="sans-serif" filter="url(#glow)">
+    Aumento de Seguidores
+  </text>
+
+  <!-- Filtro de sombra roja -->
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="red" flood-opacity="0.8"></feDropShadow>
+    </filter>
+  </defs>
+</svg>

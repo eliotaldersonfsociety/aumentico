@@ -1,5 +1,6 @@
 'use server'
 
+import { sql } from 'drizzle-orm'
 import db from '@/lib/db'
 import { cookies } from 'next/headers'
 import bcrypt from 'bcryptjs'
@@ -21,13 +22,13 @@ export async function updateProfile(formData: {
     }
 
     // Obtener user_id de la sesión
-    const sessionResult = await db.execute('SELECT user_id, expires_at FROM sessions WHERE id = ?', [session]);
+    const sessionResult = await db.all(sql`SELECT user_id, expires_at FROM sessions WHERE id = ${session}`);
 
-    if (sessionResult.rows.length === 0) {
+    if (sessionResult.length === 0) {
       return { success: false, message: 'Sesión no encontrada' }
     }
 
-    const sessionData = sessionResult.rows[0];
+    const sessionData = sessionResult[0] as any;
     if (!sessionData.expires_at || Number(sessionData.expires_at) < Date.now()) {
       return { success: false, message: 'Sesión expirada' }
     }
@@ -49,9 +50,9 @@ export async function updateProfile(formData: {
     }
 
     // 🛠️ Actualizar en la base de datos
-    const setParts = Object.keys(updateData).map(key => `${key} = ?`).join(', ');
-    const values = Object.values(updateData);
-    await db.execute(`UPDATE users SET ${setParts} WHERE id = ?`, [...values, userId] as any);
+    const updates = Object.entries(updateData).map(([key, value]) => sql`${sql.identifier(key)} = ${value}`);
+    const query = sql`UPDATE users SET ${sql.join(updates, sql`, `)} WHERE id = ${userId}`;
+    await db.run(query);
 
     return { success: true, message: 'Perfil actualizado correctamente' }
   } catch (error) {

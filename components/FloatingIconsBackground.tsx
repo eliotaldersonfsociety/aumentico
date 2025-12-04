@@ -2,6 +2,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTheme } from "@/components/theme-provider";
 import {
   User, Heart, MessageCircle, Star, Zap, Crown, Gem, Sparkles,
   TrendingUp, Award, ThumbsUp, Smile, Sun, Moon, Cloud, Rainbow,
@@ -18,6 +19,7 @@ const icons = [
 
 export function FloatingIconsBackground() {
   const [iconData, setIconData] = useState<any[]>([]);
+  const { theme } = useTheme();
 
   useEffect(() => {
     const data = Array.from({ length: 25 }).map(() => ({
@@ -27,7 +29,7 @@ export function FloatingIconsBackground() {
       left: Math.random() * 100,
       duration: Math.random() * 10 + 30,
       delay: Math.random() * 5,
-      opacity: Math.random() * 0.15 + 0.1,
+      opacity: Math.random() * 0.3 + 0.2,
       color: [
         "#ffffff"
       ][Math.floor(Math.random() * 16)],
@@ -36,7 +38,7 @@ export function FloatingIconsBackground() {
   }, []);
 
   return (
-    <div className="fixed inset-0 -z-10 overflow-hidden pointer-events-none bg-gradient-to-t from-[#fc79fc] via-[#fff3a8] to-[#77b6f5]">
+    <div className="fixed inset-0 -z-10 overflow-hidden pointer-events-none bg-[oklch(0.145_0_0)]">
       {iconData.map(({ Icon, size, top, left, duration, delay, opacity, color }, i) => (
         <Icon
           key={i}

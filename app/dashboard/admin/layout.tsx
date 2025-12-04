@@ -2,8 +2,11 @@
 import { cookies } from 'next/headers';
 import { redirect } from 'next/navigation';
 import { ReactNode } from 'react';
-import { AdminHeader } from "@/components/dashboard/admin-header";
+import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
+import { eq } from 'drizzle-orm';
 import db from '@/lib/db';
+import { sessions, users } from '@/drizzle/schema';
 import { Sidebar } from '../../../components/dashboard/sidebar';
 
 export default async function AdminDashboardLayout({
@@ -19,34 +22,25 @@ export default async function AdminDashboardLayout({
   }
 
   // Validar sesión y obtener usuario
-  const sessionResult = await db.execute({
-    sql: 'SELECT user_id, expires_at FROM sessions WHERE id = ?',
-    args: [sessionId],
-  });
+  const sessionResult = await db.select().from(sessions).where(eq(sessions.id, sessionId)).limit(1);
 
-  if (sessionResult.rows.length === 0) {
+  if (sessionResult.length === 0) {
     redirect('/auth/login');
   }
 
-  const session = sessionResult.rows[0];
-  if (!session.expires_at || Number(session.expires_at) < Date.now()) {
-    await db.execute({
-      sql: 'DELETE FROM sessions WHERE id = ?',
-      args: [sessionId],
-    });
+  const session = sessionResult[0];
+  if (!session.expiresAt || session.expiresAt < new Date()) {
+    await db.delete(sessions).where(eq(sessions.id, sessionId));
     redirect('/auth/login');
   }
 
-  const userResult = await db.execute({
-    sql: 'SELECT id, name, email, role, balance FROM users WHERE id = ?',
-    args: [session.user_id],
-  });
+  const userResult = await db.select().from(users).where(eq(users.id, session.userId)).limit(1);
 
-  if (userResult.rows.length === 0) {
+  if (userResult.length === 0) {
     redirect('/auth/login');
   }
 
-  const user = userResult.rows[0];
+  const user = userResult[0];
 
   if (user.role !== 'admin') {
     redirect('/auth/login');
@@ -56,13 +50,14 @@ export default async function AdminDashboardLayout({
   const plainUser = JSON.parse(JSON.stringify(user));
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-t from-[#fc79fc] via-[#fff3a8] to-[#77b6f5]">
+    <div className="min-h-screen flex flex-col bg-[oklch(0.145_0_0)]">
       <div className="fixed top-0 left-0 w-full z-50">
-        <AdminHeader userName={plainUser.name} />
+        <Header />
       </div>
       <main className="flex-1 px-4 md:px-8 pt-4 md:pt-32 transition-all duration-300 pb-5">
         {children}
       </main>
+      <Footer />
     </div>
   );
 }

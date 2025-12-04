@@ -57,7 +57,7 @@ export default function SmallLogo() {
       </div>
 
       <span
-        className="text-white font-semibold text-sm mt-1"
+        className="text-white font-semibold text-xs md:text-sm mt-1"
         style={{
           textShadow: "0 0 4px rgba(255, 0, 0, 0.8)",
         }}

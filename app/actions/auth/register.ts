@@ -1,56 +1,67 @@
 // app/actions/auth/register.ts
-'use server'
+'use server';
 
-import db from '@/lib/db'
-import { redirect } from 'next/navigation'
-import { hash } from 'bcryptjs'
-import crypto from 'crypto'
+import { db } from '@/lib/db';
+import { users } from '@/drizzle/schema';
+import { eq } from 'drizzle-orm';
+import { redirect } from 'next/navigation';
+import { hash } from 'bcryptjs';
+import { z } from 'zod';
+
+// 📌 Validación estricta
+const registerSchema = z.object({
+  name: z.string().min(2, 'Nombre inválido'),
+  email: z.string().email('Email inválido'),
+  phone: z.string().min(7, 'Teléfono inválido'),
+  password: z.string().min(6, 'La contraseña debe tener al menos 6 caracteres'),
+});
 
 export async function register(formData: FormData) {
-  const name = formData.get('name') as string
-  const email = formData.get('email') as string
-  const phone = formData.get('phone') as string
-  const password = formData.get('password') as string
+  try {
+    // 1️⃣ Sanitización
+    const rawForm = {
+      name: (formData.get('name') ?? '').toString().trim(),
+      email: (formData.get('email') ?? '').toString().trim().toLowerCase(),
+      phone: (formData.get('phone') ?? '').toString().trim(),
+      password: (formData.get('password') ?? '').toString(),
+    };
 
-  // 🧩 Validaciones básicas
-  if (!name || !email || !phone || !password) {
-    throw new Error('Todos los campos son obligatorios')
-  }
+    const validated = registerSchema.safeParse(rawForm);
+    if (!validated.success) {
+      return { error: validated.error.issues[0].message };
+    }
 
-  if (password.length < 6) {
-    throw new Error('La contraseña debe tener al menos 6 caracteres')
-  }
+    const { name, email, phone, password } = validated.data;
 
-  // ⚠️ Verificar si el email ya está registrado
-  const existingUser = await db.execute({
-    sql: 'SELECT id FROM users WHERE email = ?',
-    args: [email],
-  })
+    // 2️⃣ Comprobar si el email ya existe (1 row-read)
+    const [existingUser] = await db
+      .select({ id: users.id })
+      .from(users)
+      .where(eq(users.email, email))
+      .limit(1);
 
-  if (existingUser.rows.length > 0) {
-    throw new Error('Este email ya está registrado')
-  }
+    if (existingUser) {
+      return { error: 'Este email ya está registrado' };
+    }
 
-  // 🔐 Hashear la contraseña antes de guardar
-  const hashedPassword = await hash(password, 10)
+    // 3️⃣ Hashear contraseña
+    const hashedPassword = await hash(password, 10);
 
-  // 🧠 Insertar nuevo usuario
-  await db.execute({
-    sql: `
-      INSERT INTO users (id, name, email, password, phone, role, balance, created_at)
-      VALUES (?, ?, ?, ?, ?, ?, ?, strftime('%Y-%m-%dT%H:%M:%fZ', 'now'))
-    `,
-    args: [
-      crypto.randomUUID(), // genera un id único
+    // 4️⃣ Insertar usuario (1 write)
+    await db.insert(users).values({
       name,
       email,
-      hashedPassword, // 🔐 se guarda la contraseña encriptada
+      password: hashedPassword,
       phone,
-      'client',
-      0,
-    ],
-  })
+      role: 'client',
+      balance: 0,
+    });
 
-  // ✅ Redirigir al login o dashboard
-  redirect('/auth/login?success=registered')
+    // 5️⃣ Redirigir de forma segura
+    redirect('/auth/login?success=registered');
+
+  } catch (err) {
+    console.error('Register error:', err);
+    return { error: 'Ocurrió un error inesperado. Intenta nuevamente.' };
+  }
 }

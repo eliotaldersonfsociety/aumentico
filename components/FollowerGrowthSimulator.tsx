@@ -1,7 +1,7 @@
 // components/FollowerGrowthSimulator.tsx
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import {
   Settings2,
@@ -126,6 +126,7 @@ const FollowerGrowthSimulator = () => {
   const [followers, setFollowers] = useState<FollowerData[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [activeTab, setActiveTab] = useState<'profile' | 'followings'>('profile');
+  const idCounter = useRef<number>(0);
 
   useEffect(() => {
     setIsLoading(false);
@@ -147,9 +148,10 @@ const FollowerGrowthSimulator = () => {
           Math.random() > 0.5 ? 'men' : 'women'
         }/${Math.floor(Math.random() * 70)}.jpg`;
 
+        idCounter.current += 1;
         setFollowers((prev) => [
           {
-            id: Date.now(),
+            id: idCounter.current,
             username: newUser.username,
             avatar: avatarUrl,
             time: `${Math.floor(Math.random() * 50)} s`,
@@ -168,15 +170,15 @@ const FollowerGrowthSimulator = () => {
 
   if (isLoading) {
     return (
-      <div className="flex justify-center items-center h-screen bg-white">
+      <div className="flex justify-center items-center bg-white">
         <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-blue-600"></div>
       </div>
     );
   }
 
   return (
-    <div className="flex justify-center min-h-screen py-6">
-<div className="bg-white max-h-[900px] h-auto font-sans relative max-w-md mx-auto w-full overflow-y-auto" suppressHydrationWarning>      {/* Header */}
+    <div className="py-6 flex justify-center sm:justify-center md:justify-center ">
+    <div className="bg-white h-[680px] w-full max-w-[380px] mx-auto font-sans relative overflow-hidden shrink-0 flex-none" suppressHydrationWarning>     {/* Header */}
       <div className="sticky top-0 bg-white z-10 shadow-sm px-4 py-3 flex items-center justify-between">
         <div className="flex items-center space-x-1">
           <span className="font-bold text-base sm:text-lg">libarmarti</span>
@@ -299,7 +301,7 @@ const FollowerGrowthSimulator = () => {
             {/* Grid de publicaciones con fotos reales */}
             <div className="grid grid-cols-3 gap-1">
               {[...Array(15)].map((_, i) => (
-                <div key={i} className="aspect-square relative">
+                <div key={`post-${i}`} className="aspect-square relative">
                   <img
                     src={`https://picsum.photos/seed/${i}/400/400.webp`}
                     alt={`post-${i}`}

@@ -1,7 +1,9 @@
 // app/actions/auth/validate-session.ts
 'use server';
 import { cookies } from 'next/headers';
-import db from '@/lib/db';
+import { db } from '@/lib/db';
+import { users, sessions } from '@/drizzle/schema';
+import { eq } from 'drizzle-orm';
 
 export async function validateSession() {
   const cookieStore = await cookies();
@@ -12,35 +14,42 @@ export async function validateSession() {
   }
 
   // Buscar la sesión en la base de datos
-  const sessionResult = await db.execute({
-    sql: 'SELECT user_id, expires_at FROM sessions WHERE id = ?',
-    args: [sessionId],
-  });
+  const sessionResult = await db
+    .select({ userId: sessions.userId, expiresAt: sessions.expiresAt })
+    .from(sessions)
+    .where(eq(sessions.id, sessionId))
+    .limit(1);
 
-  if (sessionResult.rows.length === 0) {
+  if (sessionResult.length === 0) {
     return { valid: false, user: null };
   }
 
-  const session = sessionResult.rows[0];
-  if (!session.expires_at || Number(session.expires_at) < Date.now()) {
-    await db.execute({
-      sql: 'DELETE FROM sessions WHERE id = ?',
-      args: [sessionId],
-    });
+  const session = sessionResult[0];
+  if (!session.expiresAt || session.expiresAt < new Date()) {
+    await db.delete(sessions).where(eq(sessions.id, sessionId));
     return { valid: false, user: null };
   }
 
   // Buscar los datos del usuario
-  const userResult = await db.execute({
-    sql: 'SELECT id, name, email, role, balance, phone, created_at FROM users WHERE id = ?',
-    args: [session.user_id],
-  });
+  const userResult = await db
+    .select({
+      id: users.id,
+      name: users.name,
+      email: users.email,
+      role: users.role,
+      balance: users.balance,
+      phone: users.phone,
+      createdAt: users.createdAt,
+    })
+    .from(users)
+    .where(eq(users.id, session.userId))
+    .limit(1);
 
-  if (userResult.rows.length === 0) {
+  if (userResult.length === 0) {
     return { valid: false, user: null };
   }
 
-  const user = userResult.rows[0];
+  const user = userResult[0];
 
   if (user.role !== 'client' && user.role !== 'admin') {
     return { valid: false, user: null };
@@ -55,7 +64,7 @@ export async function validateSession() {
       role: user.role,
       balance: user.balance,
       phone: user.phone,
-      created_at: user.created_at,
+      created_at: user.createdAt,
     },
   };
 }

@@ -9,8 +9,8 @@ import {
 
 export function FAQ() {
   return (
-    <div className="max-w-7xl mx-auto glass-card px-6 py-4 sm:px-8 sm:py-6 md:px-10 md:py-8 rounded-3xl shadow-xl">
-      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-6 sm:mb-8 text-center">
+    <div className="max-w-7xl mx-auto glass-card px-6 py-4 sm:px-8 sm:py-6 md:px-10 md:py-1 rounded-3xl shadow-xl">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-purple-gradient mb-6 sm:mb-8 text-center">
         Preguntas Frecuentes
       </h2>
 

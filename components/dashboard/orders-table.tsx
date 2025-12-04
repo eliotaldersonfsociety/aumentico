@@ -12,6 +12,14 @@ import {
   DialogTitle,
   DialogDescription,
 } from "@/components/ui/dialog";
+import {
+  Pagination,
+  PaginationContent,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from "@/components/ui/pagination";
 import { getAllOrders } from "@/app/actions/admin-data";
 import { updateOrderStatusAction } from "@/app/actions/updateOrderStatus";
 
@@ -20,6 +28,14 @@ export function OrdersTable() {
   const [selectedOrder, setSelectedOrder] = useState<any>(null);
   const [newStatus, setNewStatus] = useState<string>("");
   const [searchTerm, setSearchTerm] = useState<string>("");
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 10;
+  const filteredOrders = orders.filter(order =>
+    order.id.toString().includes(searchTerm) ||
+    order.user_name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+  const totalPages = Math.ceil(filteredOrders.length / itemsPerPage);
+  const paginatedOrders = filteredOrders.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
 
   useEffect(() => {
     const loadOrders = async () => {
@@ -35,18 +51,14 @@ export function OrdersTable() {
 
   const getStatusBadge = (status: string) => {
     const variants: Record<string, { label: string; className: string }> = {
-      completado: { label: "Completado", className: "bg-green-500/20 text-green-500" },
-      procesando: { label: "Procesando", className: "bg-blue-500/20 text-blue-500" },
+      finalizado: { label: "Finalizado", className: "bg-green-500/20 text-green-500" },
+      "en proceso": { label: "En proceso", className: "bg-blue-500/20 text-blue-500" },
       pendiente: { label: "Pendiente", className: "bg-yellow-500/20 text-yellow-500" },
     };
     const variant = variants[status] || variants.pendiente;
     return <Badge className={variant.className}>{variant.label}</Badge>;
   };
 
-  const filteredOrders = orders.filter(order =>
-    order.id.toString().includes(searchTerm) ||
-    order.user_name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
 
   return (
     <div className="glass-card overflow-hidden">
@@ -75,7 +87,7 @@ export function OrdersTable() {
             </tr>
           </thead>
           <tbody>
-            {filteredOrders.map((order) => (
+            {paginatedOrders.map((order) => (
               <tr key={order.id} className="border-b border-white/5 hover:bg-white/5 cursor-pointer" onClick={() => setSelectedOrder(order)}>
                 <td className="p-4 font-medium text-white">#{order.id}</td>
                 <td className="p-4 text-white">{order.user_name}</td>
@@ -91,8 +103,8 @@ export function OrdersTable() {
       </div>
 
       {/* 📱 Versión móvil */}
-      <div className="md:hidden divide-y divide-white/10">
-        {filteredOrders.map((order) => (
+      <div className="md:hidden divide-y divide-white/10 mx-4">
+        {paginatedOrders.map((order) => (
           <div
             key={order.id}
             onClick={() => setSelectedOrder(order)}
@@ -107,9 +119,44 @@ export function OrdersTable() {
         ))}
       </div>
 
+      {/* Paginación */}
+      {totalPages > 1 && (
+        <div className="mt-6 flex justify-center">
+          <Pagination>
+            <PaginationContent>
+              <PaginationItem>
+                <PaginationPrevious
+                  onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
+                  className={currentPage === 1 ? "pointer-events-none opacity-50" : "cursor-pointer"}
+                />
+              </PaginationItem>
+              {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+                <PaginationItem key={page}>
+                  <PaginationLink
+                    onClick={() => setCurrentPage(page)}
+                    isActive={currentPage === page}
+                    className="cursor-pointer"
+                  >
+                    {page}
+                  </PaginationLink>
+                </PaginationItem>
+              ))}
+              <PaginationItem>
+                <PaginationNext
+                  onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
+                  className={currentPage === totalPages ? "pointer-events-none opacity-50" : "cursor-pointer"}
+                />
+              </PaginationItem>
+            </PaginationContent>
+          </Pagination>
+        </div>
+      )}
+
       {/* 🪟 Modal detalle de orden */}
       <Dialog open={!!selectedOrder} onOpenChange={() => setSelectedOrder(null)}>
-        <DialogContent className="bg-white/10 backdrop-blur-md border border-white/20 text-white max-w-md">
+        <DialogContent
+  className="bg-black/90 backdrop-blur-md border border-purple-500/50 text-white w-[90%] max-w-sm sm:max-w-md p-6 mx-auto rounded-xl my-8 max-h-[90vh] overflow-y-auto scroll-smooth">
+
           <DialogHeader>
             <DialogTitle>Detalle de la orden #{selectedOrder?.id}</DialogTitle>
 
@@ -126,6 +173,13 @@ export function OrdersTable() {
               <p><span className="font-medium">Cantidad:</span> {selectedOrder.cantidad.toLocaleString()}</p>
               <p><span className="font-medium">Total:</span> ${selectedOrder.precio_usd}</p>
               <p><span className="font-medium">Fecha:</span> {new Date(Number(selectedOrder.created_at) * 1000).toLocaleDateString("es-CO")}</p>
+              <p><span className="font-medium">Link:</span> <a href={selectedOrder.link} target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">{selectedOrder.link}</a></p>
+              {selectedOrder.payment_proof && (
+                <div>
+                  <p className="font-medium">Imagen del pago:</p>
+                  <img src={selectedOrder.payment_proof} alt="Comprobante de pago" className="max-w-full h-auto rounded border border-purple-500/50" />
+                </div>
+              )}
 
               <div className="space-y-2">
                 <label className="font-medium">Estado:</label>
@@ -135,8 +189,8 @@ export function OrdersTable() {
                   </SelectTrigger>
                   <SelectContent className="bg-white/10 border-white/20 text-white">
                     <SelectItem value="pendiente">Pendiente</SelectItem>
-                    <SelectItem value="procesando">Procesando</SelectItem>
-                    <SelectItem value="completado">Completado</SelectItem>
+                    <SelectItem value="en proceso">En proceso</SelectItem>
+                    <SelectItem value="finalizado">Finalizado</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -159,7 +213,7 @@ export function OrdersTable() {
                     setSelectedOrder(null); // Cerrar el modal si no hay cambios
                   }
                 }}
-                className="w-full bg-blue-500 hover:bg-blue-600 text-white"
+                className="w-full bg-purple-500 hover:bg-purple-600 text-white"
               >
                 Actualizar Estado
               </Button>
