@@ -1,3 +1,4 @@
+import nextPlugin from '@next/eslint-plugin-next';
 import js from "@eslint/js";
 
 export default [
