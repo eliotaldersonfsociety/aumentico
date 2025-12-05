@@ -107,6 +107,17 @@ export function InstagramServices({ addToCart }: InstagramServicesProps) {
                 className={`relative bg-white/10 backdrop-blur-md border-white/20
                 ${service.id === "followers-10000" ? "border-purple-500 border-2" : ""}`}
               >
+
+                {/* ⭐ Badge flotante arriba */}
+                {service.id === "followers-10000" && (
+                  <div className="absolute -top-3 left-1/2 -translate-x-1/2">
+                    <Badge className="bg-purple-500 text-white flex items-center gap-1 shadow-lg px-3 py-1 rounded-full">
+                      <Star className="h-4 w-4 text-yellow-300" />
+                      Mejor Valor
+                    </Badge>
+                  </div>
+                )}
+
                 <CardHeader>
                   <div className="text-center mb-4 relative">
                     <img
@@ -114,15 +125,6 @@ export function InstagramServices({ addToCart }: InstagramServicesProps) {
                       alt={service.name}
                       className="w-full h-32 object-cover rounded-lg"
                     />
-
-                    {service.id === "followers-10000" && (
-                      <div className="mt-2">
-                        <Badge className="bg-purple-500 text-white flex items-center gap-1">
-                          <Star className="h-4 w-4 text-yellow-400" />
-                          Mejor Valor
-                        </Badge>
-                      </div>
-                    )}
                   </div>
 
                   <div className="flex items-center gap-3">
@@ -168,6 +170,7 @@ export function InstagramServices({ addToCart }: InstagramServicesProps) {
                     Agregar al Carrito
                   </Button>
                 </CardFooter>
+
               </Card>
             ))}
           </div>
