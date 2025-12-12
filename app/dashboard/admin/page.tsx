@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { OrdersTable } from "@/components/dashboard/orders-table";
 import { BalanceCard } from "@/components/dashboard/balance-card";
+import { BlogTable } from "@/components/dashboard/blog-table";
 import { DollarSign, Clock, Cog } from "lucide-react";
 import { validateSession } from "@/app/actions/auth/validate-session";
 import { getAdminDashboardStats } from "@/app/actions/admin-data";
@@ -87,6 +88,11 @@ export default function AdminDashboardPage() {
           />
         </div>
       )}
+
+      {/* Gestión del Blog */}
+      <div className="mb-8">
+        <BlogTable />
+      </div>
 
       {/* Tabla de todas las órdenes */}
       <div className="mb-8">

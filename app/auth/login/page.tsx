@@ -1,12 +1,13 @@
 // app/auth/login/page.tsx
 "use client";
 
-import { useActionState } from "react"; // useActionState correcto
+import { useActionState, useEffect } from "react"; // useActionState correcto
 import { login } from "@/app/actions/auth/login";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { LogIn } from "lucide-react";
 import SmallLogo from "@/public/logo/smalllogo";
 import { useTheme } from "@/components/theme-provider";
@@ -32,7 +33,14 @@ function SubmitButton() {
 
 export default function LoginPage() {
   const { theme } = useTheme();
+  const router = useRouter();
   const [state, formAction] = useActionState(login, { error: "" });
+
+  useEffect(() => {
+    if (state?.success && state.redirect) {
+      router.push(state.redirect);
+    }
+  }, [state, router]);
 
   return (
     <>

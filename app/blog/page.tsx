@@ -5,7 +5,7 @@ import { useSearchParams } from "next/navigation"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import BlogCard from "@/components/BlogCard"
-import { getMarketingPosts, Post } from "@/app/actions/getMarketingPosts"
+import { getBlogPosts, BlogPost } from "@/app/actions/blog"
 import {
   Pagination,
   PaginationContent,
@@ -14,19 +14,20 @@ import {
   PaginationNext,
   PaginationPrevious,
 } from "@/components/ui/pagination"
+import { Skeleton } from "@/components/ui/skeleton"
 
 function BlogContent() {
   const searchParams = useSearchParams()
   const initialPage = parseInt(searchParams.get("page") || "1", 10)
   const [page, setPage] = useState(initialPage)
-  const [posts, setPosts] = useState<Post[]>([])
+  const [posts, setPosts] = useState<BlogPost[]>([])
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     const fetchPosts = async () => {
       setLoading(true)
-      const result = await getMarketingPosts(10, undefined, true)
-      setPosts(result.posts)
+      const result = await getBlogPosts(10)
+      setPosts(result)
       setLoading(false)
     }
 
@@ -44,12 +45,29 @@ function BlogContent() {
   return (
     <>
       {loading ? (
-        <p className="text-center text-white/80">Cargando...</p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {Array.from({ length: 6 }).map((_, i) => (
+            <div key={i} className="bg-white/10 rounded-lg p-4">
+              <Skeleton className="w-full h-48 mb-4 bg-gray-400" />
+              <Skeleton className="w-3/4 h-6 mb-2 bg-gray-400" />
+              <Skeleton className="w-full h-4 mb-1 bg-gray-400" />
+              <Skeleton className="w-1/2 h-4 bg-gray-400" />
+            </div>
+          ))}
+        </div>
       ) : posts.length > 0 ? (
         <>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {posts.slice((page - 1) * 10, page * 10).map((post) => (
-              <BlogCard key={post.id} {...post} />
+              <BlogCard
+                key={post.id}
+                id={post.id}
+                title={post.title}
+                summary={post.excerpt || post.content.substring(0, 150) + "..."}
+                image={post.imageUrl || "/marketing.jpg"}
+                date={post.createdAt.toLocaleDateString()}
+                url={`/blog/${post.id}`}
+              />
             ))}
           </div>
 
@@ -86,7 +104,7 @@ function BlogContent() {
 
 export default function BlogPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-t from-[#fc79fc] via-[#fff3a8] to-[#77b6f5] flex flex-col">
+    <div className="min-h-screen bg-[#0b0b0b] flex flex-col">
       <Header />
 
       <main className="flex-grow pt-24 pb-12 px-4 md:px-8">
@@ -95,7 +113,18 @@ export default function BlogPage() {
             Blog de Marketing Digital
           </h1>
 
-          <Suspense fallback={<p className="text-center text-white/80">Cargando...</p>}>
+          <Suspense fallback={
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {Array.from({ length: 6 }).map((_, i) => (
+                <div key={i} className="bg-white/10 rounded-lg p-4">
+                  <Skeleton className="w-full h-48 mb-4 bg-gray-400" />
+                  <Skeleton className="w-3/4 h-6 mb-2 bg-gray-400" />
+                  <Skeleton className="w-full h-4 mb-1 bg-gray-400" />
+                  <Skeleton className="w-1/2 h-4 bg-gray-400" />
+                </div>
+              ))}
+            </div>
+          }>
             <BlogContent />
           </Suspense>
         </div>

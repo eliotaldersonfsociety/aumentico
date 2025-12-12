@@ -3,7 +3,7 @@ import { Header } from "@/components/header"
 
 export default function TermsPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-t from-[#fc79fc] via-[#fff3a8] to-[#77b6f5] flex flex-col">
+    <div className="min-h-screen bg-[#0b0b0b] flex flex-col">
       <Header />
       <main className="flex-grow pt-24 pb-12 px-4 md:px-8">
         <div className="max-w-4xl mx-auto">

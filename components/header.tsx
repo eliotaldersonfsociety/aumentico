@@ -113,14 +113,11 @@ export function Header({ className, cartCount: propCartCount = 0, onCartClick }:
 
           {/* Navegación escritorio */}
           <nav className="hidden items-center gap-6 md:flex">
-            <button
-              onClick={() => window.location.href = "/"}
-              className={`text-sm font-medium px-3 py-2 rounded-md transition-all ${
-                activeMenu === "inicio" ? "text-pink-400 bg-pink-500/20" : `${theme === 'dark' ? 'text-white' : 'text-black'} hover:text-pink-400 hover:bg-pink-500/20 hover:shadow-md`
-              }`}
-            >
-              Inicio
-            </button>
+            <Link href="/">
+              <span className={`text-sm font-medium ${theme === 'dark' ? 'text-white' : 'text-black'} hover:text-pink-400 hover:bg-pink-500/20 hover:shadow-md transition-all px-3 py-2 rounded-md cursor-pointer`}>
+                Inicio
+              </span>
+            </Link>
             <button
               onClick={() => scrollToSection("features")}
               className={`text-sm font-medium px-3 py-2 rounded-md transition-all ${
@@ -145,6 +142,11 @@ export function Header({ className, cartCount: propCartCount = 0, onCartClick }:
             >
               FAQ
             </button>
+            <Link href="/blog">
+              <span className={`text-sm font-medium ${theme === 'dark' ? 'text-white' : 'text-black'} hover:text-pink-400 hover:bg-pink-500/20 hover:shadow-md transition-all px-3 py-2 rounded-md cursor-pointer`}>
+                Blog
+              </span>
+            </Link>
             <Link href="/contacto">
               <span className={`text-sm font-medium ${theme === 'dark' ? 'text-white' : 'text-black'} hover:text-pink-400 hover:bg-pink-500/20 hover:shadow-md transition-all px-3 py-2 rounded-md cursor-pointer`}>
                 Contacto
@@ -181,6 +183,7 @@ export function Header({ className, cartCount: propCartCount = 0, onCartClick }:
                     <a href="#servicios" className="text-sm font-medium text-white hover:bg-white/40 hover:translate-x-4 hover:shadow-md transition-all px-3 py-2 rounded-md">Servicios</a>
                     <a href="#precios" className="text-sm font-medium text-white hover:bg-white/40 hover:translate-x-4 hover:shadow-md transition-all px-3 py-2 rounded-md">Precios</a>
                     <a href="#faq" className="text-sm font-medium text-white hover:bg-white/40 hover:translate-x-4 hover:shadow-md transition-all px-3 py-2 rounded-md">FAQ</a>
+                    <a href="/blog" className="text-sm font-medium text-white hover:bg-white/40 hover:translate-x-4 hover:shadow-md transition-all px-3 py-2 rounded-md">Blog</a>
                     <a href="/contacto" className="text-sm font-medium text-white hover:bg-white/40 hover:translate-x-4 hover:shadow-md transition-all px-3 py-2 rounded-md">Contacto</a>
                     <div className="border-t border-white/30 my-4"></div>
                     <span className="text-xs text-white/80 font-semibold px-3">Landing Pages</span>

@@ -29,7 +29,7 @@ async function getAuthenticatedUserId() {
     where: eq(sessions.id, sessionId),
   });
 
-  if (!session || session.expiresAt < new Date()) throw new Error("Sesión inválida o expirada");
+  if (!session || new Date(session.expiresAt) < new Date()) throw new Error("Sesión inválida o expirada");
 
   return session.userId;
 }

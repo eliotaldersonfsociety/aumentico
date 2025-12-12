@@ -20,7 +20,7 @@ export async function sendEmail(formData: FormData) {
   try {
     await resend.emails.send({
       from: "Aumento de Seguidores <no-reply@aumentodeseguidores.com>",
-      to: ["aldersonelliot803@gmail.com"],
+      to: ["rennyardiladev@gmail.com"],
       subject: `📩 Nuevo contacto de ${name} - ${city}, ${country}`,
       replyTo: email,
       html: `

@@ -20,7 +20,7 @@ export async function uploadToImageKit(file: File | Buffer, fileName: string): P
     const response = await imagekit.upload({
       file: bufferData,
       fileName: fileName,
-      folder: '/payment-proofs',
+      folder: '/blog-images',
     }) as any; // Type assertion for response
 
     return response.url;

@@ -63,7 +63,7 @@ export async function login(prevState: any, formData: FormData) {
     // 3) Crear sesión (1 sola escritura)
     // ===============================
     const sessionId = randomUUID();
-    const expiresAt = new Date(Date.now() + 7 * 86400 * 1000); // 7 días
+    const expiresAt = Date.now() + 7 * 86400 * 1000; // 7 días
 
     await db.insert(sessions).values({
       id: sessionId,
@@ -90,9 +90,9 @@ export async function login(prevState: any, formData: FormData) {
     const role = user.role ?? 'client';
 
     if (role === 'admin') {
-      redirect('/dashboard/admin');
+      return { success: true, redirect: '/dashboard/admin' };
     } else {
-      redirect('/dashboard/client');
+      return { success: true, redirect: '/dashboard/client' };
     }
 
   } catch (error) {

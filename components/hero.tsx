@@ -60,6 +60,10 @@ export function Hero() {
                   <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-purple-400" />
                   <span className="text-purple-400 font-medium text-sm sm:text-base">Comentarios</span>
                 </div>
+                <div className="flex items-center gap-1 sm:gap-2 bg-gray-600/50 rounded-full px-2 sm:px-4 py-1 sm:py-2">
+                  <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-purple-400" />
+                  <span className="text-purple-400 font-medium text-sm sm:text-base">Viws</span>
+                </div>
               </div>
             </div>
           </div>

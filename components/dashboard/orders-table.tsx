@@ -31,8 +31,8 @@ export function OrdersTable() {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
   const filteredOrders = orders.filter(order =>
-    order.id.toString().includes(searchTerm) ||
-    order.user_name.toLowerCase().includes(searchTerm.toLowerCase())
+    (order.id?.toString() || '').includes(searchTerm) ||
+    (order.user_name?.toLowerCase() || '').includes(searchTerm.toLowerCase())
   );
   const totalPages = Math.ceil(filteredOrders.length / itemsPerPage);
   const paginatedOrders = filteredOrders.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
@@ -89,13 +89,13 @@ export function OrdersTable() {
           <tbody>
             {paginatedOrders.map((order) => (
               <tr key={order.id} className="border-b border-white/5 hover:bg-white/5 cursor-pointer" onClick={() => setSelectedOrder(order)}>
-                <td className="p-4 font-medium text-white">#{order.id}</td>
+                <td className="p-4 font-medium text-white">#{order.id || 'N/A'}</td>
                 <td className="p-4 text-white">{order.user_name}</td>
                 <td className="p-4 text-white">{order.servicio}</td>
-                <td className="p-4 text-white">{order.cantidad.toLocaleString("es-CO")}</td>
+                <td className="p-4 text-white">{(order.cantidad || 0).toLocaleString("es-CO")}</td>
                 <td className="p-4 text-white font-medium">${order.precio_usd}</td>
                 <td className="p-4">{getStatusBadge(order.status)}</td>
-                <td className="p-4 text-white">{new Date(Number(order.created_at) * 1000).toLocaleDateString("es-CO")}</td>
+                <td className="p-4 text-white">{order.created_at ? new Date(Number(order.created_at) * 1000).toLocaleDateString("es-CO") : 'N/A'}</td>
               </tr>
             ))}
           </tbody>
@@ -158,7 +158,7 @@ export function OrdersTable() {
   className="bg-black/90 backdrop-blur-md border border-purple-500/50 text-white w-[90%] max-w-sm sm:max-w-md p-6 mx-auto rounded-xl my-8 max-h-[90vh] overflow-y-auto scroll-smooth">
 
           <DialogHeader>
-            <DialogTitle>Detalle de la orden #{selectedOrder?.id}</DialogTitle>
+            <DialogTitle>Detalle de la orden #{selectedOrder?.id || 'N/A'}</DialogTitle>
 
             <DialogDescription className="text-white">
               Información completa del pedido seleccionado. Puedes cambiar el estado aquí.
@@ -170,9 +170,9 @@ export function OrdersTable() {
             <div className="space-y-3 mt-3">
               <p><span className="font-medium">Cliente:</span> {selectedOrder.user_name}</p>
               <p><span className="font-medium">Servicio:</span> {selectedOrder.servicio}</p>
-              <p><span className="font-medium">Cantidad:</span> {selectedOrder.cantidad.toLocaleString()}</p>
+              <p><span className="font-medium">Cantidad:</span> {(selectedOrder.cantidad || 0).toLocaleString()}</p>
               <p><span className="font-medium">Total:</span> ${selectedOrder.precio_usd}</p>
-              <p><span className="font-medium">Fecha:</span> {new Date(Number(selectedOrder.created_at) * 1000).toLocaleDateString("es-CO")}</p>
+              <p><span className="font-medium">Fecha:</span> {selectedOrder.created_at ? new Date(Number(selectedOrder.created_at) * 1000).toLocaleDateString("es-CO") : 'N/A'}</p>
               <p><span className="font-medium">Link:</span> <a href={selectedOrder.link} target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">{selectedOrder.link}</a></p>
               {selectedOrder.payment_proof && (
                 <div>
