@@ -6,6 +6,7 @@ import { users } from '@/drizzle/schema';
 import { eq } from 'drizzle-orm';
 import { redirect } from 'next/navigation';
 import { hash } from 'bcryptjs';
+import { randomUUID } from 'crypto';
 import { z } from 'zod';
 
 // 📌 Validación estricta
@@ -48,7 +49,9 @@ export async function register(formData: FormData) {
     const hashedPassword = await hash(password, 10);
 
     // 4️⃣ Insertar usuario (1 write)
+    const userId = randomUUID();
     await db.insert(users).values({
+      id: userId,
       name,
       email,
       password: hashedPassword,

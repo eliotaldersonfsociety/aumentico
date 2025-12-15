@@ -58,9 +58,11 @@ export async function registerForCheckout(formData: FormData) {
     // =========================
     // 5) INSERT del usuario (1 escritura)
     // =========================
+    const userId = randomUUID();
     const [user] = await db
       .insert(users)
       .values({
+        id: userId,
         name,
         email,
         password: hashedPassword,
@@ -80,7 +82,7 @@ export async function registerForCheckout(formData: FormData) {
     // 6) Crear sesión
     // =========================
     const sessionId = randomUUID();
-    const expiresAt = new Date(Date.now() + 7 * 86400 * 1000);
+    const expiresAt = Math.floor((new Date(Date.now() + 7 * 86400 * 1000)).getTime() / 1000);
 
     await db.insert(sessions).values({
       id: sessionId,
