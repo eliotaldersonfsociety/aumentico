@@ -154,6 +154,9 @@ export default function CheckoutForm() {
       const result = await saveOrder(formData, true);
       if (result.success) {
         successCount++;
+      } else {
+        console.error('Error saving order:', result.error);
+        alert(`Error al enviar el pedido: ${result.error}`);
       }
     }
 

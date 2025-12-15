@@ -7,6 +7,7 @@ import { users, orders, sessions } from '@/drizzle/schema';
 import { eq, and, gt, sql } from 'drizzle-orm';
 import { z } from 'zod';
 import { uploadToImageKit } from '@/lib/imagekit';
+import { randomUUID } from 'crypto';
 
 const orderSchema = z.object({
   servicio: z.string().min(1),
@@ -29,7 +30,7 @@ async function getAuthenticatedUserId() {
     where: eq(sessions.id, sessionId),
   });
 
-  if (!session || new Date(session.expiresAt) < new Date()) throw new Error("Sesión inválida o expirada");
+  if (!session || new Date(session.expiresAt * 1000) < new Date()) throw new Error("Sesión inválida o expirada");
 
   return session.userId;
 }
@@ -98,15 +99,17 @@ export async function saveOrder(formData: FormData, isCheckout: boolean = false)
       }
 
       // Insert de la orden
+      const orderId = randomUUID();
       await tx.insert(orders).values({
+        id: orderId,
         userId,
         servicio: data.servicio,
         categoria: data.categoria,
         tipo: data.tipo,
         cantidad: data.cantidad,
-        link: data.link || null,
-        precioUsd: data.precioUSD,
-        precioCop: data.precioCOP,
+        link: data.link || '',
+        precioUsd: data.precioUSD.toString(),
+        precioCop: data.precioCOP.toString(),
         customComments: data.customComments || null,
         paymentProof: data.paymentProof || null,
         status: "pendiente",
