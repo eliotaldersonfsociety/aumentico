@@ -25,7 +25,7 @@ const promoService: Service = {
   id: 'promo-artistas',
   name: 'Paquete Premium para Artistas',
   quantity: 1,
-  price: 0, // Gratuito como regalo
+  price: 100,
   icon: Star,
   description: 'Paquete especial con 20k vistas YouTube, 20k streams Spotify, 1M vistas TikTok',
   deliveryTime: '7-14 días',
@@ -130,9 +130,14 @@ export default function PromoPage() {
 
             {/* Llamado a acción */}
             <div className="text-center pt-6 border-t border-white/10">
-              <p className="text-lg mb-6">
+              <p className="text-lg mb-4">
                 ¿Listo para reclamar tu regalo? Agrega el paquete premium a tu carrito.
               </p>
+              <div className="mb-6">
+                <Badge variant="secondary" className="bg-purple-500/20 text-purple-400 backdrop-blur-sm text-lg px-4 py-2">
+                  Precio: $100
+                </Badge>
+              </div>
               <Button
                 size="lg"
                 className="bg-pink-500 hover:bg-pink-600 text-white"
