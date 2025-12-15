@@ -18,7 +18,7 @@ export function BalanceCard({ title, value, icon: Icon, description }: BalanceCa
       </div>
 
       <div className="space-y-2">
-        <h3 className="text-3xl font-bold text-white">{value}</h3>
+        <h3 className="text-xs font-bold text-white">{value}</h3>
         <p className="text-sm text-white">{description}</p>
       </div>
     </div>

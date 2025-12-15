@@ -58,7 +58,7 @@ export async function loginForCheckout(formData: FormData) {
     //   3) CREAR SESIÓN (UNA SOLA MUTACIÓN)
     // ================================
     const sessionId = randomUUID();
-    const expiresAt = new Date(Date.now() + 7 * 86400 * 1000); // 7 días
+    const expiresAt = Math.floor((new Date(Date.now() + 7 * 86400 * 1000)).getTime() / 1000); // 7 días
 
     await db.insert(sessions).values({
       id: sessionId,
@@ -71,7 +71,7 @@ export async function loginForCheckout(formData: FormData) {
     // ================================
     (await cookies()).set('session', sessionId, {
       httpOnly: true,
-      secure: process.env.NODE_ENV === 'production',
+      secure: false,
       sameSite: 'lax',
       maxAge: 7 * 24 * 60 * 60,
       path: '/',

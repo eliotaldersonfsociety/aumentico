@@ -95,7 +95,7 @@ export async function registerForCheckout(formData: FormData) {
     // =========================
     (await cookies()).set('session', sessionId, {
       httpOnly: true,
-      secure: process.env.NODE_ENV === 'production',
+      secure: false,
       sameSite: 'lax',
       maxAge: 7 * 86400,
       path: '/',
